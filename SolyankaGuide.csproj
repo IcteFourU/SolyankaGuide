@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Data\helpButtons.json" />
+    <None Remove="Assets\Images\changelog.png" />
+    <None Remove="Assets\Images\current.png" />
+    <None Remove="Assets\Images\discord.png" />
+    <None Remove="Assets\Images\help.jpg" />
+    <None Remove="Assets\Images\ideas.png" />
+    <None Remove="Assets\Images\install.png" />
+    <None Remove="Assets\Images\reqs.jpg" />
+    <None Remove="Assets\Images\settings.png" />
+    <None Remove="Assets\Images\solyanka.jpg" />
+    <None Remove="Assets\Images\starting.png" />
+    <None Remove="Assets\Images\story.png" />
+    <None Remove="Assets\Images\support.png" />
+    <None Remove="Assets\Images\when.png" />
+    <None Remove="Assets\Images\yt.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Data\helpButtons.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="lzo.net" Version="0.0.6" />
+    <PackageReference Include="ZstdNet" Version="1.4.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\changelog.png" />
+    <Resource Include="Assets\Images\current.png" />
+    <Resource Include="Assets\Images\discord.png" />
+    <Resource Include="Assets\Images\help.jpg" />
+    <Resource Include="Assets\Images\ideas.png" />
+    <Resource Include="Assets\Images\install.png" />
+    <Resource Include="Assets\Images\reqs.jpg" />
+    <Resource Include="Assets\Images\settings.png" />
+    <Resource Include="Assets\Images\solyanka.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\starting.png" />
+    <Resource Include="Assets\Images\story.png" />
+    <Resource Include="Assets\Images\support.png" />
+    <Resource Include="Assets\Images\when.png" />
+    <Resource Include="Assets\Images\yt.png" />
+  </ItemGroup>
+
+</Project>
