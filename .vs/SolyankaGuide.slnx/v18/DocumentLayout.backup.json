@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\caref\\source\\repos\\SolyankaGuide\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A3C7495E-D6DB-FCC8-7B10-8B8CC963F152}|SolyankaGuide.csproj|c:\\users\\caref\\source\\repos\\solyankaguide\\assets\\data\\helpbuttons.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A3C7495E-D6DB-FCC8-7B10-8B8CC963F152}|SolyankaGuide.csproj|solutionrelative:assets\\data\\helpbuttons.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A3C7495E-D6DB-FCC8-7B10-8B8CC963F152}|SolyankaGuide.csproj|c:\\users\\caref\\source\\repos\\solyankaguide\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3C7495E-D6DB-FCC8-7B10-8B8CC963F152}|SolyankaGuide.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{A3C7495E-D6DB-FCC8-7B10-8B8CC963F152}|SolyankaGuide.csproj|solutionrelative:internals\\urlopener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3C7495E-D6DB-FCC8-7B10-8B8CC963F152}|SolyankaGuide.csproj|c:\\users\\caref\\source\\repos\\solyankaguide\\assets\\data\\helpbuttons.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A3C7495E-D6DB-FCC8-7B10-8B8CC963F152}|SolyankaGuide.csproj|solutionrelative:assets\\data\\helpbuttons.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A3C7495E-D6DB-FCC8-7B10-8B8CC963F152}|SolyankaGuide.csproj|c:\\users\\caref\\source\\repos\\solyankaguide\\internals\\jsonloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3C7495E-D6DB-FCC8-7B10-8B8CC963F152}|SolyankaGuide.csproj|solutionrelative:internals\\jsonloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -51,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Description.cs",
               "DocumentMoniker": "C:\\Users\\caref\\source\\repos\\SolyankaGuide\\Internals\\Description.cs",
               "RelativeDocumentMoniker": "Internals\\Description.cs",
@@ -65,20 +65,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "helpButtons.json",
               "DocumentMoniker": "C:\\Users\\caref\\source\\repos\\SolyankaGuide\\Assets\\Data\\helpButtons.json",
               "RelativeDocumentMoniker": "Assets\\Data\\helpButtons.json",
               "ToolTip": "C:\\Users\\caref\\source\\repos\\SolyankaGuide\\Assets\\Data\\helpButtons.json",
               "RelativeToolTip": "Assets\\Data\\helpButtons.json",
-              "ViewState": "AgIAACoAAAAAAAAAAAAkwDcAAABCBAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAABCBAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-01-16T06:24:46.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UrlOpener.cs",
               "DocumentMoniker": "C:\\Users\\caref\\source\\repos\\SolyankaGuide\\Internals\\UrlOpener.cs",
               "RelativeDocumentMoniker": "Internals\\UrlOpener.cs",
@@ -91,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\caref\\source\\repos\\SolyankaGuide\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -104,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\caref\\source\\repos\\SolyankaGuide\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",

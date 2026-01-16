@@ -45,16 +45,6 @@
       "frameworks": {
         "net10.0-windows7.0": {
           "targetAlias": "net10.0-windows",
-          "dependencies": {
-            "ZstdNet": {
-              "target": "Package",
-              "version": "[1.4.5, )"
-            },
-            "lzo.net": {
-              "target": "Package",
-              "version": "[0.0.6, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

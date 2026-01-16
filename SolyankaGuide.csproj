@@ -31,11 +31,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="lzo.net" Version="0.0.6" />
-    <PackageReference Include="ZstdNet" Version="1.4.5" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Resource Include="Assets\Images\changelog.png" />
     <Resource Include="Assets\Images\current.png" />
     <Resource Include="Assets\Images\discord.png" />
@@ -52,6 +47,14 @@
     <Resource Include="Assets\Images\support.png" />
     <Resource Include="Assets\Images\when.png" />
     <Resource Include="Assets\Images\yt.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\caref\.nuget\packages\zstdnet\1.4.5\build\x86\libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\caref\.nuget\packages\zstdnet\1.4.5\build\x64\libzstd.dll" />
   </ItemGroup>
 
 </Project>
