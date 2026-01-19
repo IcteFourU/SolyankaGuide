@@ -21,14 +21,17 @@
     <None Remove="Assets\Images\prolog.png" />
     <None Remove="Assets\Images\reqs.jpg" />
     <None Remove="Assets\Images\settings.png" />
+    <None Remove="Assets\Images\sidorDoktor.png" />
     <None Remove="Assets\Images\starting.png" />
     <None Remove="Assets\Images\story.png" />
     <None Remove="Assets\Images\support.png" />
+    <None Remove="Assets\Images\virustotal.png" />
     <None Remove="Assets\Images\when.png" />
     <None Remove="Assets\Images\yt.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Assets\Images\sidorDoktor.png" />
     <Resource Include="Assets\Images\starting.png" />
   </ItemGroup>
 
@@ -53,7 +56,7 @@
     <Resource Include="Assets\Images\current.png" />
     <Resource Include="Assets\Images\discord.png" />
     <Resource Include="Assets\Images\help.jpg" />
-    <Resource Include="Assets\Images\icon0.png" />
+    <Resource Include="Assets\Images\Icons\icon0.png" />
     <Resource Include="Assets\Images\ideas.png" />
     <Resource Include="Assets\Images\install.png" />
     <Resource Include="Assets\Images\prolog.png" />
@@ -61,6 +64,9 @@
     <Resource Include="Assets\Images\settings.png" />
     <Resource Include="Assets\Images\story.png" />
     <Resource Include="Assets\Images\support.png" />
+    <Resource Include="Assets\Images\virustotal.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Assets\Images\when.png" />
     <Resource Include="Assets\Images\yt.png" />
   </ItemGroup>
