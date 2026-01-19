@@ -28,7 +28,7 @@ namespace SolyankaGuide
         {
             GriddedDescription gd = new();
             gd.Image.Source = IconStorage.GetById(desc.IconId);
-            gd.Name.Text = desc.Name;
+            gd.TileName.Text = desc.Name;
             gd.MouseDown += (s, e) => OpenDescription(desc);
             return gd;
         }

@@ -11,12 +11,29 @@
   <ItemGroup>
     <None Remove="Assets\Data\categories.json" />
     <None Remove="Assets\Images\background.jpg" />
+    <None Remove="Assets\Images\changelog.png" />
     <None Remove="Assets\Images\current.png" />
     <None Remove="Assets\Images\discord.png" />
+    <None Remove="Assets\Images\help.jpg" />
     <None Remove="Assets\Images\icon0.png" />
+    <None Remove="Assets\Images\ideas.png" />
     <None Remove="Assets\Images\install.png" />
     <None Remove="Assets\Images\prolog.png" />
+    <None Remove="Assets\Images\reqs.jpg" />
+    <None Remove="Assets\Images\settings.png" />
+    <None Remove="Assets\Images\starting.png" />
+    <None Remove="Assets\Images\story.png" />
+    <None Remove="Assets\Images\support.png" />
+    <None Remove="Assets\Images\when.png" />
     <None Remove="Assets\Images\yt.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\starting.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\changelog.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -35,9 +52,16 @@
     <Resource Include="Assets\Images\background.jpg" />
     <Resource Include="Assets\Images\current.png" />
     <Resource Include="Assets\Images\discord.png" />
+    <Resource Include="Assets\Images\help.jpg" />
     <Resource Include="Assets\Images\icon0.png" />
+    <Resource Include="Assets\Images\ideas.png" />
     <Resource Include="Assets\Images\install.png" />
     <Resource Include="Assets\Images\prolog.png" />
+    <Resource Include="Assets\Images\reqs.jpg" />
+    <Resource Include="Assets\Images\settings.png" />
+    <Resource Include="Assets\Images\story.png" />
+    <Resource Include="Assets\Images\support.png" />
+    <Resource Include="Assets\Images\when.png" />
     <Resource Include="Assets\Images\yt.png" />
   </ItemGroup>
 
