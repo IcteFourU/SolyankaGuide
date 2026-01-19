@@ -1,0 +1,10 @@
+[
+	{
+		"name": "ЧаВо",
+		"elementsPath": "faq.json"
+	},
+	{
+		"name": "Квесты",
+		"elementsPath": "quests.json"
+	}
+]

@@ -1,0 +1,90 @@
+﻿<UserControl x:Class="SolyankaGuide.GuideControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SolyankaGuide"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <CubicEase x:Key="CubicEaseOut" EasingMode="EaseOut"/>
+        <CubicEase x:Key="CubicEaseIn" EasingMode="EaseIn"/>
+        <Storyboard x:Key="ShowSidePanel">
+            <DoubleAnimation Storyboard.TargetName="SidePanelTransform" Storyboard.TargetProperty="X" To="0" Duration="0:0:0.25" EasingFunction="{StaticResource CubicEaseOut}"/>
+        </Storyboard>
+        <Storyboard x:Key="HideSidePanel">
+            <DoubleAnimation Storyboard.TargetName="SidePanelTransform" Storyboard.TargetProperty="X" To="-300" Duration="0:0:0.25" EasingFunction="{StaticResource CubicEaseIn}"/>
+        </Storyboard>
+        <Style x:Key="ElementsStyle" TargetType="RadioButton">
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="Height" Value="32"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Foreground" Value="#DDFFFFFF"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Padding" Value="8,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="RadioButton">
+                        <Border Background="Transparent">
+                            <ContentPresenter VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Foreground" Value="White"/>
+                            </Trigger>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter Property="Foreground" Value="#FFD700"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="70"/>
+        </Grid.ColumnDefinitions>
+        <Border x:Name="ElementsBorder" Grid.Column="0" Background="#EE1A1A1A" HorizontalAlignment="Left" VerticalAlignment="Stretch">
+            <Border.RenderTransform>
+                <TranslateTransform x:Name="SidePanelTransform" X="-300"/>
+            </Border.RenderTransform>
+            <StackPanel x:Name="Elements" Margin="10" VerticalAlignment="Top" HorizontalAlignment="Stretch"
+                    Width="{Binding ActualWidth, RelativeSource={RelativeSource AncestorType=Border}}"/>
+        </Border>
+        <local:DescriptionControl x:Name="DescControl" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Top" Visibility="Hidden"/>
+        <local:DescriptionGridControl x:Name="DescGridControl" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Top" Visibility="Hidden" Background="#00000000"/>
+        <Border Grid.Column="2" Background="#00000000" HorizontalAlignment="Right">
+            <StackPanel Margin="0,0,10,10" VerticalAlignment="Bottom" HorizontalAlignment="Stretch"
+                    Width="{Binding ActualWidth, RelativeSource={RelativeSource AncestorType=Border}}">
+                <Button Width="50" Height="50" Click="DiscordLink" BorderThickness="0" Cursor="Hand" Margin="0,0,0,10">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="#7289DA" CornerRadius="25">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                    <Image Source="/Assets/Images/discord.png" Stretch="Uniform" Width="50" Height="50" Cursor=""/>
+                </Button>
+                <Button Width="50" Height="50" Click="YoutubeLink" BorderThickness="0" Cursor="Hand">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="#7289DA" CornerRadius="25">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                    <Image Source="/Assets/Images/yt.png" Stretch="Uniform" Width="50" Height="50"/>
+                </Button>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

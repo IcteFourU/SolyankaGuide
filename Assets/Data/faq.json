@@ -1,0 +1,18 @@
+[
+    {
+      "name": "Где скачать солянку?",
+	  "header": "Актуальные ссылки для скачивания",
+      "text": "%l=https://disk.yandex.ru/d/36HF5-IaeqV_nA%Яндекс Диск%el%\n%l=https://drive.google.com/drive/folders/15HrMAig0ySwFiAKur-WqxtyD1NiGhKY2%Google Drive%el%\n%l=https://discord.com/channels/760456028700803092/1001390477649657896/1455848004220227654%Discord%el%",
+      "centered": true,
+	  "imagePath": "install.png",
+      "descriptions": null
+    },
+	{
+      "name": "Сведения о текущей версии",
+      "header": "Народная солянка OGSR от 31.12.2026",
+	  "text": "Патч от 11.01.2026\nНовая игра обязательна!\nNS.OGSR Team",
+	  "centered": true,
+      "imagePath": "current.png",
+      "descriptions": null
+    }
+]

@@ -1,0 +1,50 @@
+﻿<UserControl x:Class="SolyankaGuide.TitleControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SolyankaGuide"
+             mc:Ignorable="d" 
+             d:DesignHeight="45" d:DesignWidth="80">
+    <UserControl.Resources>
+        <Style x:Key="WindowControlButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Width" Value="40"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="PART_Border" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="PART_Border" Property="Background" Value="#4A4A4A"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="PART_Border" Property="Background" Value="#1A1A1A"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <Border Background="#CC2C2C2C" MouseLeftButtonDown="Drag">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Гид по «Народной Солянке»" Foreground="White" FontSize="20" FontWeight="Bold" VerticalAlignment="Center" Margin="5,0,0,0"/>
+            <StackPanel Grid.Column="1" Orientation="Horizontal">
+                <Button Content="—" Style="{StaticResource WindowControlButtonStyle}" Click="MinimizeButton"/>
+                <Button Content="☐" Style="{StaticResource WindowControlButtonStyle}" Click="ResizeButton"/>
+                <Button Content="✕" Style="{StaticResource WindowControlButtonStyle}" Click="CloseButton"/>
+            </StackPanel>
+        </Grid>
+    </Border>
+</UserControl>

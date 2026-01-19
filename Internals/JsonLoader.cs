@@ -5,31 +5,36 @@ using System.Windows;
 
 namespace SolyankaGuide.Internals
 {
-    internal class JsonLoader
+    internal static class JsonLoader
     {
-        public static Dictionary<string, List<Description>> FillFromJson()
+        public static Category[]? FillCategories()
         {
-            try
+            string? json = LoadResource("SolyankaGuide.Assets.Data.categories.json");
+            if (json == null) return null;
+            var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+            return JsonSerializer.Deserialize<Category[]>(json, options);
+        }
+
+        public static Element[]? FillElements(string elementsPath)
+        {
+            string? json = LoadResource("SolyankaGuide.Assets.Data." + elementsPath);
+            if (json == null) return null;
+            var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+            return JsonSerializer.Deserialize<Element[]>(json, options);
+        }
+
+        private static string? LoadResource(string resourceName)
+        {
+            var assembly = Assembly.GetExecutingAssembly();
+            using Stream? stream = assembly.GetManifestResourceStream(resourceName);
+            if (stream == null)
             {
-                var assembly = Assembly.GetExecutingAssembly();
-                var resourceName = "SolyankaGuide.Assets.Data.helpButtons.json";
-                using Stream stream = assembly.GetManifestResourceStream(resourceName);
-                if (stream == null)
-                {
-                    var result = MessageBox.Show("Проверьте, что все файлы установлены и перезапустите приложение.", "Ошибка при загрузке файлов", MessageBoxButton.OK);
-                    return null;
-                }
-                using StreamReader reader = new StreamReader(stream);
-                string json = reader.ReadToEnd();
-                var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-                var tempDict = JsonSerializer.Deserialize<Dictionary<string, List<Description>>>(json, options);
-                return tempDict;
-            }
-            catch (Exception ex)
-            {
-                var result = MessageBox.Show("Проверьте, что все файлы установлены и перезапустите приложение.", "Ошибка при загрузке файлов", MessageBoxButton.OK);
+                var result = MessageBox.Show("Проверьте, что все файлы установлены и перезапустите приложение.", "Ошибка при чтении файда", MessageBoxButton.OK);
                 return null;
             }
+            using StreamReader reader = new StreamReader(stream);
+            string json = reader.ReadToEnd();
+            return json;
         }
     }
 }

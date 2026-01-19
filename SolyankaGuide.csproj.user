@@ -2,7 +2,22 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="SubControl.xaml.cs">
+    <Compile Update="CategoriesControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DescriptionControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DescriptionGridControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GriddedDescription.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GuideControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TitleControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

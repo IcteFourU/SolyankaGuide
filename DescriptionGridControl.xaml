@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="SolyankaGuide.DescriptionGridControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SolyankaGuide"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Border HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#99000000" CornerRadius="10" Padding="20" Margin="15,15,5,15">
+            <ScrollViewer VerticalScrollBarVisibility="Disabled" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <StackPanel x:Name="Descriptions" Orientation="Horizontal" HorizontalAlignment="Stretch" Height="Auto"/>
+            </ScrollViewer>
+        </Border>
+    </Grid>
+</UserControl>

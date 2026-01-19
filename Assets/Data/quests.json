@@ -1,0 +1,19 @@
+[
+    {
+      "name": "Пролог",
+      "header": "",
+      "text": "",
+	  "centered": false,
+      "imagePath": "",
+      "descriptions": [
+          {
+              "name": "Пробуждение",
+              "header": "Пробуждение",
+              "iconId": 0,
+              "imagePath": "prolog.png",
+              "centered": true,
+              "text": "Очнулись в коморке и поебашили к сидору с доктором :)"
+          }
+      ]
+    }
+]
