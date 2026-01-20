@@ -1,82 +1,90 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <UseWPF>true</UseWPF>
-    <ApplicationIcon>appIcon.ico</ApplicationIcon>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+		<ApplicationIcon>appIcon.ico</ApplicationIcon>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="Assets\Data\categories.json" />
-    <None Remove="Assets\Images\background.jpg" />
-    <None Remove="Assets\Images\beginning.png" />
-    <None Remove="Assets\Images\car.png" />
-    <None Remove="Assets\Images\changelog.png" />
-    <None Remove="Assets\Images\current.png" />
-    <None Remove="Assets\Images\discord.png" />
-    <None Remove="Assets\Images\help.jpg" />
-    <None Remove="Assets\Images\house.png" />
-    <None Remove="Assets\Images\icon0.png" />
-    <None Remove="Assets\Images\ideas.png" />
-    <None Remove="Assets\Images\install.png" />
-    <None Remove="Assets\Images\prolog.png" />
-    <None Remove="Assets\Images\reqs.jpg" />
-    <None Remove="Assets\Images\settings.png" />
-    <None Remove="Assets\Images\sidorDoktor.png" />
-    <None Remove="Assets\Images\starting.png" />
-    <None Remove="Assets\Images\story.png" />
-    <None Remove="Assets\Images\support.png" />
-    <None Remove="Assets\Images\virustotal.png" />
-    <None Remove="Assets\Images\when.png" />
-    <None Remove="Assets\Images\yt.png" />
-  </ItemGroup>
+	<ItemGroup>
+		<None Remove="Assets\Data\categories.json" />
+		<None Remove="Assets\Images\background.jpg" />
+		<None Remove="Assets\Images\beginning.png" />
+		<None Remove="Assets\Images\car.png" />
+		<None Remove="Assets\Images\changelog.png" />
+		<None Remove="Assets\Images\current.png" />
+		<None Remove="Assets\Images\discord.png" />
+		<None Remove="Assets\Images\help.jpg" />
+		<None Remove="Assets\Images\house.png" />
+		<None Remove="Assets\Images\icon0.png" />
+		<None Remove="Assets\Images\ideas.png" />
+		<None Remove="Assets\Images\install.png" />
+		<None Remove="Assets\Images\needs.png" />
+		<None Remove="Assets\Images\pravki.png" />
+		<None Remove="Assets\Images\prolog.png" />
+		<None Remove="Assets\Images\reqs.jpg" />
+		<None Remove="Assets\Images\settings.png" />
+		<None Remove="Assets\Images\sidorDoktor.png" />
+		<None Remove="Assets\Images\starting.png" />
+		<None Remove="Assets\Images\storage.png" />
+		<None Remove="Assets\Images\story.png" />
+		<None Remove="Assets\Images\support.png" />
+		<None Remove="Assets\Images\virustotal.png" />
+		<None Remove="Assets\Images\volume.png" />
+		<None Remove="Assets\Images\when.png" />
+		<None Remove="Assets\Images\yt.png" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <Content Include="appIcon.ico" />
-  </ItemGroup>
+	<ItemGroup>
+		<Content Include="appIcon.ico" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <Resource Include="Assets\Images\beginning.png" />
-    <Resource Include="Assets\Images\car.png" />
-    <Resource Include="Assets\Images\house.png" />
-    <Resource Include="Assets\Images\sidorDoktor.png" />
-    <Resource Include="Assets\Images\starting.png" />
-  </ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="Assets\Data\mech.json">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="Assets\Data\items.json">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="Assets\Data\quests.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="Assets\Data\faq.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="Assets\Data\categories.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</EmbeddedResource>
+	</ItemGroup>
 
-  <ItemGroup>
-    <Resource Include="Assets\Images\changelog.png" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="Assets\Data\quests.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Assets\Data\faq.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Assets\Data\categories.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="Assets\Images\background.jpg" />
-    <Resource Include="Assets\Images\current.png" />
-    <Resource Include="Assets\Images\discord.png" />
-    <Resource Include="Assets\Images\help.jpg" />
-    <Resource Include="Assets\Images\Icons\icon0.png" />
-    <Resource Include="Assets\Images\ideas.png" />
-    <Resource Include="Assets\Images\install.png" />
-    <Resource Include="Assets\Images\prolog.png" />
-    <Resource Include="Assets\Images\reqs.jpg" />
-    <Resource Include="Assets\Images\settings.png" />
-    <Resource Include="Assets\Images\story.png" />
-    <Resource Include="Assets\Images\support.png" />
-    <Resource Include="Assets\Images\virustotal.png" />
-    <Resource Include="Assets\Images\when.png" />
-    <Resource Include="Assets\Images\yt.png" />
-  </ItemGroup>
+	<ItemGroup>
+		<Resource Include="Assets\Images\changelog.png" />
+		<Resource Include="Assets\Images\beginning.png" />
+		<Resource Include="Assets\Images\car.png" />
+		<Resource Include="Assets\Images\house.png" />
+		<Resource Include="Assets\Images\needs.png" />
+		<Resource Include="Assets\Images\pravki.png" />
+		<Resource Include="Assets\Images\sidorDoktor.png" />
+		<Resource Include="Assets\Images\starting.png" />
+		<Resource Include="Assets\Images\background.jpg" />
+		<Resource Include="Assets\Images\current.png" />
+		<Resource Include="Assets\Images\discord.png" />
+		<Resource Include="Assets\Images\help.jpg" />
+		<Resource Include="Assets\Images\Icons\icon0.png" />
+		<Resource Include="Assets\Images\ideas.png" />
+		<Resource Include="Assets\Images\install.png" />
+		<Resource Include="Assets\Images\prolog.png" />
+		<Resource Include="Assets\Images\reqs.jpg" />
+		<Resource Include="Assets\Images\settings.png" />
+		<Resource Include="Assets\Images\storage.png" />
+		<Resource Include="Assets\Images\story.png" />
+		<Resource Include="Assets\Images\support.png" />
+		<Resource Include="Assets\Images\virustotal.png" />
+		<Resource Include="Assets\Images\volume.png" />
+		<Resource Include="Assets\Images\when.png" />
+		<Resource Include="Assets\Images\yt.png" />
+	</ItemGroup>
 </Project>

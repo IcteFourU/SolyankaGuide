@@ -6,5 +6,13 @@
 	{
 		"name": "Квесты",
 		"elementsPath": "quests.json"
+	},
+	{
+		"name": "Предметы",
+		"elementsPath": "items.json"
+	},
+	{
+		"name": "Механики",
+		"elementsPath": "mech.json"
 	}
 ]
