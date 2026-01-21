@@ -15,6 +15,12 @@ namespace SolyankaGuide
         public CatergoriesControl()
         {
             InitializeComponent();
+            GitHubAutoUpdate.RefreshUI += RefreshCategories;
+            RefreshCategories();
+        }
+
+        private void RefreshCategories()
+        {
             Category[]? categories = JsonLoader.FillCategories();
             if (categories == null)
             {
@@ -47,6 +53,7 @@ namespace SolyankaGuide
 
         private void SetupPanel(Category[] categories)
         {
+            Panel.Children.Clear();
             for (int i = 0; i < categories?.Length; i++)
             {
                 Category category = categories[i];

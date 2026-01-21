@@ -56,7 +56,7 @@
 		<EmbeddedResource Include="Assets\Data\items.json">
 		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</EmbeddedResource>
-		<EmbeddedResource Include="Assets\Data\hashes.json">
+		<EmbeddedResource Include="Assets\hashes.json">
 		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</EmbeddedResource>
 		<EmbeddedResource Include="Assets\Data\quests.json">

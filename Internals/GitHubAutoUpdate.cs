@@ -12,6 +12,8 @@ namespace SolyankaGuide.Internals
     internal class GitHubAutoUpdate
     {
 
+        public static event Action RefreshUI;
+
         public static async void Update()
         {
             var localFiles = GetLocalFiles(@"Assets/Data");
@@ -21,6 +23,7 @@ namespace SolyankaGuide.Internals
             Dictionary<string, string>? hashes = await GetGitHubHashes("carefall", "SolyankaGuide", "Assets/hashes.json", GetToken());
             if (hashes == null || hashes.Count == 0) return;
             Dictionary<string, string> updateFiles = new();
+            MessageBox.Show("перед циклом");
             foreach (var item in githubFiles)
             {
                 bool needDownload = false;
@@ -42,6 +45,7 @@ namespace SolyankaGuide.Internals
                     updateFiles.Add(item.Download_url!, localFilePath);
                 }
             }
+            MessageBox.Show("после цикла");
             if (updateFiles.Count > 0)
             {
                 var result = MessageBox.Show("Найдена новая версия программы. Желаете установить?", "Автообновление", MessageBoxButton.YesNo);
@@ -51,6 +55,7 @@ namespace SolyankaGuide.Internals
                     {
                         await DownloadFile(item.Key, item.Value);
                     }
+                    RefreshUI?.Invoke();
                 }
             }
         }
