@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using SolyankaGuide.Internals;
+using System.Windows;
 
 namespace SolyankaGuide
 {
@@ -10,6 +11,7 @@ namespace SolyankaGuide
                 MessageBox.Show(e.Exception.ToString(), "Unhandled UI Exception");
                 e.Handled = true; // или false, чтобы ошибка продолжала всплывать
             };
+            GitHubAutoUpdate.Update();
         }
     }
 }
