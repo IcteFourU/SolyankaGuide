@@ -50,24 +50,24 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<EmbeddedResource Include="Assets\Data\mech.json">
+		<Content Include="Assets\Data\mech.json">
 		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</EmbeddedResource>
-		<EmbeddedResource Include="Assets\Data\items.json">
+		</Content>
+		<Content Include="Assets\Data\items.json">
 		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</EmbeddedResource>
+		</Content>
 		<EmbeddedResource Include="Assets\hashes.json">
 		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</EmbeddedResource>
-		<EmbeddedResource Include="Assets\Data\quests.json">
+		<Content Include="Assets\Data\quests.json">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</EmbeddedResource>
-		<EmbeddedResource Include="Assets\Data\faq.json">
+		</Content>
+		<Content Include="Assets\Data\faq.json">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</EmbeddedResource>
-		<EmbeddedResource Include="Assets\Data\categories.json">
+		</Content>
+		<Content Include="Assets\Data\categories.json">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</EmbeddedResource>
+		</Content>
 	</ItemGroup>
 
 	<ItemGroup>

@@ -15,7 +15,7 @@ namespace SolyankaGuide
         public CatergoriesControl()
         {
             InitializeComponent();
-            GitHubAutoUpdate.RefreshUI += RefreshCategories;
+            App.RefreshUI += RefreshCategories;
             RefreshCategories();
         }
 
