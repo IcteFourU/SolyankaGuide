@@ -42,6 +42,7 @@
 		<None Remove="Assets\Images\volume.png" />
 		<None Remove="Assets\Images\when.png" />
 		<None Remove="Assets\Images\yt.png" />
+		<None Remove="Internals\token.txt" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -53,6 +54,9 @@
 		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</EmbeddedResource>
 		<EmbeddedResource Include="Assets\Data\items.json">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<EmbeddedResource Include="Assets\Data\hashes.json">
 		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</EmbeddedResource>
 		<EmbeddedResource Include="Assets\Data\quests.json">
@@ -102,5 +106,6 @@
 		<Resource Include="Assets\Images\volume.png" />
 		<Resource Include="Assets\Images\when.png" />
 		<Resource Include="Assets\Images\yt.png" />
+		<Resource Include="Internals\token.txt" />
 	</ItemGroup>
 </Project>

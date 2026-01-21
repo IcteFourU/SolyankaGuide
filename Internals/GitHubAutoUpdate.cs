@@ -2,8 +2,10 @@
 using Newtonsoft.Json.Linq;
 using System.IO;
 using System.Net.Http;
+using System.Reflection;
 using System.Security.Cryptography;
 using System.Windows;
+using System.Windows.Resources;
 
 namespace SolyankaGuide.Internals
 {
@@ -16,6 +18,8 @@ namespace SolyankaGuide.Internals
             if (localFiles == null) return;
             var githubFiles = await GetGitHubFolderContents("carefall", "SolyankaGuide", "Assets/Data");
             if (githubFiles == null || githubFiles.Count == 0) return;
+            Dictionary<string, string>? hashes = await GetGitHubHashes("carefall", "SolyankaGuide", "Assets/Data/hashes.json", GetToken());
+            if (hashes == null || hashes.Count == 0) return;
             Dictionary<string, string> updateFiles = new();
             foreach (var item in githubFiles)
             {
@@ -23,18 +27,13 @@ namespace SolyankaGuide.Internals
                 var localFilePath = Path.Combine("Assets", item.Path!.Substring("Assets/".Length));
                 if (!File.Exists(localFilePath))
                 {
-                    MessageBox.Show("Файл " + localFilePath + " не существует");
                     needDownload = true;
                 }
                 else
                 {
                     string localSha = ComputeFileSha1(localFilePath);
-                    string? fileSha = await GetGitHubFileShaAsync("carefall", "SolyankaGuide", "Assets/Data", "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");
-                    MessageBox.Show(localSha + " " + fileSha);
-                    if (fileSha == null) continue;
-                    if (localSha != fileSha)
+                    if (localSha != hashes[localFilePath])
                     {
-                        MessageBox.Show("Файлы " + localFilePath + " отличаются по sha: " + localSha + " " + fileSha);
                         needDownload = true;
                     }
                 }
@@ -56,7 +55,21 @@ namespace SolyankaGuide.Internals
             }
         }
 
-        private static async Task<string?> GetGitHubFileShaAsync(string owner, string repo, string path, string token)
+        private static string GetToken()
+        {
+            Uri uri = new Uri("pack://application:,,,/Internals/token.txt");
+            StreamResourceInfo info = Application.GetResourceStream(uri);
+            using Stream stream = info.Stream;
+            if (stream == null)
+            {
+                return "token";
+            }
+            using StreamReader reader = new(stream);
+            string content = reader.ReadToEnd();
+            return content;
+        }
+
+        private static async Task<Dictionary<string, string>?> GetGitHubHashes(string owner, string repo, string path, string token)
         {
             string url = $"https://api.github.com/repos/{owner}/{repo}/contents/{path}";
             using HttpClient client = new HttpClient();
@@ -66,12 +79,13 @@ namespace SolyankaGuide.Internals
                 client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("token", token);
             }
             var response = await client.GetAsync(url);
+            MessageBox.Show(await response.Content.ReadAsStringAsync());
             if (response.IsSuccessStatusCode)
             {
                 string json = await response.Content.ReadAsStringAsync();
                 JObject obj = JObject.Parse(json);
-                string? sha = (string?)obj["sha"];
-                return sha;
+                MessageBox.Show(json);
+                return obj.Properties().ToDictionary(prop => prop.Name, prop => (string)prop.Value);
             }
             else
             {
