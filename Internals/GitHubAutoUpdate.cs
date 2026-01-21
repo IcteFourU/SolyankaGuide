@@ -30,6 +30,7 @@ namespace SolyankaGuide.Internals
                 {
                     string localSha = ComputeFileSha1(localFilePath);
                     string? fileSha = await GetGitHubFileShaAsync("carefall", "SolyankaGuide", "Assets/Data", "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");
+                    MessageBox.Show(localSha + " " + fileSha);
                     if (fileSha == null) continue;
                     if (localSha != fileSha)
                     {
