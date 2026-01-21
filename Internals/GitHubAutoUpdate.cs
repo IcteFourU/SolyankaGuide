@@ -18,7 +18,7 @@ namespace SolyankaGuide.Internals
             if (localFiles == null) return;
             var githubFiles = await GetGitHubFolderContents("carefall", "SolyankaGuide", "Assets/Data");
             if (githubFiles == null || githubFiles.Count == 0) return;
-            Dictionary<string, string>? hashes = await GetGitHubHashes("carefall", "SolyankaGuide", "Assets/Data/hashes.json", GetToken());
+            Dictionary<string, string>? hashes = await GetGitHubHashes("carefall", "SolyankaGuide", "Assets/hashes.json", GetToken());
             if (hashes == null || hashes.Count == 0) return;
             Dictionary<string, string> updateFiles = new();
             foreach (var item in githubFiles)
@@ -32,7 +32,7 @@ namespace SolyankaGuide.Internals
                 else
                 {
                     string localSha = ComputeFileSha1(localFilePath);
-                    if (localSha != hashes[localFilePath])
+                    if (localSha != hashes[item.Name])
                     {
                         needDownload = true;
                     }
@@ -71,27 +71,16 @@ namespace SolyankaGuide.Internals
 
         private static async Task<Dictionary<string, string>?> GetGitHubHashes(string owner, string repo, string path, string token)
         {
-            string url = $"https://api.github.com/repos/{owner}/{repo}/contents/{path}";
+            string url = $"https://raw.githubusercontent.com/{owner}/{repo}/main/{path}";
             using HttpClient client = new HttpClient();
             client.DefaultRequestHeaders.UserAgent.ParseAdd("SolyankaGuide");
             if (!string.IsNullOrEmpty(token))
             {
                 client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("token", token);
             }
-            var response = await client.GetAsync(url);
-            MessageBox.Show(await response.Content.ReadAsStringAsync());
-            if (response.IsSuccessStatusCode)
-            {
-                string json = await response.Content.ReadAsStringAsync();
-                JObject obj = JObject.Parse(json);
-                MessageBox.Show(json);
-                return obj.Properties().ToDictionary(prop => prop.Name, prop => (string)prop.Value);
-            }
-            else
-            {
-                MessageBox.Show("Не удалось прочитать файл на GitHub. Обратитесь к разработчику гида.", "Автообновление", MessageBoxButton.OK);
-                return null;
-            }
+            string json = await client.GetStringAsync(url);
+            JObject obj = JObject.Parse(json);
+            return obj.Properties().ToDictionary(prop => prop.Name, prop => (string)prop.Value);
         }
 
         public static async Task<List<GitHubContentItem>?> GetGitHubFolderContents(string owner, string repo, string path)
