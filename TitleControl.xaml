@@ -39,7 +39,7 @@
                 <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
-            <TextBlock Text="Гид по «Народной Солянке»" Foreground="White" FontSize="20" FontWeight="Bold" VerticalAlignment="Center" Margin="5,0,0,0"/>
+            <TextBlock Text="Гид по «Народной Солянке OGSR 2026»" Foreground="White" FontSize="20" FontWeight="Bold" VerticalAlignment="Center" Margin="5,0,0,0"/>
             <StackPanel Grid.Column="1" Orientation="Horizontal">
                 <Button Content="—" Style="{StaticResource WindowControlButtonStyle}" Click="MinimizeButton"/>
                 <Button Content="☐" Style="{StaticResource WindowControlButtonStyle}" Click="ResizeButton"/>
