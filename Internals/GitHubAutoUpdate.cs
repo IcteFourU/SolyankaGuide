@@ -22,17 +22,18 @@ namespace SolyankaGuide.Internals
             localFiles.AddRange(localJsons);
             var githubJsons = await GetGitHubFolderContents("carefall", "SolyankaGuide", "Assets/Data");
             var githubImages = await GetGitHubFolderContents("carefall", "SolyankaGuide", "Assets/Images");
+            if (githubJsons == null || githubJsons.Count == 0 || githubImages == null || githubImages.Count == 0) return false;
             List<GitHubContentItem> githubFiles = new();
             githubFiles.AddRange(githubImages);
             githubFiles.AddRange(githubJsons);
-            if (githubJsons == null || githubJsons.Count == 0 || githubImages == null || githubImages.Count == 0) return false;
-            Dictionary<string, string>? hashes = await GetGitHubHashes("carefall", "SolyankaGuide", "Assets/hashes.json", GetToken());
+            Dictionary<string, string?>? hashes = await GetGitHubHashes("carefall", "SolyankaGuide", "Assets/hashes.json", GetToken());
             if (hashes == null || hashes.Count == 0) return false;
             Dictionary<string, string> updateFiles = new();
             foreach (var item in githubImages)
             {
                 bool needDownload = false;
                 var localFilePath = Path.Combine("Assets", item.Path!.Substring("Assets/".Length));
+                MessageBox.Show(localFilePath);
                 if (!File.Exists(localFilePath))
                 {
                     needDownload = true;
@@ -40,7 +41,7 @@ namespace SolyankaGuide.Internals
                 else
                 {
                     string localSha = ComputeFileSha1(localFilePath);
-                    if (localSha != hashes[item.Name])
+                    if (localSha != hashes[item.Name!])
                     {
                         needDownload = true;
                     }
@@ -80,7 +81,7 @@ namespace SolyankaGuide.Internals
             return content;
         }
 
-        private static async Task<Dictionary<string, string>?> GetGitHubHashes(string owner, string repo, string path, string token)
+        private static async Task<Dictionary<string, string?>?> GetGitHubHashes(string owner, string repo, string path, string token)
         {
             string url = $"https://raw.githubusercontent.com/{owner}/{repo}/main/{path}";
             using HttpClient client = new HttpClient();
@@ -91,7 +92,7 @@ namespace SolyankaGuide.Internals
             }
             string json = await client.GetStringAsync(url);
             JObject obj = JObject.Parse(json);
-            return obj.Properties().ToDictionary(prop => prop.Name, prop => (string)prop.Value);
+            return obj.Properties().ToDictionary(prop => prop.Name, prop => (string?)prop.Value);
         }
 
         public static async Task<List<GitHubContentItem>?> GetGitHubFolderContents(string owner, string repo, string path)
