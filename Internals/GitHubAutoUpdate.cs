@@ -32,7 +32,7 @@ namespace SolyankaGuide.Internals
             foreach (var item in githubFiles)
             {
                 bool needDownload = false;
-                var localFilePath = Path.Combine("Assets", item.Path!.Substring("Assets/".Length));
+                var localFilePath = Path.Combine("Assets", item.Path!.Substring("Assets/".Length).Replace("\\", "/"));
                 if (!File.Exists(localFilePath))
                 {
                     needDownload = true;
