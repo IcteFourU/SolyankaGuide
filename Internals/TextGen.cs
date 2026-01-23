@@ -17,7 +17,7 @@ namespace SolyankaGuide.Internals
                 Foreground = Brushes.White,
                 FontSize = 24,
                 TextWrapping = TextWrapping.Wrap,
-                TextAlignment = centered ? TextAlignment.Center : TextAlignment.Justify,
+                TextAlignment = centered ? TextAlignment.Center : TextAlignment.Left,
                 Focusable = false
             };
             string[] lines = text;
