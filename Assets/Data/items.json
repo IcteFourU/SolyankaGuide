@@ -10,5 +10,15 @@
         "centered": false,
         "imagePath": "items.png",
         "descriptions": null
+    },
+    {
+        "name": "Еда и Вода",
+        "header": "Общая информация",
+        "text": [
+            "Хлеб, Колбаса, Консервы, Пиво \"Балтика\", Энергетики, Фляга воды - смело продаём"
+        ],
+        "centered": false,
+        "imagePath": "items.png",
+        "descriptions": null
     }
 ]

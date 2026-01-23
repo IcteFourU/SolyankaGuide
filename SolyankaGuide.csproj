@@ -24,6 +24,7 @@
 		<None Remove="Assets\Images\ideas.png" />
 		<None Remove="Assets\Images\install.png" />
 		<None Remove="Assets\Images\items.png" />
+		<None Remove="Assets\Images\kon.png" />
 		<None Remove="Assets\Images\mags.png" />
 		<None Remove="Assets\Images\needs.png" />
 		<None Remove="Assets\Images\ogsr.png" />
@@ -56,6 +57,9 @@
 		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\actual.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\kon.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\ogsr.png">

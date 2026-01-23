@@ -26,7 +26,7 @@ namespace SolyankaGuide
                 GriddedDescription gd = descs[i];
                 gd.Width = itemWitdh;
                 gd.Height = itemWitdh / 16 * 14;
-                gd.Margin = new Thickness(0, 0, (i != 2) ? 10 : 0, 0);
+                gd.Margin = new Thickness(0, 0, ((i + 1) % 3 != 0) ? 10 : 0, 0);
             }
         }
 
