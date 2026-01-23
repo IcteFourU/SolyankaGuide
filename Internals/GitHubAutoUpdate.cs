@@ -35,7 +35,6 @@ namespace SolyankaGuide.Internals
                 var localFilePath = Path.Combine("Assets", item.Path!.Substring("Assets/".Length).Replace("\\", "/"));
                 if (!File.Exists(localFilePath))
                 {
-                    MessageBox.Show(localFilePath);
                     needDownload = true;
                 }
                 else
@@ -43,7 +42,6 @@ namespace SolyankaGuide.Internals
                     string localSha = ComputeFileSha1(localFilePath);
                     if (localSha != hashes[item.Name!])
                     {
-                        MessageBox.Show(localFilePath + " " + localSha + " " + hashes[item.Name!]);
                         needDownload = true;
                     }
                 }
