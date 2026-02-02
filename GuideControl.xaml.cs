@@ -53,7 +53,7 @@ namespace SolyankaGuide
             Elements.Children.Clear();
             for (int i = 0; i < elements.Length; i++)
             {
-                Element element = elements[i];;
+                Element element = elements[i]; ;
                 RadioButton rb = new()
                 {
                     Content = element.Name,
@@ -64,7 +64,7 @@ namespace SolyankaGuide
                 Elements.Children.Add(rb);
                 if (i != elements.Length - 1)
                 {
-                    Border b= new()
+                    Border b = new()
                     {
                         Height = 1,
                         Background = new SolidColorBrush(Color.FromRgb(85, 85, 85)),
@@ -88,6 +88,12 @@ namespace SolyankaGuide
             ShowDescription?.Invoke(element);
             DescControl.Visibility = Visibility.Visible;
             DescGridControl.Visibility = Visibility.Hidden;
+        }
+
+        private void OnScrollChanged(object sender, ScrollChangedEventArgs e)
+        {
+            TopFade.Visibility = e.VerticalOffset > 0? Visibility.Visible : Visibility.Collapsed;
+            BottomFade.Visibility = e.VerticalOffset + e.ViewportHeight < e.ExtentHeight? Visibility.Visible : Visibility.Collapsed;
         }
     }
 }

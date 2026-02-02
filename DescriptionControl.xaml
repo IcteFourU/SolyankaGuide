@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:SolyankaGuide"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Border HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#99000000" CornerRadius="10" Padding="20" Margin="15,15,5,15">
+    <Border HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#99000000" CornerRadius="10" Padding="20" Margin="15,15,5,10">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>

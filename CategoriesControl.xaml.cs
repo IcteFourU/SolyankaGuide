@@ -21,7 +21,6 @@ namespace SolyankaGuide
 
         private void RefreshCategories()
         {
-            App.Current.MainWindow.Topmost = true;
             Category[]? categories = JsonLoader.FillCategories();
             if (categories == null)
             {

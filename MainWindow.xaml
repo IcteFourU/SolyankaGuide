@@ -5,20 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SolyankaGuide"
         mc:Ignorable="d"
-        AllowsTransparency="True"
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
-        ResizeMode="CanResizeWithGrip"
-        Title="MainWindow" Height="720" Width="1280">
+        ResizeMode="CanResize"
+        Title="Гид по «Народной Солянке» OGSR 2026" Height="720" Width="1280">
+    <WindowChrome.WindowChrome>
+        <WindowChrome
+        CaptionHeight="36"
+        ResizeBorderThickness="6"
+        GlassFrameThickness="0"
+        UseAeroCaptionButtons="False"/>
+    </WindowChrome.WindowChrome>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="35"/>
+            <RowDefinition Height="1"/>
             <RowDefinition Height="40"/>
+            <RowDefinition Height="1"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Image x:Name="BGImage" Grid.RowSpan="3" Stretch="UniformToFill"/>
+        <Image x:Name="BGImage" Grid.RowSpan="5" Stretch="UniformToFill"/>
         <local:TitleControl Grid.Row="0"/>
-        <local:CatergoriesControl Grid.Row="1"/>
-        <local:GuideControl Grid.Row="2"/>
+        <Border Grid.Row="1" Background="#33FFFFFF"/>
+        <local:CatergoriesControl Grid.Row="2"/>
+        <Border Grid.Row="3" Background="#33FFFFFF"/>
+        <local:GuideControl Grid.Row="4"/>
     </Grid>
 </Window>

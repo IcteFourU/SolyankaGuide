@@ -57,8 +57,27 @@
             <Border.RenderTransform>
                 <TranslateTransform x:Name="SidePanelTransform" X="-300"/>
             </Border.RenderTransform>
-            <StackPanel x:Name="Elements" Margin="10" VerticalAlignment="Top" HorizontalAlignment="Stretch"
-                    Width="{Binding ActualWidth, RelativeSource={RelativeSource AncestorType=Border}}"/>
+            <Grid>
+                <ScrollViewer x:Name="Scroller" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" VerticalScrollBarVisibility="Hidden" ScrollChanged="OnScrollChanged">
+                    <StackPanel x:Name="Elements" Margin="10" VerticalAlignment="Top" HorizontalAlignment="Stretch"/>
+                </ScrollViewer>
+                <Rectangle x:Name="TopFade" Height="24" VerticalAlignment="Top" IsHitTestVisible="False" Visibility="Collapsed">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                            <GradientStop Color="#AA000000" Offset="0"/>
+                            <GradientStop Color="#00000000" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <Rectangle x:Name="BottomFade" Height="24" VerticalAlignment="Bottom" IsHitTestVisible="False" Visibility="Collapsed">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush StartPoint="0,1" EndPoint="0,0">
+                            <GradientStop Color="#AA000000" Offset="0"/>
+                            <GradientStop Color="#00000000" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+            </Grid>
         </Border>
         <local:DescriptionControl x:Name="DescControl" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Top" Visibility="Hidden"/>
         <local:DescriptionGridControl x:Name="DescGridControl" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Top" Visibility="Hidden" Background="#00000000"/>

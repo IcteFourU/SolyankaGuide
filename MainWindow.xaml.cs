@@ -1,5 +1,6 @@
 ﻿using SolyankaGuide.Internals;
 using System.Windows;
+using System.Windows.Shell;
 
 namespace SolyankaGuide
 {

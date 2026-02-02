@@ -16,6 +16,7 @@
 		<None Remove="Assets\Images\beginning.png" />
 		<None Remove="Assets\Images\car.png" />
 		<None Remove="Assets\Images\changelog.png" />
+		<None Remove="Assets\Images\controls.png" />
 		<None Remove="Assets\Images\current.png" />
 		<None Remove="Assets\Images\cycle.png" />
 		<None Remove="Assets\Images\discord.png" />
@@ -54,7 +55,10 @@
 		<Content Include="Assets\categories_custom.json">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Data\faq2.json">
+		<Content Include="Assets\Data\faq_launcher.json">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Data\faq_community.json">
 		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Data\mech.json">
@@ -63,7 +67,25 @@
 		<Content Include="Assets\Data\items.json">
 		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
+		<Content Include="Assets\Data\q_yantar.json">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Data\q_dolina.json">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Data\q_agro.json">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Data\q_bar.json">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Data\q_svalka.json">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
 		<Content Include="Assets\Images\actual.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\controls.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\kon.png">
@@ -84,10 +106,10 @@
 		<Resource Include="Assets\hashes.json">
 		  <CopyToOutputDirectory></CopyToOutputDirectory>
 		</Resource>
-		<Content Include="Assets\Data\quests.json">
+		<Content Include="Assets\Data\q_kordon.json">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Data\faq.json">
+		<Content Include="Assets\Data\faq_game.json">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Data\categories.json">
