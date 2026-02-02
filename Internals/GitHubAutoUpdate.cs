@@ -4,6 +4,7 @@ using System.IO;
 using System.Net.Http;
 using System.Security.Cryptography;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Resources;
 
 namespace SolyankaGuide.Internals
@@ -11,7 +12,7 @@ namespace SolyankaGuide.Internals
     internal class GitHubAutoUpdate
     {
 
-        public static async Task<bool> Update()
+        public static async Task<bool> Update(TextBlock status)
         {
             var localJsons = GetLocalFiles(@"Assets/Data");
             var localImages = GetLocalFiles(@"Assets/Images");

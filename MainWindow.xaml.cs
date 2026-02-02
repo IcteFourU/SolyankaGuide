@@ -33,8 +33,9 @@ namespace SolyankaGuide
         {
             if (locked) return;
             locked = true;
-
-            bool shouldUpdate = await GitHubAutoUpdate.Update();
+            UpdateStatus.Visibility = Visibility.Visible;
+            UpdateSpinner.Visibility = Visibility.Visible;
+            bool shouldUpdate = await GitHubAutoUpdate.Update(UpdateStatus);
             locked = false;
             if (shouldUpdate)
             {
