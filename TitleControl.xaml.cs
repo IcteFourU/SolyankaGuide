@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using SolyankaGuide.Internals;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Shell;
@@ -17,6 +18,7 @@ namespace SolyankaGuide
             InitializeComponent();
             window = App.Current.MainWindow;
             WindowChrome.SetIsHitTestVisibleInChrome(ButtonsPanel, true);
+            TitleText.Text = Locale.Get("title");
         }
 
         public void CloseButton(object sender, RoutedEventArgs e)

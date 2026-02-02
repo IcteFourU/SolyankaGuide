@@ -47,11 +47,15 @@
 		<None Remove="Assets\Images\volume.png" />
 		<None Remove="Assets\Images\when.png" />
 		<None Remove="Assets\Images\yt.png" />
+		<None Remove="Internals\Images\btn.png" />
 		<None Remove="Internals\Images\gidfix.png" />
 		<None Remove="Internals\token.txt" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<Content Include="Assets\locale.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
 		<Content Include="Assets\categories_custom.json">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
@@ -100,6 +104,7 @@
 		<Content Include="Assets\Images\gidfix.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
+		<Resource Include="Internals\Images\btn.png" />
 		<Resource Include="Internals\Images\placeholder.png">
 		  <CopyToOutputDirectory></CopyToOutputDirectory>
 		</Resource>

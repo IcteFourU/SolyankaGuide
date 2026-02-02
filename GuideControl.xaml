@@ -13,7 +13,7 @@
             <DoubleAnimation Storyboard.TargetName="SidePanelTransform" Storyboard.TargetProperty="X" To="0" Duration="0:0:0.25" EasingFunction="{StaticResource CubicEaseOut}"/>
         </Storyboard>
         <Storyboard x:Key="HideSidePanel">
-            <DoubleAnimation Storyboard.TargetName="SidePanelTransform" Storyboard.TargetProperty="X" To="-300" Duration="0:0:0.25" EasingFunction="{StaticResource CubicEaseIn}"/>
+            <DoubleAnimation Storyboard.TargetName="SidePanelTransform" Storyboard.TargetProperty="X" To="-350" Duration="0:0:0.25" EasingFunction="{StaticResource CubicEaseIn}"/>
         </Storyboard>
         <Style x:Key="ElementsStyle" TargetType="RadioButton">
             <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
@@ -49,13 +49,13 @@
     </UserControl.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="350"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="70"/>
         </Grid.ColumnDefinitions>
-        <Border x:Name="ElementsBorder" Grid.Column="0" Background="#EE1A1A1A" HorizontalAlignment="Left" VerticalAlignment="Stretch">
+        <Border x:Name="ElementsBorder" Grid.Column="0" Background="#EE1A1A1A" VerticalAlignment="Stretch" Width="350">
             <Border.RenderTransform>
-                <TranslateTransform x:Name="SidePanelTransform" X="-300"/>
+                <TranslateTransform x:Name="SidePanelTransform" X="-350"/>
             </Border.RenderTransform>
             <Grid>
                 <ScrollViewer x:Name="Scroller" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" VerticalScrollBarVisibility="Hidden" ScrollChanged="OnScrollChanged">

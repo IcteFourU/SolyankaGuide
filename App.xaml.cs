@@ -5,8 +5,6 @@ namespace SolyankaGuide
 {
     public partial class App : Application {
 
-        public static Action? RefreshUI;
-
         public App() : base() 
         {
             Application.Current.DispatcherUnhandledException += (s, e) =>
@@ -17,12 +15,6 @@ namespace SolyankaGuide
             ImageLoader.SetupPlaceholder();
             Logger.Setup();
             Logger.Log("Startup", "App started!");
-            bool shouldUpdate = GitHubAutoUpdate.Update().Result;
-            if (shouldUpdate)
-            {
-                Logger.Log("Startup", "Update requested");
-                RefreshUI?.Invoke();
-            }
         }
     }
 }

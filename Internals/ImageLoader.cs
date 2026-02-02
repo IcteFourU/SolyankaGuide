@@ -39,7 +39,7 @@ namespace SolyankaGuide.Internals
             catch (Exception ex)
             {
                 Logger.Log("ImageLoader", ex.ToString());
-                MessageBox.Show($"Не удалось загрузить изображение {path}", "Загрузка изображения", MessageBoxButton.OK);
+                MessageBox.Show(Locale.Get("image_fail", path), Locale.Get("image_load"), MessageBoxButton.OK);
                 return placeholder;
             }
         }

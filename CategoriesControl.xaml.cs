@@ -15,7 +15,7 @@ namespace SolyankaGuide
         public CatergoriesControl()
         {
             InitializeComponent();
-            App.RefreshUI += RefreshCategories;
+            MainWindow.RefreshUI += RefreshCategories;
             RefreshCategories();
         }
 
