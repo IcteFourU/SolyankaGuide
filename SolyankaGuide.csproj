@@ -20,6 +20,7 @@
 		<None Remove="Assets\Images\current.png" />
 		<None Remove="Assets\Images\cycle.png" />
 		<None Remove="Assets\Images\discord.png" />
+		<None Remove="Assets\Images\dok.png" />
 		<None Remove="Assets\Images\help.jpg" />
 		<None Remove="Assets\Images\house.png" />
 		<None Remove="Assets\Images\ideas.png" />
@@ -34,6 +35,7 @@
 		<None Remove="Assets\Images\prolog.png" />
 		<None Remove="Assets\Images\reqs.jpg" />
 		<None Remove="Assets\Images\settings.png" />
+		<None Remove="Assets\Images\sidor.png" />
 		<None Remove="Assets\Images\sidorDoktor.png" />
 		<None Remove="Assets\Images\starting.png" />
 		<None Remove="Assets\Images\storage.png" />
@@ -47,11 +49,54 @@
 		<None Remove="Assets\Images\volume.png" />
 		<None Remove="Assets\Images\when.png" />
 		<None Remove="Assets\Images\yt.png" />
+		<None Remove="Assets\Images\zvezd.png" />
 		<None Remove="Internals\Images\btn.png" />
 		<None Remove="Internals\Images\gidfix.png" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<Content Include="Assets\Images\akim.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\arni.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\barmen.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\bes.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\brodyaga.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\desantnik.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\kuznecov.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\lis.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\petruha.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\prapor.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\saharov.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\seriy.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\dok.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\zvezd.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
 		<Content Include="Assets\locale.json">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
@@ -101,6 +146,9 @@
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\gidfix.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\sidor.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Resource Include="Internals\Images\btn.png" />

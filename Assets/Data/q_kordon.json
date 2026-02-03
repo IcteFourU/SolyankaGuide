@@ -4,13 +4,13 @@
         "header": "",
         "text": null,
         "centered": false,
-        "imagePath": "",
+        "imagePaths": null,
         "descriptions": [
             {
                 "name": "Пробуждение",
                 "header": "Пробуждение",
-                "gridImagePath": "icon0.png",
-                "imagePath": "sidorDoktor.png",
+                "gridImagePath": "zvezd.png",
+                "imagePaths": [ "sidorDoktor.png" ],
                 "centered": false,
                 "text": [
                     "После вступительного ролика Меченый просыпается в подвале. Говорим со Звездочётом.",
@@ -24,8 +24,8 @@
             {
                 "name": "Вспоминаем зону",
                 "header": "Начало сюжета",
-                "gridImagePath": "icon0.png",
-                "imagePath": "beginning.png",
+                "gridImagePath": "sidor.png",
+                "imagePaths": [ "beginning.png "],
                 "centered": false,
                 "text": [
                     "Берём у Сидоровича стандартное задание на флешку и идём к Волку.",
@@ -42,13 +42,13 @@
         "header": "",
         "text": null,
         "centered": false,
-        "imagePath": "",
+        "imagePaths": null,
         "descriptions": [
             {
                 "name": "Железный конь",
                 "header": "АААвтомобили!",
-                "gridImagePath": "icon0.png",
-                "imagePath": "kon.png",
+                "gridImagePath": "kon.png",
+                "imagePaths": ["kon.png"],
                 "centered": false,
                 "text": [
                     "Ух ты. В зоне теперь есть АААвтомобили!",
@@ -58,8 +58,8 @@
             {
                 "name": "Проклятый старый дом",
                 "header": "Служили два товарища",
-                "gridImagePath": "icon0.png",
-                "imagePath": "house.png", 
+                "gridImagePath": "house.png",
+                "imagePaths": ["house.png"], 
                 "centered": false,
                 "text": [
                     "Что-то тут явно не так. Может кто в деревне знает..?"
@@ -72,13 +72,13 @@
         "header": "",
         "text": null,
         "centered": false,
-        "imagePath": "",
+        "imagePaths": null,
         "descriptions": [
             {
                 "name": "Толик",
                 "header": "Ветка Толика",
                 "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "imagePaths": ["car.png"],
                 "centered": false,
                 "text": [
                     "Начинается как обычно - спасением Толика.",
@@ -91,8 +91,8 @@
             {
                 "name": "Петруха",
                 "header": "ТОЗ Петрухе",
-                "gridImagePath": "icon0.png",
-                "imagePath": "house.png", 
+                "gridImagePath": "petruha.png",
+                "imagePaths": ["petruha.png"], 
                 "centered": false,
                 "text": [
                     "После штурма КСП и спасения Шустрого Петруха просит притащить ему ружьё ТОЗ.",
@@ -105,7 +105,7 @@
                 "name": "Шустрый",
                 "header": "Ветка Шустрого",
                 "gridImagePath": "icon0.png",
-                "imagePath": "house.png", 
+                "imagePaths": [ "house.png" ], 
                 "centered": false,
                 "text": [
                     "После спасения Шустрый попросит Меченого принести ему артефакт \"Медуза\".",
@@ -119,7 +119,7 @@
                 "name": "Волк",
                 "header": "Квесты Волка",
                 "gridImagePath": "icon0.png",
-                "imagePath": "house.png", 
+                "imagePaths": ["house.png"], 
                 "centered": false,
                 "text": [
                     "После спасения Шустрого у волка появятся квесты \"Потерянный документ\" на поиск документа в тоннеле с электрами.",
@@ -131,8 +131,8 @@
             {
                 "name": "Сидорович",
                 "header": "Ветка Сидоровича",
-                "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "gridImagePath": "sidor.png",
+                "imagePaths": ["sidor.png"],
                 "centered": false,
                 "text": [
                     "Первый доступный квест - \"Ночная звезда\" на поиск одноимённого артефакта.",
@@ -147,8 +147,8 @@
             {
                 "name": "Кузнецов",
                 "header": "Ветка Кузнецова",
-                "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "gridImagePath": "kuznecov.png",
+                "imagePaths": ["kuznecov.png"],
                 "centered": false,
                 "text": [
                     "Выдаёт квест \"Режущий инструмент\" на поиск двух артов.",
@@ -161,8 +161,8 @@
             {
                 "name": "Лис",
                 "header": "Квесты Лиса",
-                "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "gridImagePath": "lis.png",
+                "imagePaths": ["lis.png"],
                 "centered": false,
                 "text": [
                     "После спасения даёт квесты \"Челночная деятельность\" на доставку посылки со Свалки и \"Медицинская поддержка\" на сбор 10 аптечек.",
@@ -177,7 +177,7 @@
                 "name": "Андрей Механик",
                 "header": "Квесты Лиса",
                 "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "imagePaths": ["car.png"],
                 "centered": false,
                 "text": [
                     "После прихода в себя выдаёт задание \"Паяльник против ржавчины\" на поиск материалов.",
@@ -190,7 +190,7 @@
                 "name": "Неумеха",
                 "header": "Квесты Лиса",
                 "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "imagePaths": ["car.png"],
                 "centered": false,
                 "text": [
                     "При втором посещении Кордона на КПП появляется курьер Акима - Неумеха.",
@@ -202,7 +202,7 @@
                 "name": "Фанат",
                 "header": "Фанат",
                 "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "imagePaths": ["car.png"],
                 "centered": false,
                 "text": [
                     "После ухода Волка на кордон приходит Фанат.",
@@ -221,13 +221,13 @@
         "header": "",
         "text": null,
         "centered": false,
-        "imagePath": "",
+        "imagePaths": null,
         "descriptions": [
             {
                 "name": "Введение",
                 "header": "Что за Костя?",
                 "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "imagePaths": ["car.png"],
                 "centered": false,
                 "text": [
                     "После спасения Шустрого в деревню приходит Костя. Ему нужна помощь с поиском ПДА в тайниках.",
@@ -239,7 +239,7 @@
                 "name": "Тайник на Кордоне",
                 "header": "Тайник кости на Кордоне",
                 "gridImagePath": "icon0.png",
-                "imagePath": "house.png", 
+                "imagePaths": ["house.png"], 
                 "centered": false,
                 "text": [
                     "Первый тайник находится на одной из локаций:",
@@ -254,7 +254,7 @@
                 "name": "Тайник на Свалке",
                 "header": "Тайник Кости на Свалке",
                 "gridImagePath": "icon0.png",
-                "imagePath": "when.png", 
+                "imagePaths": ["when.png"], 
                 "centered": false,
                 "text": [
                     "Второй тайник находится на одной из локаций:",
@@ -268,7 +268,7 @@
                 "name": "Тайник в X-18",
                 "header": "Тайник Кости в X-18",
                 "gridImagePath": "icon0.png",
-                "imagePath": "when.png", 
+                "imagePaths": ["when.png"], 
                 "centered": false,
                 "text": [
                     "Тайник находится на одной из локаций:",
@@ -281,7 +281,7 @@
                 "name": "Тайник на Агропроме",
                 "header": "Тайник Кости на Агропроме",
                 "gridImagePath": "icon0.png",
-                "imagePath": "when.png", 
+                "imagePaths": ["when.png"], 
                 "centered": false,
                 "text": [
                     "Тайник находится на одной из локаций:",
@@ -297,13 +297,13 @@
         "header": "",
         "text": null,
         "centered": false,
-        "imagePath": "",
+        "imagePaths": null,
         "descriptions": [
             {
                 "name": "Введение",
                 "header": "Что за Десантник?",
-                "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "gridImagePath": "desantnik.png",
+                "imagePaths": ["desantnik.png"],
                 "centered": false,
                 "text": [
                     "При первом посещении дома, где лежит раненый Лис, находим рядом Серёгу Десантника.",
@@ -314,8 +314,8 @@
             {
                 "name": "Пункт пропуска",
                 "header": "КПП",
-                "gridImagePath": "icon0.png",
-                "imagePath": "when.png", 
+                "gridImagePath": "desantnik.png",
+                "imagePaths": ["desantnik.png"], 
                 "centered": false,
                 "text": [
                     "Получаем от Десантника задание и \"Пси-блокаду\".",
@@ -329,13 +329,13 @@
         "header": "",
         "text": null,
         "centered": false,
-        "imagePath": "",
+        "imagePaths": null,
         "descriptions": [
             {
                 "name": "Знакомство",
                 "header": "Аким",
-                "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "gridImagePath": "akim.png",
+                "imagePaths": ["akim.png"],
                 "centered": false,
                 "text": [
                     "При втором посещении Кордона на КПП появляется торговец Аким.",
@@ -349,17 +349,17 @@
         ]
     },
     {
-        "name": "Поиски пропавшей научной группы",
+        "name": "Поиски пропавшей экспедиции",
         "header": "",
         "text": null,
         "centered": false,
-        "imagePath": "",
+        "imagePaths": null,
         "descriptions": [
             {
                 "name": "Введение",
                 "header": "ПДА Военного",
                 "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "imagePaths": ["car.png"],
                 "centered": false,
                 "text": [
                     "В вагончике около Толика находим труп спецназовца.",
@@ -371,7 +371,7 @@
                 "name": "Бандит",
                 "header": "Бандит",
                 "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "imagePaths": ["car.png"],
                 "centered": false,
                 "text": [
                     "За стройкой на Свалке получаем сигнал SOS от раненого сталкера.",
@@ -383,7 +383,7 @@
                 "name": "Фраер",
                 "header": "Фраер",
                 "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "imagePaths": ["car.png"],
                 "centered": false,
                 "text": [
                     "В комплексе над лабораторией X-18 убиваем бандита Фраера и забираем с него ПДА."
@@ -393,7 +393,7 @@
                 "name": "Прапор",
                 "header": "Пда у Прапора",
                 "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "imagePaths": ["car.png"],
                 "centered": false,
                 "text": [
                     "После выполнения нескольких заданий Прапора Меченому становится доступен сюжетный диалог по зашифрованному ПДА.",
@@ -409,13 +409,13 @@
         "header": "",
         "text": null,
         "centered": false,
-        "imagePath": "",
+        "imagePaths": null,
         "descriptions": [
             {
                 "name": "Введение",
                 "header": "Семейный очаг",
                 "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "imagePaths": ["car.png"],
                 "centered": false,
                 "text": [
                     "Сюжетная ветвь начинается с диалога с Акимом по поводу журналов \"Плейбой\" и женщиной в Зоне, за которой ведётся охота.",
@@ -427,7 +427,7 @@
                 "name": "Растеряша",
                 "header": "Растеряша",
                 "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "imagePaths": ["car.png"],
                 "centered": false,
                 "text": [
                     "После получения задания \"Домашний очаг\" на карте появляется метка \"Прерванная трапеза\".",
@@ -441,13 +441,13 @@
         "header": "",
         "text": null,
         "centered": false,
-        "imagePath": "",
+        "imagePaths": null,
         "descriptions": [
             {
                 "name": "Введение",
                 "header": "СКАТ-15",
                 "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "imagePaths": ["car.png"],
                 "centered": false,
                 "text": [
                     "Сюжетная ветвь начинается с диалога с Акимом по поводу заработка.",
@@ -459,7 +459,7 @@
                 "name": "Документы на Свалке",
                 "header": "Документы на Свалке",
                 "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "imagePaths": ["car.png"],
                 "centered": false,
                 "text": [
                     "Документы находятся в постройке на блокпосте Долга.",
@@ -471,7 +471,7 @@
                 "name": "Документы на Агропроме",
                 "header": "Документы в подземке НИИ",
                 "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "imagePaths": ["car.png"],
                 "centered": false,
                 "text": [
                     "Документы находятся под завалом на лестнице в верхней части подземки.",
@@ -482,7 +482,7 @@
                 "name": "Документы в X-18",
                 "header": "Документы в X-18",
                 "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "imagePaths": ["car.png"],
                 "centered": false,
                 "text": [
                     "Рюкзаки с документами находятся в трёх местах:",
@@ -497,7 +497,7 @@
                 "name": "Документы в X-16",
                 "header": "Документы в X-16",
                 "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "imagePaths": ["car.png"],
                 "centered": false,
                 "text": [
                     "Документы находятся в %s%обломках пола, откуда бьют жарки%es%.",

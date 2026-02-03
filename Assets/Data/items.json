@@ -8,7 +8,7 @@
             "В разделах гида мы постарались разбить предметы на категории и подписать их значимость."
         ],
         "centered": false,
-        "imagePath": "items.png",
+        "imagePaths": ["items.png"],
         "descriptions": null
     },
     {
@@ -24,7 +24,7 @@
             "- "
         ],
         "centered": false,
-        "imagePath": "items.png",
+        "imagePaths": ["items.png"],
         "descriptions": null
     },
     {
@@ -34,7 +34,7 @@
             "Хлеб, Колбаса, Консервы, Пиво \"Балтика\", Энергетики, Фляга воды - смело продаём."
         ],
         "centered": false,
-        "imagePath": "items.png",
+        "imagePaths": ["items.png"],
         "descriptions": null
     }
 ]

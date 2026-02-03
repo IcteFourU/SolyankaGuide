@@ -4,13 +4,13 @@
         "header": "",
         "text": null,
         "centered": false,
-        "imagePath": "",
+        "imagePaths": null,
         "descriptions": [
             {
                 "name": "Бармен",
                 "header": "Сейф Бармена",
-                "gridImagePath": "icon0.png",
-                "imagePath": "house.png", 
+                "gridImagePath": "barmen.png",
+                "imagePaths": ["barmen.png"], 
                 "centered": false,
                 "text": [
                     "Выдаёт задание \"Подрезать заказ\".",
@@ -22,7 +22,7 @@
                 "name": "Клюв",
                 "header": "Ружьё Клюва",
                 "gridImagePath": "icon0.png",
-                "imagePath": "house.png", 
+                "imagePaths": ["house.png"], 
                 "centered": false,
                 "text": [
                     "Выдаёт задание \"Фамильное ружьё\" на доставку ружья из Лощины.",
@@ -33,7 +33,7 @@
                 "name": "Бром",
                 "header": "Кейс Брома",
                 "gridImagePath": "icon0.png",
-                "imagePath": "house.png", 
+                "imagePaths": ["house.png"], 
                 "centered": false,
                 "text": [
                     "Выдаёт задание \"Сейф в лощине\" на доставку кейса.",
@@ -44,7 +44,7 @@
                 "name": "Осведомитель",
                 "header": "Осведомитель",
                 "gridImagePath": "icon0.png",
-                "imagePath": "house.png", 
+                "imagePaths": ["house.png"], 
                 "centered": false,
                 "text": [
                     "Выдаёт задание \"Тестовый рецепт\" на проверку рецепта варки артефакта.",
@@ -55,7 +55,7 @@
                 "name": "Доцент",
                 "header": "Детекторы Доцента",
                 "gridImagePath": "icon0.png",
-                "imagePath": "house.png", 
+                "imagePaths": ["house.png"], 
                 "centered": false,
                 "text": [
                     "Улучшает ПДА Меченого, добавляя детекторы кровососов, контролёров и псевдогигантов.",
@@ -68,8 +68,8 @@
             {
                 "name": "Арни",
                 "header": "Пистолеты Арни",
-                "gridImagePath": "icon0.png",
-                "imagePath": "house.png", 
+                "gridImagePath": "arni.png",
+                "imagePaths": ["arni.png"], 
                 "centered": false,
                 "text": [
                     "После победы во всех боях на Арене помимо солидной суммы можно получить у Арни задание \"Тест пистолетов\".",
@@ -82,7 +82,7 @@
                 "name": "Пличко",
                 "header": "Сержант Пличко",
                 "gridImagePath": "icon0.png",
-                "imagePath": "house.png", 
+                "imagePaths": ["house.png"], 
                 "centered": false,
                 "text": [
                     "Выдаёт задание \"Необычный изумруд\" на поиск артефакта в Пещере.",

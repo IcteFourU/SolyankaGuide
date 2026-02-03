@@ -14,39 +14,36 @@ namespace SolyankaGuide
         {
             InitializeComponent();
             GuideControl.ShowGrid += ShowGrid;
-            Descriptions.SizeChanged += (s, e) => RecalculateCellsSize();
-        }
-
-        private void RecalculateCellsSize()
-        {
-            double totalWidth = Descriptions.ActualWidth;
-            double itemWitdh = (totalWidth - 20) / 3;
-            var descs = Descriptions.Children.OfType<GriddedDescription>().ToArray();
-            for (int i = 0; i < descs.Length; i++)
-            {
-                GriddedDescription gd = descs[i];
-                gd.Width = itemWitdh;
-                gd.Height = itemWitdh / 16 * 14;
-                gd.Margin = new Thickness(0, 0, ((i + 1) % 3 != 0) ? 10 : 0, 0);
-            }
         }
 
         private void ShowGrid(Element element)
         {
             Descriptions.Children.Clear();
-            foreach (Description desc in element.Descriptions!)
+            int len = element.Descriptions!.Length;
+            int lastRowCount = len % 3 == 0 ? 3 : len % 3;
+            int firstIndexOfLastRow = len - lastRowCount;
+            for (int i = 0; i < len; i++)
             {
-                Descriptions.Children.Add(BuildSubButtonUI(desc));
+                var desc = element.Descriptions[i];
+                bool isRight = (i % 3) == 2;
+                bool isBottom = i >= firstIndexOfLastRow;
+                Descriptions.Children.Add(BuildSubButtonUI(desc, isRight, isBottom));
             }
         }
 
-        private GriddedDescription BuildSubButtonUI(Description desc)
+        private GriddedDescription BuildSubButtonUI(Description desc, bool rightest, bool lowest)
         {
-            GriddedDescription gd = new();
+            GriddedDescription gd = new()
+            {
+                Margin = new Thickness(0, 0, rightest ? 0 : 15, lowest ? 0 : 15),
+            };
             BitmapImage? bmi = ImageLoader.LoadImage(desc.GridImagePath);
-            if (bmi != null) gd.Image.Source = ImageLoader.LoadImage(desc.GridImagePath);
+            if (bmi != null) gd.Image.Source = bmi;
             gd.TileName.Text = desc.Name;
-            gd.MouseDown += (s, e) => OpenDescription(desc);
+            gd.MouseDown += (s, e) =>
+            {
+                OpenDescription(desc);
+            };
             return gd;
         }
 

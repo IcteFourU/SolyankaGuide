@@ -4,13 +4,13 @@
         "header": "",
         "text": null,
         "centered": false,
-        "imagePath": "",
+        "imagePaths": null,
         "descriptions": [
             {
                 "name": "Пуля",
                 "header": "Пуля",
                 "gridImagePath": "icon0.png",
-                "imagePath": "house.png", 
+                "imagePaths": ["house.png"], 
                 "centered": false,
                 "text": [
                     "Выдаёт задание \"Пленники под прицелом\" на спасение товарищей в тюрьме Тёмной Долины.",
@@ -24,7 +24,7 @@
                 "name": "Макс Любер",
                 "header": "Задания Макса Любера",
                 "gridImagePath": "icon0.png",
-                "imagePath": "house.png", 
+                "imagePaths": ["house.png"], 
                 "centered": false,
                 "text": [
                     "После спасения просит принести ему ПДА из подземки Агропрома.",

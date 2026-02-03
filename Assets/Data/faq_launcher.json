@@ -8,19 +8,19 @@
             "%l=https://discord.com/channels/760456028700803092/1001390477649657896/1455848004220227654%Discord%el%"
         ],
         "centered": true,
-	    "imagePath": "install.png",
+        "imagePaths": ["install.png"],
         "descriptions": null
     },
 	{
         "name": "Сведения о текущей версии",
         "header": "Народная солянка OGSR от 31.12.2025",
 	    "text": [
-            "Патч от 29.01.2026",
+            "Патч от 02.02.2026",
             "Новая игра обязательна!",
             "NS.OGSR Team"
         ],
 	    "centered": true,
-        "imagePath": "current.png",
+        "imagePaths": ["current.png"],
         "descriptions": null
     },
     {
@@ -32,7 +32,7 @@
             "Если играете в моды и удивляетесь жалобам антивируса, качайте игры со стима и играйте на здоровье :)"
 	    ],
         "centered": false,
-        "imagePath": "virustotal.png",
+        "imagePaths": ["virustotal.png"],
         "descriptions": null
     }
 ]

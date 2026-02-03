@@ -20,16 +20,14 @@
             <RowDefinition Height="35"/>
             <RowDefinition Height="1"/>
             <RowDefinition Height="40"/>
-            <RowDefinition Height="1"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Image x:Name="BGImage" Grid.RowSpan="5" Stretch="UniformToFill"/>
         <Border Grid.Row="1" Background="#33FFFFFF"/>
         <local:CatergoriesControl Grid.Row="2"/>
-        <Border Grid.Row="3" Background="#33FFFFFF"/>
-        <local:GuideControl Grid.Row="4"/>
-        <Image x:Name="OverrideImage" Grid.RowSpan="5" Stretch="UniformToFill"/>
-        <Grid x:Name="UpdateGrid" Background="Transparent" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.RowSpan="5" Visibility="Hidden" Width="350">
+        <local:GuideControl Grid.Row="3"/>
+        <Image x:Name="OverrideImage" Grid.RowSpan="4" Stretch="UniformToFill"/>
+        <Grid x:Name="UpdateGrid" Background="Transparent" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.RowSpan="4" Visibility="Hidden" Width="350">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="15"/>

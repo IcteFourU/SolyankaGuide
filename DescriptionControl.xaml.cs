@@ -21,7 +21,7 @@ namespace SolyankaGuide
 
         private void ShowDescription(Element element)
         {
-            BitmapImage? bitmap = ImageLoader.LoadImage(element.ImagePath);
+            BitmapImage? bitmap = ImageLoader.LoadImage(element.ImagePaths[0]);
             if (bitmap != null)
             {
                 DescImage.Source = bitmap;
@@ -45,13 +45,23 @@ namespace SolyankaGuide
 
         private void ShowDescription(Description desc)
         {
-            BitmapImage? bitmap = ImageLoader.LoadImage(desc.ImagePath);
-            if (bitmap != null)
+            if (desc.ImagePaths == null || desc.ImagePaths.Length == 1)
             {
-                DescImage.Source = bitmap;
-                DescImage.Width = bitmap.PixelWidth;
-                DescImage.Height = bitmap.PixelHeight;
-                DescImage.Stretch = Stretch.Uniform;
+                BitmapImage? bitmap = ImageLoader.LoadImage(desc.ImagePaths == null? "" : desc.ImagePaths[0]);
+                if (desc.ImagePaths == null)
+                {
+                    bitmap = ImageLoader.LoadImage("");
+                } else
+                {
+                    bitmap = ImageLoader.LoadImage(desc.ImagePaths[0]);
+                }
+                if (bitmap != null)
+                {
+                    DescImage.Source = bitmap;
+                    DescImage.Width = bitmap.PixelWidth;
+                    DescImage.Height = bitmap.PixelHeight;
+                    DescImage.Stretch = Stretch.Uniform;
+                }
             }
             DescHeader.Text = desc.Header;
             var textBlock = TextGen.GetText(desc.Text!, desc.Centered, DescScrollView.ActualWidth);

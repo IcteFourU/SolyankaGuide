@@ -7,7 +7,7 @@
             "Все потребности Меченого со степенью удовлетворения, а также отметка о безопасности убежища при выбросе, отображены на интерфейсе."
         ],
 	    "centered": false,
-        "imagePath": "needs.png",
+        "imagePaths": ["needs.png"],
         "descriptions": null
     },
     {
@@ -19,7 +19,7 @@
             "Если переполнен рюкзак, помимо отсутствия бега добавляется невозможность взять в руки оружие."
         ],
 	    "centered": false,
-        "imagePath": "volume.png",
+        "imagePaths": ["volume.png"],
         "descriptions": null
     },
     {
@@ -27,13 +27,13 @@
         "header": "",
         "text": null,
 	    "centered": false,
-        "imagePath": "",
+        "imagePaths": null,
         "descriptions": [
             {
                 "name": "Экскурс",
                 "header": "Экскурс",
                 "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "imagePaths": ["car.png"],
                 "centered": false,
                 "text": [
                     "В разных частях Зоны теперь разбросаны автомобили.",
@@ -45,7 +45,7 @@
                 "name": "Управление",
                 "header": "Управление",
                 "gridImagePath": "icon0.png",
-                "imagePath": "car.png",
+                "imagePaths": [ "car.png" ],
                 "centered": false,
                 "text": [
                     "Для того, чтобы пользоваться автомобилем, нужно открыть водительскую дверь и нажать F на сиденье.",
@@ -60,7 +60,7 @@
                 "name": "Багажник",
                 "header": "Багажник",
                 "gridImagePath": "icon0.png",
-                "imagePath": "storage.png",
+                "imagePaths": ["storage.png"],
                 "centered": false,
                 "text": [
                     "Каждая машина имеет багажник. Багажник, в свою очередь, имеет объём, поэтому загрузить туда весь ящик Меченого не выйдет.",
@@ -80,7 +80,7 @@
             "Часть награды можно получить деньгами, а часть - предметами."
         ],
 	    "centered": false,
-        "imagePath": "cycle.png",
+        "imagePaths": ["cycle.png"],
         "descriptions": null
     },
     {
@@ -106,7 +106,7 @@
             "Юпитер(Янов)"
         ],
 	    "centered": true,
-        "imagePath": "travel.png",
+        "imagePaths": ["travel.png"],
         "descriptions": null
     },
     {
@@ -124,7 +124,7 @@
             "Восточная Припять - Гектор(В прачечной)"
         ],
 	    "centered": true,
-        "imagePath": "upgrades.png",
+        "imagePaths": [ "upgrades.png" ],
         "descriptions": null
     },
     {
@@ -136,7 +136,7 @@
             "Советуем хотя бы попробовать, ибо система в игре не такая, как в других модах с магазинами - более упрощенная и удобная."
         ],
 	    "centered": false,
-        "imagePath": "mags.png",
+        "imagePaths": ["mags.png"],
         "descriptions": null
     },
     {
@@ -146,7 +146,7 @@
             "Анимации действий теперь тоже неотключаемые, но в будущем, возможно, вернётся переключатель."
         ],
 	    "centered": false,
-        "imagePath": "troll.png",
+        "imagePaths": ["troll.png"],
         "descriptions": null
     }
 ]

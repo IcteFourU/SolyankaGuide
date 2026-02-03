@@ -77,6 +77,7 @@
                         </LinearGradientBrush>
                     </Rectangle.Fill>
                 </Rectangle>
+                <Border HorizontalAlignment="Stretch" Height="1" VerticalAlignment="Top" Background="#33FFFFFF"/>
             </Grid>
         </Border>
         <local:DescriptionControl x:Name="DescControl" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Top" Visibility="Hidden"/>
