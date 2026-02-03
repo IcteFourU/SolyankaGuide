@@ -59,31 +59,31 @@
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Data\faq_launcher.json">
-		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Data\faq_community.json">
-		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Data\mech.json">
-		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Data\items.json">
-		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Data\q_yantar.json">
-		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Data\q_dolina.json">
-		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Data\q_agro.json">
-		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Data\q_bar.json">
-		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Data\q_svalka.json">
-		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\actual.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -95,10 +95,10 @@
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\ogsr.png">
-		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\ogsr2026.jpg">
-		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\gidfix.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -111,13 +111,13 @@
 		  <CopyToOutputDirectory></CopyToOutputDirectory>
 		</Resource>
 		<Content Include="Assets\Data\q_kordon.json">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Data\faq_game.json">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Data\categories.json">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 	</ItemGroup>
 

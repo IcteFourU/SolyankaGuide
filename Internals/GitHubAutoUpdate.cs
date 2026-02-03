@@ -92,7 +92,7 @@ namespace SolyankaGuide.Internals
             string url = $"https://raw.githubusercontent.com/{owner}/{repo}/main/{path}";
             using HttpClient client = new()
             {
-                Timeout = TimeSpan.FromSeconds(5)
+                Timeout = TimeSpan.FromSeconds(10)
             };
             client.DefaultRequestHeaders.UserAgent.ParseAdd("SolyankaGuide");
             try
@@ -115,7 +115,7 @@ namespace SolyankaGuide.Internals
                 var url = $"https://api.github.com/repos/{owner}/{repo}/contents/{path}";
                 using var client = new HttpClient()
                 {
-                    Timeout = TimeSpan.FromSeconds(5)
+                    Timeout = TimeSpan.FromSeconds(10)
                 };
                 client.DefaultRequestHeaders.UserAgent.ParseAdd("SolyankaGuide");
                 var response = await client.GetStringAsync(url);

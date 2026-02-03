@@ -39,6 +39,7 @@ namespace SolyankaGuide
             if (updateStatus == 1)
             {
                 Logger.Log("Startup", "Update installed");
+                MessageBox.Show(Locale.Get("update_installed"), Locale.Get("update"), MessageBoxButton.OK);
                 RefreshUI?.Invoke();
             }
             else if (updateStatus == 0)
