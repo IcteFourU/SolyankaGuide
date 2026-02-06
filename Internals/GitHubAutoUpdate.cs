@@ -19,7 +19,6 @@ namespace SolyankaGuide.Internals
                 MessageBox.Show(Locale.Get("update_time_exceeded"), Locale.Get("update"), MessageBoxButton.OK);
                 return -1;
             }
-            status.Text = Locale.Get("update_texts");
             var localJsons = GetLocalFiles(@"Assets/Data", true);
             if (localJsons == null)
             {
@@ -46,12 +45,12 @@ namespace SolyankaGuide.Internals
             foreach (string localFile in localImages)
             {
                 string path = "Assets/Images/" + localFile;
-                if (!jsonsDict.ContainsKey(localFile))
+                if (!imagesDict.ContainsKey(localFile))
                 {
                     filesToDelete.Add(path);
                     continue;
                 }
-                if (jsonsDict[localFile] != ComputeFileSha1(path)) filesToUpdate[localFile] = path;
+                if (imagesDict[localFile] != ComputeFileSha1(path)) filesToUpdate[localFile] = path;
             }
             foreach(string gitFile in jsonsDict.Keys)
             {
@@ -63,10 +62,12 @@ namespace SolyankaGuide.Internals
                 string path = Path.Combine(@"Assets/Images", gitFile);
                 if (!localImages.Contains(gitFile)) filesToUpdate[gitFile] = path;
             }
-            if (filesToUpdate.Count > 0)
+            if (filesToUpdate.Count > 0 || filesToDelete.Count > 0)
             {
                 status.Text = Locale.Get("update_found_status");
-                Logger.Log("Updater", $"Found new version."); // add detailed description
+                string filesToLoad = filesToUpdate.Count > 0 ? string.Join(" ", filesToUpdate.Keys.ToArray()) : "none";
+                string filesToDel = filesToDelete.Count > 0 ? string.Join(" ", filesToDelete) : "none";
+                Logger.Log("Updater", $"Found new version. Files to load from source: {filesToLoad}. Files to delete: {filesToDel}.");
                 var result = MessageBox.Show(Locale.Get("update_found"), Locale.Get("update"), MessageBoxButton.YesNo); // add detailed description
                 if (result == MessageBoxResult.Yes)
                 {
@@ -85,6 +86,7 @@ namespace SolyankaGuide.Internals
                     }
                     return 1;
                 }
+                Logger.Log("Updater", "Update cancelled.");
                 return -1;
             }
             return 0;
@@ -125,7 +127,7 @@ namespace SolyankaGuide.Internals
         {
             try
             {
-                return Directory.GetFiles(folderPath, "*", SearchOption.AllDirectories).Select(f => f.Replace("\\", "/").Substring(json? "Assets/Data/".Length : "Assets/Images/".Length)).ToList();
+                return Directory.GetFiles(folderPath, "*", SearchOption.AllDirectories).Select(f => f.Replace("\\", "/")[(json ? "Assets/Data/".Length : "Assets/Images/".Length)..]).ToList();
             }
             catch (Exception ex)
             {

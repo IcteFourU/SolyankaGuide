@@ -126,12 +126,6 @@
 		<Content Include="Assets\Custom\categories_custom.json">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Data\faq_launcher.json">
-		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</Content>
-		<Content Include="Assets\Data\faq_community.json">
-		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</Content>
 		<Content Include="Assets\Data\mech.json">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
@@ -182,9 +176,6 @@
 		  <CopyToOutputDirectory></CopyToOutputDirectory>
 		</Resource>
 		<Content Include="Assets\Data\q_kordon.json">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</Content>
-		<Content Include="Assets\Data\faq_game.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Data\categories.json">

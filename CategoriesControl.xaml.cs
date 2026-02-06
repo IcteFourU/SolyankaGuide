@@ -16,7 +16,6 @@ namespace SolyankaGuide
         {
             InitializeComponent();
             MainWindow.RefreshUI += RefreshCategories;
-            RefreshCategories();
         }
 
         private void RefreshCategories()

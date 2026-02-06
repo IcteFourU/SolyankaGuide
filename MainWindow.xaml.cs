@@ -24,8 +24,10 @@ namespace SolyankaGuide
         private void NoUpdate(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
             if (locked) return;
+            Logger.Log("Updater", "Update check cancelled.");
             UpdateGrid.Visibility = Visibility.Hidden;
             OverrideImage.Visibility = Visibility.Hidden;
+            RefreshUI?.Invoke();
         }
 
         private async void Update(object sender, System.Windows.Input.MouseButtonEventArgs e)
@@ -38,9 +40,8 @@ namespace SolyankaGuide
             locked = false;
             if (updateStatus == 1)
             {
-                Logger.Log("Startup", "Update installed");
+                Logger.Log("Updater", "Update installed.");
                 MessageBox.Show(Locale.Get("update_installed"), Locale.Get("update"), MessageBoxButton.OK);
-                RefreshUI?.Invoke();
             }
             else if (updateStatus == 0)
             {
@@ -48,6 +49,7 @@ namespace SolyankaGuide
             }
             UpdateGrid.Visibility = Visibility.Hidden;
             OverrideImage.Visibility = Visibility.Hidden;
+            RefreshUI?.Invoke();
         }
     }
 }
