@@ -18,16 +18,21 @@ namespace SolyankaGuide.Internals
             placeholder.Freeze();
         }
 
-        public static BitmapImage? LoadImage(string? path)
+        public static BitmapImage LoadImage(string? path)
         {
             BitmapImage bitmap = new();
             if (path == null || path.Trim().Length == 0)
             {
                 Logger.Log("ImageLoader", "No photo path provided.");
-                return placeholder;
+                return placeholder.Clone();
             }
             try
             {
+                if (!File.Exists(AppDomain.CurrentDomain.BaseDirectory + $"/Assets/Images/{path}")) 
+                {
+                    Logger.Log("ImageLoader", "No photo on provided path");
+                    return placeholder.Clone();
+                }
                 using FileStream stream = File.OpenRead(AppDomain.CurrentDomain.BaseDirectory + $"/Assets/Images/{path}");
                 bitmap.BeginInit();
                 bitmap.CacheOption = BitmapCacheOption.OnLoad;
@@ -39,8 +44,8 @@ namespace SolyankaGuide.Internals
             catch (Exception ex)
             {
                 Logger.Log("ImageLoader", ex.ToString());
-                MessageBox.Show(Locale.Get("image_fail", path), Locale.Get("image_load"), MessageBoxButton.OK);
-                return placeholder;
+                // MessageBox.Show(Locale.Get("image_fail", path), Locale.Get("image_load"), MessageBoxButton.OK);
+                return placeholder.Clone();
             }
         }
     }

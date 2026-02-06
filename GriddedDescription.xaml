@@ -14,7 +14,7 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <Image x:Name="Image" Grid.Row="0" Source="/Internals/Images/placeholder.png" HorizontalAlignment="Stretch" VerticalAlignment="Top" Stretch="Fill"/>
+            <Image x:Name="Image" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Top" Stretch="Fill"/>
             <TextBlock x:Name="TileName" TextWrapping="Wrap" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" TextAlignment="Center" FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman" FontSize="20" FontWeight="Bold" Foreground="Yellow" Background="#00000000"/>
         </Grid>
     </Border>

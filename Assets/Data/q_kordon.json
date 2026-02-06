@@ -9,7 +9,7 @@
             {
                 "name": "Пробуждение",
                 "header": "Пробуждение",
-                "gridImagePath": "zvezd.png",
+                "gridImagePath": "Characters/zvezd.png",
                 "imagePaths": [ "sidorDoktor.png" ],
                 "centered": false,
                 "text": [
@@ -24,7 +24,7 @@
             {
                 "name": "Вспоминаем зону",
                 "header": "Начало сюжета",
-                "gridImagePath": "sidor.png",
+                "gridImagePath": "Characters/sidor.png",
                 "imagePaths": [ "beginning.png "],
                 "centered": false,
                 "text": [
@@ -77,8 +77,8 @@
             {
                 "name": "Толик",
                 "header": "Ветка Толика",
-                "gridImagePath": "icon0.png",
-                "imagePaths": ["car.png"],
+                "gridImagePath": "Characters/tolik.png",
+                "imagePaths": ["Characters/tolik.png"],
                 "centered": false,
                 "text": [
                     "Начинается как обычно - спасением Толика.",
@@ -91,8 +91,8 @@
             {
                 "name": "Петруха",
                 "header": "ТОЗ Петрухе",
-                "gridImagePath": "petruha.png",
-                "imagePaths": ["petruha.png"], 
+                "gridImagePath": "Characters/petruha.png",
+                "imagePaths": ["Characters/petruha.png"], 
                 "centered": false,
                 "text": [
                     "После штурма КСП и спасения Шустрого Петруха просит притащить ему ружьё ТОЗ.",
@@ -104,8 +104,8 @@
             {
                 "name": "Шустрый",
                 "header": "Ветка Шустрого",
-                "gridImagePath": "icon0.png",
-                "imagePaths": [ "house.png" ], 
+                "gridImagePath": "Characters/swift.png",
+                "imagePaths": [ "Characters/swift.png" ], 
                 "centered": false,
                 "text": [
                     "После спасения Шустрый попросит Меченого принести ему артефакт \"Медуза\".",
@@ -118,8 +118,8 @@
             {
                 "name": "Волк",
                 "header": "Квесты Волка",
-                "gridImagePath": "icon0.png",
-                "imagePaths": ["house.png"], 
+                "gridImagePath": "Characters/volk.png",
+                "imagePaths": ["Characters/volk.png"], 
                 "centered": false,
                 "text": [
                     "После спасения Шустрого у волка появятся квесты \"Потерянный документ\" на поиск документа в тоннеле с электрами.",
@@ -131,8 +131,8 @@
             {
                 "name": "Сидорович",
                 "header": "Ветка Сидоровича",
-                "gridImagePath": "sidor.png",
-                "imagePaths": ["sidor.png"],
+                "gridImagePath": "Characters/sidor.png",
+                "imagePaths": ["Characters/sidor.png"],
                 "centered": false,
                 "text": [
                     "Первый доступный квест - \"Ночная звезда\" на поиск одноимённого артефакта.",
@@ -141,14 +141,14 @@
                     "Также, если в диалоге выбрать опцию на дополнительную награду%s%(с тратой 1000 рублей), получаем ещё наводку на тайник с таким же ящиком%es%.",
                     "После обнаружения забарикадированного дома у Сидоровича появляется новый квест \"Похмельный синдром\" на снятие похмелья с механика Андрея.",
                     "Тащим с элеветора лекарство и приносим Механику.",
-                    "После зачистки X-18 выдаёт оригинальный квест на ящик с блокпоста, в награду получаем переход с Радара на Янтарь."
+                    "После зачистки X-18 выдаёт оригинальный квест на ящик с блокпоста, в награду получаем %s%переход Радар-Янтарь%es%."
                 ]
             },
             {
                 "name": "Кузнецов",
                 "header": "Ветка Кузнецова",
-                "gridImagePath": "kuznecov.png",
-                "imagePaths": ["kuznecov.png"],
+                "gridImagePath": "Characters/kuznecov.png",
+                "imagePaths": ["Characters/kuznecov.png"],
                 "centered": false,
                 "text": [
                     "Выдаёт квест \"Режущий инструмент\" на поиск двух артов.",
@@ -163,8 +163,8 @@
             {
                 "name": "Лис",
                 "header": "Квесты Лиса",
-                "gridImagePath": "lis.png",
-                "imagePaths": ["lis.png"],
+                "gridImagePath": "Characters/lis.png",
+                "imagePaths": ["Characters/lis.png"],
                 "centered": false,
                 "text": [
                     "После спасения даёт квесты \"Челночная деятельность\" на доставку посылки со Свалки и \"Медицинская поддержка\" на сбор 10 аптечек.",
@@ -177,9 +177,9 @@
             },
             {
                 "name": "Андрей Механик",
-                "header": "Квесты Лиса",
-                "gridImagePath": "icon0.png",
-                "imagePaths": ["car.png"],
+                "header": "Андрей Механик",
+                "gridImagePath": "Characters/andrey.png",
+                "imagePaths": ["Characters/andrey.png"],
                 "centered": false,
                 "text": [
                     "После прихода в себя выдаёт задание \"Паяльник против ржавчины\" на поиск материалов.",
@@ -190,9 +190,9 @@
             },
             {
                 "name": "Неумеха",
-                "header": "Квесты Лиса",
-                "gridImagePath": "icon0.png",
-                "imagePaths": ["car.png"],
+                "header": "Неумеха",
+                "gridImagePath": "Characters/neumeha.png",
+                "imagePaths": ["Characters/neumeha.png"],
                 "centered": false,
                 "text": [
                     "При втором посещении Кордона на КПП появляется курьер Акима - Неумеха.",
@@ -203,8 +203,8 @@
             {
                 "name": "Фанат",
                 "header": "Фанат",
-                "gridImagePath": "icon0.png",
-                "imagePaths": ["car.png"],
+                "gridImagePath": "Characters/fanat.png",
+                "imagePaths": ["Characters/fanat.png"],
                 "centered": false,
                 "text": [
                     "После ухода Волка на кордон приходит Фанат.",
@@ -219,8 +219,8 @@
             {
                 "name": "Проводник",
                 "header": "Проводник",
-                "gridImagePath": "icon0.png",
-                "imagePaths": ["car.png"],
+                "gridImagePath": "Characters/provodnik.png",
+                "imagePaths": ["Characters/provodnik.png"],
                 "centered": false,
                 "text": [
                     "При первой встрече опционально выдаёт задание \"Грозовые облака\" на доставку автомата ОЦ-14.",
@@ -239,8 +239,8 @@
             {
                 "name": "Введение",
                 "header": "Что за Костя?",
-                "gridImagePath": "icon0.png",
-                "imagePaths": ["car.png"],
+                "gridImagePath": "Characters/kostya.png",
+                "imagePaths": ["Characters/kostya.png"],
                 "centered": false,
                 "text": [
                     "После спасения Шустрого в деревню приходит Костя. Ему нужна помощь с поиском ПДА в тайниках.",
@@ -328,8 +328,8 @@
             {
                 "name": "Введение",
                 "header": "Что за Десантник?",
-                "gridImagePath": "desantnik.png",
-                "imagePaths": ["desantnik.png"],
+                "gridImagePath": "Characters/desantnik.png",
+                "imagePaths": ["Characters/desantnik.png"],
                 "centered": false,
                 "text": [
                     "При первом посещении дома, где лежит раненый Лис, находим рядом Серёгу Десантника.",
@@ -340,8 +340,8 @@
             {
                 "name": "Пункт пропуска",
                 "header": "КПП",
-                "gridImagePath": "desantnik.png",
-                "imagePaths": ["desantnik.png"], 
+                "gridImagePath": "Characters/desantnik.png",
+                "imagePaths": ["Characters/desantnik.png"], 
                 "centered": false,
                 "text": [
                     "Получаем от Десантника задание и \"Пси-блокаду\".",
@@ -360,8 +360,8 @@
             {
                 "name": "Знакомство",
                 "header": "Аким",
-                "gridImagePath": "akim.png",
-                "imagePaths": ["akim.png"],
+                "gridImagePath": "Characters/akim.png",
+                "imagePaths": ["Characters/akim.png"],
                 "centered": false,
                 "text": [
                     "При втором посещении Кордона на КПП появляется торговец Аким.",
@@ -418,8 +418,8 @@
             {
                 "name": "Прапор",
                 "header": "Пда у Прапора",
-                "gridImagePath": "icon0.png",
-                "imagePaths": ["car.png"],
+                "gridImagePath": "Characters/prapor.png",
+                "imagePaths": ["Characters/prapor.png"],
                 "centered": false,
                 "text": [
                     "После выполнения нескольких заданий Прапора Меченому становится доступен сюжетный диалог по зашифрованному ПДА.",

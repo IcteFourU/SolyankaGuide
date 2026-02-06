@@ -14,6 +14,9 @@
 		<None Remove="Assets\Custom\Data\faq_game.json" />
 		<None Remove="Assets\Custom\Data\faq_launcher.json" />
 		<None Remove="Assets\Data\categories.json" />
+		<None Remove="Assets\Data\faq_community.json" />
+		<None Remove="Assets\Data\faq_game.json" />
+		<None Remove="Assets\Data\faq_launcher.json" />
 		<None Remove="Assets\Images\actual.png" />
 		<None Remove="Assets\Images\background.jpg" />
 		<None Remove="Assets\Images\beginning.png" />
@@ -67,6 +70,15 @@
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Custom\Data\faq_launcher.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Data\faq_community.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Data\faq_game.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Data\faq_launcher.json">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Data\q_krest.json">

@@ -37,8 +37,8 @@ namespace SolyankaGuide
             {
                 Margin = new Thickness(0, 0, rightest ? 0 : 15, lowest ? 0 : 15),
             };
-            BitmapImage? bmi = ImageLoader.LoadImage(desc.GridImagePath);
-            if (bmi != null) gd.Image.Source = bmi;
+            BitmapImage bmi = ImageLoader.LoadImage(desc.GridImagePath);
+            gd.Image.Source = bmi;
             gd.TileName.Text = desc.Name;
             gd.MouseDown += (s, e) =>
             {

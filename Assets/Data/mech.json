@@ -32,7 +32,7 @@
             {
                 "name": "Экскурс",
                 "header": "Экскурс",
-                "gridImagePath": "icon0.png",
+                "gridImagePath": "car.png",
                 "imagePaths": ["car.png"],
                 "centered": false,
                 "text": [
@@ -44,8 +44,8 @@
             {
                 "name": "Управление",
                 "header": "Управление",
-                "gridImagePath": "icon0.png",
-                "imagePaths": [ "car.png" ],
+                "gridImagePath": "kon.png",
+                "imagePaths": [ "kon.png" ],
                 "centered": false,
                 "text": [
                     "Для того, чтобы пользоваться автомобилем, нужно открыть водительскую дверь и нажать F на сиденье.",
@@ -59,7 +59,7 @@
             {
                 "name": "Багажник",
                 "header": "Багажник",
-                "gridImagePath": "icon0.png",
+                "gridImagePath": "storage.png",
                 "imagePaths": ["storage.png"],
                 "centered": false,
                 "text": [

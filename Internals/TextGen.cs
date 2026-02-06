@@ -4,6 +4,7 @@ using System.Windows.Controls;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Imaging;
 
 namespace SolyankaGuide.Internals
 {
@@ -23,7 +24,20 @@ namespace SolyankaGuide.Internals
                 FontSize = 24,
                 TextWrapping = TextWrapping.Wrap,
                 TextAlignment = centered ? TextAlignment.Center : TextAlignment.Left,
-                Focusable = false
+                Focusable = false,
+                Margin = new Thickness(0, 5, 0, 0)
+            };
+            tb.SizeChanged += (s, e) =>
+            {
+                foreach (var inline in tb.Inlines)
+                {
+                    if (inline == null) continue;
+                    if (inline is not InlineUIContainer ic) continue;
+                    if (ic.Child is not Grid g) continue;
+                    if (g.Children.Count == 0 || g.Children[0] is not Image img) continue;
+                    g.Width = tb.Width;
+                    img.Width = tb.ActualWidth / 3;
+                }
             };
             string[] lines = text;
             for (int i = 0; i < lines.Length; i++)
@@ -32,7 +46,12 @@ namespace SolyankaGuide.Internals
                 var line = lines[i];
                 bool hasHyper = Hyperlink(line, out string output, out string link, out string words);
                 bool hasSpoiler = Spoiler(line, out string spoilerOutput, out string spoilerWords);
-                if (hasHyper)
+                bool isImage = ImageInline(line, out InlineUIContainer? container);
+                if (isImage)
+                {
+                    tb.Inlines.Add(container);
+                }
+                else if (hasHyper)
                 {
                     int markerIndex = output.IndexOf(words);
                     string before = output[..markerIndex];
@@ -103,6 +122,32 @@ namespace SolyankaGuide.Internals
             }
             return tb;
 
+        }
+
+        private static bool ImageInline(string input, out InlineUIContainer? output)
+        {
+            string pattern = @"%img%(.*?)%eimg%";
+            Regex regex = new(pattern);
+            Match match = regex.Match(input);
+            if (match.Success)
+            {
+                string firstGroup = match.Groups[1].Value;
+                output = new InlineUIContainer(new Grid
+                {
+                    HorizontalAlignment = HorizontalAlignment.Stretch,
+                    Children =
+                    {
+                        new Image {
+                            Margin = new Thickness(0, 5, 0, 5),
+                            Source = ImageLoader.LoadImage(firstGroup),
+                            HorizontalAlignment = HorizontalAlignment.Center
+                        }
+                    }
+                });
+                return true;
+            }
+            output = null;
+            return false;
         }
 
         private static bool Spoiler(string input, out string output, out string wordsToReplace)
