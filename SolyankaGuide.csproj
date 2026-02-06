@@ -60,52 +60,52 @@
 		<Content Include="Assets\Data\q_krest.json">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\akim.png">
+		<Content Include="Assets\Images\Characters\akim.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\arni.png">
+		<Content Include="Assets\Images\Characters\arni.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\barmen.png">
+		<Content Include="Assets\Images\Characters\barmen.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\bes.png">
+		<Content Include="Assets\Images\Characters\bes.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\brodyaga.png">
+		<Content Include="Assets\Images\Characters\brodyaga.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\desantnik.png">
+		<Content Include="Assets\Images\Characters\desantnik.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\kuznecov.png">
+		<Content Include="Assets\Images\Characters\kuznecov.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\k_agro_yellow.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\lis.png">
+		<Content Include="Assets\Images\Characters\lis.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\petruha.png">
+		<Content Include="Assets\Images\Characters\petruha.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\prapor.png">
+		<Content Include="Assets\Images\Characters\prapor.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\saharov.png">
+		<Content Include="Assets\Images\Characters\saharov.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\seriy.png">
+		<Content Include="Assets\Images\Characters\seriy.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\dok.png">
+		<Content Include="Assets\Images\Characters\dok.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\skatdoc1.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\zvezd.png">
+		<Content Include="Assets\Images\Characters\zvezd.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\locale.json">
@@ -159,7 +159,7 @@
 		<Content Include="Assets\Images\gidfix.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\sidor.png">
+		<Content Include="Assets\Images\Characters\sidor.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Resource Include="Internals\Images\btn.png" />
@@ -287,6 +287,5 @@
 
 	<ItemGroup>
 	  <Folder Include="Assets\Custom\Data\" />
-	  <Folder Include="Assets\Data\Новая папка\" />
 	</ItemGroup>
 </Project>
