@@ -27,6 +27,7 @@
 		<None Remove="Assets\Images\install.png" />
 		<None Remove="Assets\Images\items.png" />
 		<None Remove="Assets\Images\kon.png" />
+		<None Remove="Assets\Images\k_agro_yellow.png" />
 		<None Remove="Assets\Images\mags.png" />
 		<None Remove="Assets\Images\needs.png" />
 		<None Remove="Assets\Images\ogsr.png" />
@@ -37,6 +38,7 @@
 		<None Remove="Assets\Images\settings.png" />
 		<None Remove="Assets\Images\sidor.png" />
 		<None Remove="Assets\Images\sidorDoktor.png" />
+		<None Remove="Assets\Images\skatdoc1.png" />
 		<None Remove="Assets\Images\starting.png" />
 		<None Remove="Assets\Images\storage.png" />
 		<None Remove="Assets\Images\story.png" />
@@ -55,6 +57,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<Content Include="Assets\Data\q_krest.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
 		<Content Include="Assets\Images\akim.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
@@ -76,6 +81,9 @@
 		<Content Include="Assets\Images\kuznecov.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
+		<Content Include="Assets\Images\k_agro_yellow.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
 		<Content Include="Assets\Images\lis.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
@@ -94,13 +102,16 @@
 		<Content Include="Assets\Images\dok.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
+		<Content Include="Assets\Images\skatdoc1.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
 		<Content Include="Assets\Images\zvezd.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\locale.json">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\categories_custom.json">
+		<Content Include="Assets\Custom\categories_custom.json">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Data\faq_launcher.json">
@@ -272,5 +283,10 @@
 		  <CopyToOutputDirectory></CopyToOutputDirectory>
 		</Resource>
 		<Resource Include="Internals\Images\vk.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Assets\Custom\Data\" />
+	  <Folder Include="Assets\Data\Новая папка\" />
 	</ItemGroup>
 </Project>
