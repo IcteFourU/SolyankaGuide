@@ -81,6 +81,9 @@
 		<Content Include="Assets\Data\faq_launcher.json">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
+		<Content Include="Assets\Data\q_atp.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
 		<Content Include="Assets\Data\q_krest.json">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>

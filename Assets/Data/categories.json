@@ -17,7 +17,9 @@
 			"q_agro.json",
 			"q_bar.json",
 			"q_dolina.json",
-			"q_yantar.json"
+			"q_yantar.json",
+			"q_krest.json",
+			"q_atp.json"
 		]
 	},
 	{
