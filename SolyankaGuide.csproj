@@ -27,6 +27,8 @@
 		<None Remove="Assets\Images\cycle.png" />
 		<None Remove="Assets\Images\discord.png" />
 		<None Remove="Assets\Images\dok.png" />
+		<None Remove="Assets\Images\flyaga.png" />
+		<None Remove="Assets\Images\gpistol.png" />
 		<None Remove="Assets\Images\help.jpg" />
 		<None Remove="Assets\Images\house.png" />
 		<None Remove="Assets\Images\ideas.png" />
@@ -106,6 +108,12 @@
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\Characters\kuznecov.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\flyaga.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\gpistol.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\k_agro_yellow.png">

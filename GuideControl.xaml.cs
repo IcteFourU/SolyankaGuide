@@ -1,5 +1,4 @@
 ﻿using SolyankaGuide.Internals;
-using System.Security.Policy;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
@@ -56,6 +55,11 @@ namespace SolyankaGuide
                 {
                     Logger.Log("Guide", $"Hyperlink was directing to non-existing description of element {element.Name} in list {list.Name} in category {category}");
                     MessageBox.Show(Locale.Get("element_description_not_found"), Locale.Get("guide"), MessageBoxButton.OK);
+                    return;
+                }
+                if (descriptionIndex == -1)
+                {
+                    OpenElementWithHyper?.Invoke(cat, element, null);
                     return;
                 }
                 Description desc = element.Descriptions[descriptionIndex];
@@ -128,9 +132,17 @@ namespace SolyankaGuide
             }
             if (description == null)
             {
-                ShowElement?.Invoke(element);
-                DescControl.Visibility = Visibility.Visible;
-                DescGridControl.Visibility = Visibility.Hidden;
+                if (target!.Descriptions == null || target.Descriptions.Length == 0)
+                {
+                    ShowElement?.Invoke(target);
+                    DescControl.Visibility = Visibility.Visible;
+                    DescGridControl.Visibility = Visibility.Hidden;
+                } else
+                {
+                    ShowGrid?.Invoke(target);
+                    DescControl.Visibility = Visibility.Hidden;
+                    DescGridControl.Visibility = Visibility.Visible;
+                }
             }
             else
             {
