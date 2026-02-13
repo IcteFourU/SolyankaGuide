@@ -17,8 +17,23 @@
                    Width="{Binding ActualWidth, RelativeSource={RelativeSource AncestorType=Grid}, Converter={StaticResource HalfConverter}}"/>
             <TextBlock x:Name="DescHeader" Grid.Row="1" HorizontalAlignment="Stretch" Foreground="Yellow" FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman" FontSize="24" TextWrapping="Wrap" TextAlignment="Center" FontWeight="Bold"/>
             <ScrollViewer x:Name="DescScrollView" Grid.Row="2" FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman" VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Hidden" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Stretch"/>
-            <Button x:Name="BackButton" Height="75" Width="75" HorizontalAlignment="Right" VerticalAlignment="Top" Background="Transparent" Click="BackButton_Click" BorderThickness="0" Foreground="Transparent">
-                <Image Source="/Internals/Images/arrow.png" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill" IsMouseDirectlyOverChanged="Image_IsMouseDirectlyOverChanged"/>
+            <Button x:Name="BackButton" Width="40" Height="40" Click="BackButton_Click" HorizontalAlignment="Right" VerticalAlignment="Top" BorderThickness="0" FocusVisualStyle="{x:Null}">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Rectangle x:Name="Arrow" Fill="White">
+                            <Rectangle.OpacityMask>
+                                <ImageBrush ImageSource="/Internals/Images/arrow.png"
+                                Stretch="Fill"/>
+                            </Rectangle.OpacityMask>
+                        </Rectangle>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Arrow" Property="Fill" Value="Yellow"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Button.Template>
             </Button>
         </Grid>
     </Border>

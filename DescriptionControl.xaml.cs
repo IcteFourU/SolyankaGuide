@@ -56,12 +56,5 @@ namespace SolyankaGuide
             Visibility = Visibility.Hidden;
             ShowGrid?.Invoke();
         }
-
-        private void Image_IsMouseDirectlyOverChanged(object sender, DependencyPropertyChangedEventArgs e)
-        {
-            bool over = (bool)e.NewValue;
-            ((Image)sender).OpacityMask = over? Brushes.Yellow : Brushes.White;
-
-        }
     }
 }
