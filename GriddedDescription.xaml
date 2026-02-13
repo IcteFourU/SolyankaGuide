@@ -8,14 +8,10 @@
              VerticalAlignment="Top"
              Width="{Binding ActualWidth, RelativeSource={RelativeSource AncestorType=WrapPanel}, Converter={StaticResource ThreeColumnConverter}}"
              Height="{Binding Width, RelativeSource={RelativeSource Self}, Converter={StaticResource AspectRatioConverter}}">
-    <Border Background="#99404040" CornerRadius="5" Padding="10, 10, 10, 5">
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="Auto"/>
-            </Grid.RowDefinitions>
-            <Image x:Name="Image" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Top" Stretch="Fill"/>
-            <TextBlock x:Name="TileName" TextWrapping="Wrap" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" TextAlignment="Center" FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman" FontSize="20" FontWeight="Bold" Foreground="Yellow" Background="#00000000"/>
-        </Grid>
-    </Border>
+    <Grid x:Name="DescGrid">
+        <Image x:Name="Image" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill" SizeChanged="Image_SizeChanged"/>
+        <Border HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Background="#99000000">
+            <TextBlock x:Name="TileName" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" TextAlignment="Center" FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman" FontSize="20" FontWeight="Bold" Foreground="Yellow" Margin="0,0,0,5"/>
+        </Border>
+    </Grid>
 </UserControl>
