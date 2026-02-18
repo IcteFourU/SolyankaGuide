@@ -4,15 +4,16 @@ using System.Windows.Controls;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Imaging;
 
 namespace SolyankaGuide.Internals
 {
-
 
     internal class TextGen
     {
 
         public static event Action<string, string, int, int>? SwitchDescription;
+        public static event Action<BitmapImage>? MaximizeImage;
 
         private static readonly SolidColorBrush spoilerColor = (SolidColorBrush) new BrushConverter().ConvertFromString("#1a1a1a")!;
 
@@ -48,10 +49,19 @@ namespace SolyankaGuide.Internals
                 bool hasHyper = Hyperlink(line, out string hOutput, out string hLink, out string hWords);
                 bool hasSwitchHyper = SwitchHyperlink(line, out string shOutput, out string[] shParts, out string shWords);
                 bool hasSpoiler = Spoiler(line, out string spoilerOutput, out string spoilerWords);
-                bool isImage = ImageInline(line, out InlineUIContainer? container);
+                bool isImage = ImageInline(line, out string iOutput, out string img);
                 if (isImage)
                 {
-                    tb.Inlines.Add(container);
+                    var bmi = ImageLoader.LoadImage(img);
+                    var hyperlink = new Hyperlink(new Run(iOutput))
+                    {
+                        Foreground = Brushes.Aqua,
+                    };
+                    hyperlink.Click += (s, e) =>
+                    {
+                        MaximizeImage?.Invoke(bmi);
+                    };
+                    tb.Inlines.Add(hyperlink);
                 }
                 else if (hasHyper)
                 {
@@ -209,29 +219,19 @@ namespace SolyankaGuide.Internals
             return false;
         }
 
-        private static bool ImageInline(string input, out InlineUIContainer? output)
+        private static bool ImageInline(string input, out string output, out string img)
         {
-            string pattern = @"%img%(.*?)%eimg%";
+            string pattern = @"%img=(.*?)%(.*?)%eimg%";
             Regex regex = new(pattern);
             Match match = regex.Match(input);
             if (match.Success)
             {
-                string firstGroup = match.Groups[1].Value;
-                output = new InlineUIContainer(new Grid
-                {
-                    HorizontalAlignment = HorizontalAlignment.Stretch,
-                    Children =
-                    {
-                        new Image {
-                            Margin = new Thickness(0, 5, 0, 5),
-                            Source = ImageLoader.LoadImage(firstGroup),
-                            HorizontalAlignment = HorizontalAlignment.Center
-                        }
-                    }
-                });
+                img = match.Groups[1].Value;
+                output = input.Replace("%eimg%", "").Replace($"%img={img}%", "");
                 return true;
             }
-            output = null;
+            img = "";
+            output = input;
             return false;
         }
 

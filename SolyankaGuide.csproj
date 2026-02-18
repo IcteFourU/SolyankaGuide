@@ -22,11 +22,26 @@
 		<None Remove="Assets\Images\beginning.png" />
 		<None Remove="Assets\Images\car.png" />
 		<None Remove="Assets\Images\changelog.png" />
+		<None Remove="Assets\Images\Characters\andrey_mech.png" />
+		<None Remove="Assets\Images\Characters\diak.png" />
+		<None Remove="Assets\Images\Characters\fanat.png" />
+		<None Remove="Assets\Images\Characters\kostya.png" />
+		<None Remove="Assets\Images\Characters\neumeha.png" />
+		<None Remove="Assets\Images\Characters\provodnik.png" />
+		<None Remove="Assets\Images\Characters\razboy.png" />
+		<None Remove="Assets\Images\Characters\swift.png" />
+		<None Remove="Assets\Images\Characters\tolik.png" />
+		<None Remove="Assets\Images\Characters\volk.png" />
 		<None Remove="Assets\Images\controls.png" />
 		<None Remove="Assets\Images\current.png" />
 		<None Remove="Assets\Images\cycle.png" />
 		<None Remove="Assets\Images\discord.png" />
 		<None Remove="Assets\Images\dok.png" />
+		<None Remove="Assets\Images\FaQ\carback.png" />
+		<None Remove="Assets\Images\FaQ\patch.png" />
+		<None Remove="Assets\Images\FaQ\patch2.jpg" />
+		<None Remove="Assets\Images\FaQ\patch3.png" />
+		<None Remove="Assets\Images\FaQ\patch4.png" />
 		<None Remove="Assets\Images\flyaga.png" />
 		<None Remove="Assets\Images\gpistol.png" />
 		<None Remove="Assets\Images\help.jpg" />
@@ -34,7 +49,10 @@
 		<None Remove="Assets\Images\ideas.png" />
 		<None Remove="Assets\Images\install.png" />
 		<None Remove="Assets\Images\items.png" />
+		<None Remove="Assets\Images\Items\food.png" />
+		<None Remove="Assets\Images\Items\voron.png" />
 		<None Remove="Assets\Images\kon.png" />
+		<None Remove="Assets\Images\krystal.png" />
 		<None Remove="Assets\Images\k_agro_yellow.png" />
 		<None Remove="Assets\Images\mags.png" />
 		<None Remove="Assets\Images\needs.png" />
@@ -84,6 +102,9 @@
 		<Content Include="Assets\Data\faq_launcher.json">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
+		<Content Include="Assets\Data\q_bolota.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
 		<Content Include="Assets\Data\q_atp.json">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
@@ -91,6 +112,9 @@
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\Characters\akim.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\andrey_mech.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\Characters\arni.png">
@@ -108,13 +132,58 @@
 		<Content Include="Assets\Images\Characters\desantnik.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
+		<Content Include="Assets\Images\Characters\diak.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\fanat.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\kostya.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
 		<Content Include="Assets\Images\Characters\kuznecov.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\neumeha.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\provodnik.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\razboy.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\swift.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\tolik.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\volk.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\FaQ\patch.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\FaQ\patch2.jpg">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\FaQ\patch3.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\FaQ\patch4.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\flyaga.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\gpistol.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Items\food.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Items\voron.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\k_agro_yellow.png">
@@ -171,25 +240,31 @@
 		<Content Include="Assets\Data\q_svalka.json">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\actual.png">
+		<Content Include="Assets\Images\FaQ\actual.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\controls.png">
+		<Content Include="Assets\Images\FaQ\controls.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\kon.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\ogsr.png">
+		<Content Include="Assets\Images\FaQ\ogsr.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\ogsr2026.jpg">
+		<Content Include="Assets\Images\FaQ\ogsr2026.jpg">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\gidfix.png">
+		<Content Include="Assets\Images\FaQ\gidfix.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\Characters\sidor.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\krystal.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Mech\carback.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Resource Include="Internals\Images\arrow.png" />
@@ -217,7 +292,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Content Include="Assets\Images\changelog.png">
+		<Content Include="Assets\Images\FaQ\changelog.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\beginning.png">
@@ -235,73 +310,73 @@
 		<Content Include="Assets\Images\items.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\mags.png">
+		<Content Include="Assets\Images\Mech\mags.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\needs.png">
+		<Content Include="Assets\Images\FaQ\needs.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\pravki.png">
+		<Content Include="Assets\Images\FaQ\pravki.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\sidorDoktor.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\starting.png">
+		<Content Include="Assets\Images\FaQ\starting.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\background.jpg">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\current.png">
+		<Content Include="Assets\Images\FaQ\current.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Resource Include="Internals\Images\discord.png">
 		  <CopyToOutputDirectory></CopyToOutputDirectory>
 		</Resource>
-		<Content Include="Assets\Images\help.jpg">
+		<Content Include="Assets\Images\FaQ\help.jpg">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\icon0.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\ideas.png">
+		<Content Include="Assets\Images\FaQ\ideas.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\install.png">
+		<Content Include="Assets\Images\FaQ\install.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\prolog.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\reqs.jpg">
+		<Content Include="Assets\Images\FaQ\reqs.jpg">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\settings.png">
+		<Content Include="Assets\Images\FaQ\settings.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\storage.png">
+		<Content Include="Assets\Images\Mech\storage.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\story.png">
+		<Content Include="Assets\Images\FaQ\story.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\support.png">
+		<Content Include="Assets\Images\FaQ\support.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\travel.png">
+		<Content Include="Assets\Images\Mech\travel.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\troll.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\upgrades.png">
+		<Content Include="Assets\Images\Mech\upgrades.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\virustotal.png">
+		<Content Include="Assets\Images\FaQ\virustotal.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\volume.png">
+		<Content Include="Assets\Images\FaQ\volume.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\when.png">

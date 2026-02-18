@@ -5,7 +5,7 @@ namespace SolyankaGuide
 {
     public class AspectRatioConverter : IValueConverter
     {
-        private const double Ratio = 200.0 / 255.0;
+        private const double Ratio = 11.0 / 16.0;
 
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {

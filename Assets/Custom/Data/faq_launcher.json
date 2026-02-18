@@ -8,7 +8,7 @@
             "%l=https://discord.com/channels/760456028700803092/1001390477649657896/1455848004220227654%Discord%el%"
         ],
         "centered": true,
-        "imagePath": "install.png",
+        "imagePath": "Faq/install.png",
         "descriptions": null
     },
     {
@@ -20,7 +20,7 @@
             "NS.OGSR Team"
         ],
         "centered": true,
-        "imagePath": "current.png",
+        "imagePath": "Faq/current.png",
         "descriptions": null
     },
     {
@@ -32,7 +32,7 @@
             "Если играете в моды и удивляетесь жалобам антивируса, качайте игры со стима и играйте на здоровье :)"
         ],
         "centered": false,
-        "imagePath": "virustotal.png",
+        "imagePath": "Faq/virustotal.png",
         "descriptions": null
     }
 ]

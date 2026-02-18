@@ -8,7 +8,7 @@
             "Для сна Меченому нужен спальный мешок. Если долго не спать, то рано или поздно Меченый сам свалится с ног."
         ],
         "centered": false,
-        "imagePath": "needs.png",
+        "imagePath": "Faq/needs.png",
         "descriptions": null
     },
     {
@@ -20,7 +20,7 @@
             "Если переполнен рюкзак, помимо отсутствия бега добавляется невозможность взять в руки оружие."
         ],
         "centered": false,
-        "imagePath": "volume.png",
+        "imagePath": "Faq/volume.png",
         "descriptions": null
     },
     {
@@ -60,8 +60,8 @@
             {
                 "name": "Багажник",
                 "header": "Багажник",
-                "gridImagePath": "storage.png",
-                "imagePath": "storage.png",
+                "gridImagePath": "Mech/carback.png",
+                "imagePath": "Mech/storage.png",
                 "centered": false,
                 "text": [
                     "Каждая машина имеет багажник. Багажник, в свою очередь, имеет объём, поэтому загрузить туда весь ящик Меченого не выйдет.",
@@ -107,7 +107,7 @@
             "Юпитер(Янов)"
         ],
         "centered": true,
-        "imagePath": "travel.png",
+        "imagePath": "Mech/travel.png",
         "descriptions": null
     },
     {
@@ -125,7 +125,7 @@
             "Восточная Припять - Гектор(В прачечной)"
         ],
         "centered": true,
-        "imagePath": "upgrades.png",
+        "imagePath": "Mech/upgrades.png",
         "descriptions": null
     },
     {
@@ -137,7 +137,7 @@
             "Советуем хотя бы попробовать, ибо система в игре не такая, как в других модах с магазинами - более упрощенная и удобная."
         ],
         "centered": false,
-        "imagePath": "mags.png",
+        "imagePath": "Mech/mags.png",
         "descriptions": null
     },
     {

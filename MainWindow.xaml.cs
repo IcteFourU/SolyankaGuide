@@ -1,5 +1,7 @@
 ﻿using SolyankaGuide.Internals;
 using System.Windows;
+using System.Windows.Input;
+using System.Windows.Media.Imaging;
 
 namespace SolyankaGuide
 {
@@ -19,6 +21,14 @@ namespace SolyankaGuide
             UpdateNo.Text = Locale.Get("no");
             UpdateText.Text = Locale.Get("update_question");
             UpdateGrid.Visibility = Visibility.Visible;
+            TextGen.MaximizeImage += MaximizeImage;
+        }
+
+        private void MaximizeImage(BitmapImage image)
+        {
+            MaxImg.Source = image;
+            MaximizedImage.Visibility = Visibility.Visible;
+            MaximizedImage.Focus();
         }
 
         private void NoUpdate(object sender, System.Windows.Input.MouseButtonEventArgs e)
@@ -50,6 +60,20 @@ namespace SolyankaGuide
             UpdateGrid.Visibility = Visibility.Hidden;
             OverrideImage.Visibility = Visibility.Hidden;
             SetupUI?.Invoke();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MaximizedImage.Visibility = Visibility.Hidden;
+        }
+
+        private void MaximizedImage_PreviewKeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            if (e.Key != Key.Escape) return;
+            if (MaximizedImage.Visibility == Visibility.Visible)
+            {
+                MaximizedImage.Visibility = Visibility.Hidden;
+            }
         }
     }
 }

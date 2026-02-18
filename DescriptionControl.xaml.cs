@@ -1,6 +1,7 @@
 ﻿using SolyankaGuide.Internals;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
@@ -9,7 +10,7 @@ namespace SolyankaGuide
     public partial class DescriptionControl : UserControl
     {
 
-        public static event Action ShowGrid;
+        public static event Action? ShowGrid;
 
         public DescriptionControl()
         {
@@ -49,12 +50,23 @@ namespace SolyankaGuide
             DescScrollView.Content = textBlock;
             DescScrollView.ScrollToTop();
             Visibility = Visibility.Visible;
+            Focus();
         }
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
             Visibility = Visibility.Hidden;
             ShowGrid?.Invoke();
+        }
+
+        private void UserControl_PreviewKeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            if (e.Key != Key.Escape) return;
+            if (Visibility == Visibility.Visible && BackButton.Visibility == Visibility.Visible)
+            {
+                Visibility = Visibility.Hidden;
+                ShowGrid?.Invoke();
+            }
         }
     }
 }

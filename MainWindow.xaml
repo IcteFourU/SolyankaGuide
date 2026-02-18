@@ -22,7 +22,7 @@
             <RowDefinition Height="40"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Image x:Name="BGImage" Grid.RowSpan="5" Stretch="UniformToFill"/>
+        <Image x:Name="BGImage" Grid.RowSpan="4" Stretch="UniformToFill"/>
         <Border Grid.Row="1" Background="#33FFFFFF"/>
         <local:CatergoriesControl Grid.Row="2"/>
         <local:GuideControl Grid.Row="3"/>
@@ -65,5 +65,29 @@
             </Grid>
         </Grid>
         <local:TitleControl Grid.Row="0"/>
+        <Grid x:Name="MaximizedImage" Background="Transparent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.RowSpan="4" Visibility="Hidden" Margin="0, 35, 0, 0" Focusable="True" PreviewKeyDown="MaximizedImage_PreviewKeyDown">
+            <Border Background="Black" CornerRadius="5" Margin="10,10,10,10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <Image x:Name="MaxImg" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="UniformToFill" Margin="20"/>
+                    <Button Click="Button_Click" HorizontalAlignment="Right" VerticalAlignment="Top" Width="40" Height="40" BorderThickness="0" FocusVisualStyle="{x:Null}" Margin="0, 30, 30, 0">
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Rectangle x:Name="Arrow" Fill="White">
+                                    <Rectangle.OpacityMask>
+                                        <ImageBrush ImageSource="/Internals/Images/arrow.png" Stretch="Fill"/>
+                                    </Rectangle.OpacityMask>
+                                </Rectangle>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="Arrow" Property="Fill" Value="Yellow"/>
+                                        <Setter Property="Cursor" Value="Hand"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </Grid>
+            </Border>
+        </Grid>
     </Grid>
 </Window>

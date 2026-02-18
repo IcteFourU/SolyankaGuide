@@ -136,6 +136,7 @@ namespace SolyankaGuide
                 {
                     ShowElement?.Invoke(target);
                     DescControl.Visibility = Visibility.Visible;
+                    DescControl.Focus();
                     DescGridControl.Visibility = Visibility.Hidden;
                 } else
                 {
@@ -199,6 +200,7 @@ namespace SolyankaGuide
             }
             ShowElement?.Invoke(element);
             DescControl.Visibility = Visibility.Visible;
+            DescControl.Focus();
             DescGridControl.Visibility = Visibility.Hidden;
         }
 
