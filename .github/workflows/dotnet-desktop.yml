@@ -13,7 +13,7 @@ jobs:
 
     env:
       Solution_Name: SolyankaGuide.sln
-      Project_Path: SolyankaGuide/SolyankaGuide.csproj
+      Project_Path: SolyankaGuide.csproj
       Configuration: Release
 
     steps:
