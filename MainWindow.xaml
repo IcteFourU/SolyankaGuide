@@ -56,11 +56,11 @@
             </Grid>
             <TextBlock x:Name="UpdateStatus" Visibility="Hidden" Grid.Row="3" VerticalAlignment="Center" Margin="10" HorizontalAlignment="Stretch" TextAlignment="Center" FontSize="24" Foreground="White" TextWrapping="Wrap"/>
             <Grid Grid.Row="4" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10, 0, 0, 10" Background="Transparent" Height="70" Width="100">
-                <Image Source="/Internals/Images/btn.jpg" MouseDown="Update"/>
+                <Image Source="/Internals/Images/btn.png" MouseDown="Update"/>
                 <TextBlock x:Name="UpdateYes" HorizontalAlignment="Stretch" VerticalAlignment="Center" FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman" TextAlignment="Center" Foreground="Yellow" FontSize="24" FontWeight="Bold" IsHitTestVisible="False"/>
             </Grid>
             <Grid Grid.Row="4" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0, 0, 10, 10" Background="Transparent" Height="70" Width="100">
-                <Image Source="/Internals/Images/btn.jpg" MouseDown="NoUpdate"/>
+                <Image Source="/Internals/Images/btn.png" MouseDown="NoUpdate"/>
                 <TextBlock x:Name="UpdateNo" HorizontalAlignment="Stretch" VerticalAlignment="Center" FontFamily="Segoe UI, Noto Sans, Arial, Times New Roman" TextAlignment="Center" Foreground="Yellow" FontSize="24" FontWeight="Bold" IsHitTestVisible="False"/>
             </Grid>
         </Grid>
@@ -74,7 +74,7 @@
                             <ControlTemplate TargetType="Button">
                                 <Rectangle x:Name="Arrow" Fill="White">
                                     <Rectangle.OpacityMask>
-                                        <ImageBrush ImageSource="/Internals/Images/arrow.jpg" Stretch="Fill"/>
+                                        <ImageBrush ImageSource="/Internals/Images/arrow.png" Stretch="Fill"/>
                                     </Rectangle.OpacityMask>
                                 </Rectangle>
                                 <ControlTemplate.Triggers>

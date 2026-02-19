@@ -13,7 +13,7 @@ namespace SolyankaGuide.Internals
         {
             placeholder.BeginInit();
             placeholder.CacheOption = BitmapCacheOption.OnLoad;
-            placeholder.UriSource = new Uri("pack://application:,,,/Internals/Images/placeholder.jpg", UriKind.Absolute);
+            placeholder.UriSource = new Uri("pack://application:,,,/Internals/Images/placeholder.png", UriKind.Absolute);
             placeholder.EndInit();
             placeholder.Freeze();
         }
