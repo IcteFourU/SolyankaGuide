@@ -153,7 +153,7 @@
 		<None Remove="Assets\Images\zvezd.jpg" />
 		<None Remove="Internals\Images\arrow.jpg" />
 		<None Remove="Internals\Images\btn.jpg" />
-		<None Remove="Internals\Images\gidfix.jpg" />
+		<None Remove="Internals\Images\gidfix.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -562,9 +562,9 @@
 		<Content Include="Assets\Images\Mech\carback.jpg">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Resource Include="Internals\Images\arrow.jpg" />
-		<Resource Include="Internals\Images\btn.jpg" />
-		<Resource Include="Internals\Images\placeholder.jpg" />
+		<Resource Include="Internals\Images\arrow.png" />
+		<Resource Include="Internals\Images\btn.png" />
+		<Resource Include="Internals\Images\placeholder.png" />
 		<Resource Include="Assets\hashes.json">
 		  <CopyToOutputDirectory></CopyToOutputDirectory>
 		</Resource>
@@ -621,7 +621,7 @@
 		<Content Include="Assets\Images\FaQ\current.jpg">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Resource Include="Internals\Images\discord.jpg" />
+		<Resource Include="Internals\Images\discord.png" />
 		<Content Include="Assets\Images\FaQ\help.jpg">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>

@@ -1,0 +1,63 @@
+name: .NET Core Desktop Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    env:
+      Solution_Name: SolyankaGuide.sln
+      Project_Path: SolyankaGuide.csproj
+      Configuration: Release
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Install .NET Core
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x
+
+    # 1. Restore dependencies
+    - name: Restore
+      run: dotnet restore ${{ env.Solution_Name }}
+
+    # 2. Decode the PFX certificate (Saved to the root of the runner)
+    - name: Decode the pfx
+      shell: pwsh
+      run: |
+        $pfx_secret = "${{ secrets.test }}"
+        if ([string]::IsNullOrEmpty($pfx_secret)) {
+          Write-Error "Secret Base64_Encoded_Pfx is empty! Check your GitHub Repository Secrets."
+          exit 1
+        }
+        $pfx_cert_byte = [System.Convert]::FromBase64String($pfx_secret)
+        $certificatePath = Join-Path -Path $env:GITHUB_WORKSPACE -ChildPath "GitHubActionsWorkflow.pfx"
+        [IO.File]::WriteAllBytes("$certificatePath", $pfx_cert_byte)
+
+    # 3. Build and Publish as a Single File EXE
+    - name: Publish App
+      run: |
+        dotnet publish ${{ env.Project_Path }} `
+          -c ${{ env.Configuration }} `
+          -r win-x64 `
+          --self-contained true `
+          -p:PublishSingleFile=true `
+          -p:PublishReadyToRun=true `
+          -p:Version=1.0.${{ github.run_number }}
+
+    # 4. Upload the published folder as an artifact
+    - name: Upload Build Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: SolyankaGuide-Windows-x64
+        path: SolyankaGuide/bin/Release/net8.0-windows/win-x64/publish/
