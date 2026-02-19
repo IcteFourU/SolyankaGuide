@@ -35,7 +35,7 @@ jobs:
     - name: Decode the pfx
       shell: pwsh
       run: |
-        $pfx_secret = "${{ secrets.Base64_Encoded_Pfx }}"
+        $pfx_secret = "${{ secrets.test }}"
         if ([string]::IsNullOrEmpty($pfx_secret)) {
           Write-Error "Secret Base64_Encoded_Pfx is empty! Check your GitHub Repository Secrets."
           exit 1
