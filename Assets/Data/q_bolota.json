@@ -9,8 +9,8 @@
             {
                 "name": "Чистое Небо - Начало",
                 "header": "Чистое Небо",
-                "gridImagePath": "Locations/marsh.png",
-                "imagePath": "Characters/diak.png",
+                "gridImagePath": "Locations/marsh.jpg",
+                "imagePath": "Characters/diak.jpg",
                 "centered": false,
                 "text": [
                     "Первым на Болотах нас встречает Дьяк.",
@@ -22,8 +22,8 @@
             {
                 "name": "Свиблов",
                 "header": "Задания Свиблова",
-                "gridImagePath": "Characters/sviblov.png",
-                "imagePath": "Characters/sviblov.png",
+                "gridImagePath": "Characters/sviblov.jpg",
+                "imagePath": "Characters/sviblov.jpg",
                 "centered": false,
                 "text": [
                     "На базе Чистого Неба встречаем лидера - Свиблова.",
@@ -40,7 +40,7 @@
                     "Приносим пулемёт Свиблову, получаем в награду %s%дробовик Сайга-12К с патронами, глушитель и прицел%es%.",
                     "Последнее задание - \"Курьер в беде\", которое начинает ветку Базы.",
                     "Спасаем Халяву, докладываем Свиблову, получаем в награду %s%АЕК-971%es%.",
-                    "%img=Quests/Baza/halyava.png%Тюрьма Халявы%eimg%",
+                    "%img=Quests/Baza/halyava.jpg%Тюрьма Халявы%eimg%",
                     "После выполнения этого задания прогрессируем по ветке \"Семейный очаг\" - получаем комнату над Свибловым."
                 ]
             },
@@ -56,8 +56,8 @@
             {
                 "name": "Василий",
                 "header": "Проблемы со здоровьем",
-                "gridImagePath": "Characters/vasil.png",
-                "imagePath": "Characters/vasil.png",
+                "gridImagePath": "Characters/vasil.jpg",
+                "imagePath": "Characters/vasil.jpg",
                 "centered": false,
                 "text": [
                     "При первой встрече просит принести 3 банки мази от сталкера Калмыка.",
@@ -68,20 +68,20 @@
             {
                 "name": "Калмык",
                 "header": "Калмык",
-                "gridImagePath": "Characters/kalmik.png",
-                "imagePath": "Characters/kalmik.png",
+                "gridImagePath": "Characters/kalmik.jpg",
+                "imagePath": "Characters/kalmik.jpg",
                 "centered": false,
                 "text": [
                     "При первой встрече по заданию Василия, под дулом отправляет Меченого за рюкзаком.",
-                    "%img=Quests/kalmikruk.png%Рюкзак Калмыка%eimg%"
+                    "%img=Quests/kalmikruk.jpg%Рюкзак Калмыка%eimg%"
                     "Приносим, получаем в награду %s%артефакт%es% и возможность получить мазь для Василия."
                 ]
             },
             {
                 "name": "Холод",
                 "header": "Необычный псевдогигант",
-                "gridImagePath": "Characters/holod.png",
-                "imagePath": "Characters/holod.png",
+                "gridImagePath": "Characters/holod.jpg",
+                "imagePath": "Characters/holod.jpg",
                 "centered": false,
                 "text": [
                     "На базе Чистого неба встречаем повара - Холода.",
@@ -94,8 +94,8 @@
             {
                 "name": "Дэн",
                 "header": "Ножи для Дэна",
-                "gridImagePath": "Characters/dan.png",
-                "imagePath": "Characters/dan.png",
+                "gridImagePath": "Characters/dan.jpg",
+                "imagePath": "Characters/dan.jpg",
                 "centered": false,
                 "text": [
                     "После выполнения задания \"Необычная посылка\" Дэн просит Меченого достать 5 уникальных ножей.",
@@ -118,8 +118,8 @@
             {
                 "name": "Кот - Первая встреча",
                 "header": "Кот",
-                "gridImagePath": "Characters/kot.png",
-                "imagePath": "Characters/kot.png",
+                "gridImagePath": "Characters/kot.jpg",
+                "imagePath": "Characters/kot.jpg",
                 "centered": false,
                 "text": [
                     "После получения от Дэна задания \"Кто этот парень?\" находим Кота на Болотах.",
@@ -130,8 +130,8 @@
             {
                 "name": "Поиски монолитовцев",
                 "header": "Поиски монолитовцев",
-                "gridImagePath": "Characters/kot.png",
-                "imagePath": "Characters/kot.png",
+                "gridImagePath": "Characters/kot.jpg",
+                "imagePath": "Characters/kot.jpg",
                 "centered": false,
                 "text": [
                     "Встречаемся с Котом на базе Чистого Неба, обсуждаем находку.",
@@ -140,7 +140,7 @@
                     "Идём к %s%Акиму%es%.",
                     "Получаем телевизор, относим Георгу. Получаем примерные координаты монолитовцев.",
                     "Монолитовцы находятся %s%на средней метке (чуть южнее железной дороги)%es%.",
-                    "%img=Quests/Kot/kotbook.png%Дневник монолитовцев%eimg%",
+                    "%img=Quests/Kot/kotbook.jpg%Дневник монолитовцев%eimg%",
                     "Забираем у одного из монолитовцев дневник, приносим Коту.",
                     "Пока Кот думает над дальнейшими действиями, он отправляет Меченого к калмыку за лекарством от радиации."
                 ]
@@ -148,8 +148,8 @@
             {
                 "name": "Лекарство для Кота",
                 "header": "Лекарство для Кота",
-                "gridImagePath": "Characters/kalmik.png",
-                "imagePath": "Characters/kalmik.png",
+                "gridImagePath": "Characters/kalmik.jpg",
+                "imagePath": "Characters/kalmik.jpg",
                 "centered": false,
                 "text": [
                     "После разговора с Котом отправляемся к Калмыку. Тому нужны ингредиенты для приготовления лекарства.",
@@ -163,8 +163,8 @@
             {
                 "name": "Недостающая информация",
                 "header": "Недостающая информация",
-                "gridImagePath": "Characters/kot.png",
-                "imagePath": "Characters/kot.png",
+                "gridImagePath": "Characters/kot.jpg",
+                "imagePath": "Characters/kot.jpg",
                 "centered": false,
                 "text": [
                     "Встречаемся с Котом в баре.",
@@ -178,8 +178,8 @@
             {
                 "name": "Квартира Рабиновича",
                 "header": "Квартира Рабиновича",
-                "gridImagePath": "icon0.png",
-                "imagePath": "vasil.png",
+                "gridImagePath": "icon0.jpg",
+                "imagePath": "vasil.jpg",
                 "centered": false,
                 "text": [
                     "Отправляемся на Армейские Склады к Скгряге за информацией о Рабиновиче.",
@@ -198,8 +198,8 @@
             {
                 "name": "База - Начало",
                 "header": "База - Начало",
-                "gridImagePath": "Characters/halyava.png",
-                "imagePath": "Characters/halyava.png",
+                "gridImagePath": "Characters/halyava.jpg",
+                "imagePath": "Characters/halyava.jpg",
                 "centered": false,
                 "text": [
                     "После разговора со Свибловым говорим с Халявой.",
@@ -211,8 +211,8 @@
             {
                 "name": "Половина успеха",
                 "header": "Начало - половина успеха",
-                "gridImagePath": "Characters/lis.png",
-                "imagePath": "Characters/lis.png",
+                "gridImagePath": "Characters/lis.jpg",
+                "imagePath": "Characters/lis.jpg",
                 "centered": false,
                 "text": [
                     "После разговора с Халявой направляемся искать проверенных сталкеров для Базы.",
@@ -225,8 +225,8 @@
             {
                 "name": "Первые дела",
                 "header": "Охрана и первое дело",
-                "gridImagePath": "Characters/messer.png",
-                "imagePath": "Characters/messer.png",
+                "gridImagePath": "Characters/messer.jpg",
+                "imagePath": "Characters/messer.jpg",
                 "centered": false,
                 "text": [
                     "Встречаем на базе Мессера, переговариваем.",
@@ -239,8 +239,8 @@
             {
                 "name": "Курьер",
                 "header": "Курьер",
-                "gridImagePath": "Locations/dolina.png",
-                "imagePath": "Locations/dolina.png",
+                "gridImagePath": "Locations/dolina.jpg",
+                "imagePath": "Locations/dolina.jpg",
                 "centered": false,
                 "text": [
                     "Нанимаем охрану, переговариваем с Лисом и Халявой.",
@@ -253,8 +253,8 @@
             {
                 "name": "Да будет свет",
                 "header": "Да будет свет",
-                "gridImagePath": "Characters/barmen.png",
-                "imagePath": "Characters/barmen.png",
+                "gridImagePath": "Characters/barmen.jpg",
+                "imagePath": "Characters/barmen.jpg",
                 "centered": false,
                 "text": [
                     "Просим у Бармена предоставить на базу электрика.",
@@ -268,8 +268,8 @@
             {
                 "name": "Доктор Айболит",
                 "header": "Доктор Айболит",
-                "gridImagePath": "Characters/leonid.png",
-                "imagePath": "Characters/leonid.png",
+                "gridImagePath": "Characters/leonid.jpg",
+                "imagePath": "Characters/leonid.jpg",
                 "centered": false,
                 "text": [
                     "После открытия базы говорим с Халявой. Тот предлагает нанять на базу медика.",
@@ -281,8 +281,8 @@
             {
                 "name": "Тишина в библиотеке",
                 "header": "Тишина в библиотеке",
-                "gridImagePath": "Characters/lis.png",
-                "imagePath": "Characters/lis.png",
+                "gridImagePath": "Characters/lis.jpg",
+                "imagePath": "Characters/lis.jpg",
                 "centered": false,
                 "text": [
                     "После открытия базы говорим с Лисом. Тот просит раздобыть литературу по охране.",
@@ -292,24 +292,24 @@
             {
                 "name": "Артефакты на базу",
                 "header": "Артефакты на базу",
-                "gridImagePath": "Characters/fil.png",
-                "imagePath": "Characters/fil.png",
+                "gridImagePath": "Characters/fil.jpg",
+                "imagePath": "Characters/fil.jpg",
                 "centered": false,
                 "text": [
                     "После открытия базы говорим с Филом. Тот просит раздобыть по одному контейнеру для артов разных видов, простой детектор артефактов и оранжевый комбинезон учёных.",
                     "Также упоминает от лагере военных у разбитого вертолёта на Дикой Территории.",
                     "Штурмуем лагерь. В комнатке Волкодава в разбиваемом ящике находим три контейнера.",
-                    "%img=Quests/Baza/baza_kont.png%Контейнеры%eimg%",
+                    "%img=Quests/Baza/baza_kont.jpg%Контейнеры%eimg%",
                     "В соседней комнате в разбиваемом ящике находим бронежилет и детектор.",
-                    "%img=Quests/Baza/baza_kostum.png%Костюм и детектор%eimg%",
+                    "%img=Quests/Baza/baza_kostum.jpg%Костюм и детектор%eimg%",
                     "Возвращаемся на базу, отдаём вещи Филу."
                 ]
             },
             {
                 "name": "Чудесные пилюли",
                 "header": "Чудесные пилюли",
-                "gridImagePath": "Characters/leonid.png",
-                "imagePath": "Characters/leonid.png",
+                "gridImagePath": "Characters/leonid.jpg",
+                "imagePath": "Characters/leonid.jpg",
                 "centered": false,
                 "text": [
                     "При первой встрече с доктором получаем задание на поиск медикаментов.",
@@ -323,8 +323,8 @@
             {
                 "name": "Заведующий буфета",
                 "header": "Заведующий буфета",
-                "gridImagePath": "Characters/kulinar.png",
-                "imagePath": "Characters/kulinar.png",
+                "gridImagePath": "Characters/kulinar.jpg",
+                "imagePath": "Characters/kulinar.jpg",
                 "centered": false,
                 "text": [
                     "После появления на базе доктора переговариваем с Халявой.",
@@ -339,8 +339,8 @@
             {
                 "name": "Первый заказ",
                 "header": "Первый заказ",
-                "gridImagePath": "Characters/halyava.png",
-                "imagePath": "Characters/halyava.png",
+                "gridImagePath": "Characters/halyava.jpg",
+                "imagePath": "Characters/halyava.jpg",
                 "centered": false,
                 "text": [
                     "В случайный момент получаем СМС от Халявы.",
@@ -351,8 +351,8 @@
             {
                 "name": "Вор вне закона",
                 "header": "Вор вне закона",
-                "gridImagePath": "Characters/razboy.png",
-                "imagePath": "Characters/razboy.png",
+                "gridImagePath": "Characters/razboy.jpg",
+                "imagePath": "Characters/razboy.jpg",
                 "centered": false,
                 "text": [
                     "В случайный момент получаем СМС от Лиса о воре на базе.",
@@ -367,8 +367,8 @@
             {
                 "name": "Особая доставка",
                 "header": "Особая доставка",
-                "gridImagePath": "Characters/fil.png",
-                "imagePath": "Characters/fil.png",
+                "gridImagePath": "Characters/fil.jpg",
+                "imagePath": "Characters/fil.jpg",
                 "centered": false,
                 "text": [
                     "После согласования поставок провизии с Барменом и передаче информации Кулинару отправляемся к Филу.",
@@ -380,8 +380,8 @@
             {
                 "name": "Полевая кухня",
                 "header": "Полевая кухня",
-                "gridImagePath": "Characters/kulinar.png",
-                "imagePath": "Characters/kulinar.png",
+                "gridImagePath": "Characters/kulinar.jpg",
+                "imagePath": "Characters/kulinar.jpg",
                 "centered": false,
                 "text": [
                     "После доставки фуры разговариваем с Кулинаром.",
@@ -398,8 +398,8 @@
             {
                 "name": "Проверка на практике",
                 "header": "Проверка на практике",
-                "gridImagePath": "Characters/leonid.png",
-                "imagePath": "Characters/leonid.png",
+                "gridImagePath": "Characters/leonid.jpg",
+                "imagePath": "Characters/leonid.jpg",
                 "centered": false,
                 "text": [
                     "После доставки фуры разговариваем с Леонидом.",
@@ -410,8 +410,8 @@
             {
                 "name": "Вылазка к вертолёту",
                 "header": "Вылазка к вертолёту",
-                "gridImagePath": "Characters/lis.png",
-                "imagePath": "Characters/lis.png",
+                "gridImagePath": "Characters/lis.jpg",
+                "imagePath": "Characters/lis.jpg",
                 "centered": false,
                 "text": [
                     "После доставки фуры разговариваем с Лисом.",
@@ -424,8 +424,8 @@
             {
                 "name": "Колонизация Зоны",
                 "header": "Колонизация Зоны",
-                "gridImagePath": "Locations/loshina.png",
-                "imagePath": "Locations/loshina.png",
+                "gridImagePath": "Locations/loshina.jpg",
+                "imagePath": "Locations/loshina.jpg",
                 "centered": false,
                 "text": [
                     "После доставки фуры разговариваем с Халявой.",
@@ -438,8 +438,8 @@
             {
                 "name": "Проверка на дорогах",
                 "header": "Проверка на дорогах",
-                "gridImagePath": "Characters/zheka.png",
-                "imagePath": "Characters/zheka.png",
+                "gridImagePath": "Characters/zheka.jpg",
+                "imagePath": "Characters/zheka.jpg",
                 "centered": false,
                 "text": [
                     "После покупки Халявой КАМАЗа у военных переговариваем с Жекой.",
@@ -453,8 +453,8 @@
             {
                 "name": "Золотые ручки",
                 "header": "Золотые ручки",
-                "gridImagePath": "Characters/lis.png",
-                "imagePath": "Characters/lis.png",
+                "gridImagePath": "Characters/lis.jpg",
+                "imagePath": "Characters/lis.jpg",
                 "centered": false,
                 "text": [
                     "После поездки переговариваем с Жекой.",
@@ -467,8 +467,8 @@
             {
                 "name": "Погоня в крови",
                 "header": "Погоня в крови",
-                "gridImagePath": "Characters/razboy.png",
-                "imagePath": "Characters/razboy.png",
+                "gridImagePath": "Characters/razboy.jpg",
+                "imagePath": "Characters/razboy.jpg",
                 "centered": false,
                 "text": [
                     "В случайный момент Лис присылает СМС, где говорит, что Разбойник убил охранника и сбежал.",
@@ -479,8 +479,8 @@
             {
                 "name": "Заблудшие души",
                 "header": "Заблудшие души",
-                "gridImagePath": "Characters/vist.png",
-                "imagePath": "Characters/vist.png",
+                "gridImagePath": "Characters/vist.jpg",
+                "imagePath": "Characters/vist.jpg",
                 "centered": false,
                 "text": [
                     "Проходя мимо ворот базы, встречаем военного - Сержанта Михеева.",

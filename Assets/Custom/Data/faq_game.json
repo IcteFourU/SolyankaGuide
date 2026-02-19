@@ -48,7 +48,7 @@
             "- Чтобы скрыть элементы интерфейса, нажми \"−\" на цифровой клавиатуре. Для возврата HUD используй клавишу \"+\""
         ],
         "centered": false,
-        "imagePath": "Faq/controls.png",
+        "imagePath": "Faq/controls.jpg",
         "descriptions": null
     },
     {
@@ -61,7 +61,7 @@
             "Если игра зависает на 88%, попробуйте поменять тип солнечных лучей или освещения."
         ],
         "centered": false,
-        "imagePath": "Faq/settings.png",
+        "imagePath": "Faq/settings.jpg",
         "descriptions": null
     },
     {
@@ -75,7 +75,7 @@
             "Если даже так квест сдать тяжело, всегда можно предложить изменение в Discord или VK, или спросить других игроков."
         ],
         "centered": false,
-        "imagePath": "Faq/story.png",
+        "imagePath": "Faq/story.jpg",
         "descriptions": null
     },
     {
@@ -136,8 +136,8 @@
             {
                 "name": "Патч от 11.02.2026",
                 "header": "Патч от 11.02.2026",
-                "gridImagePath": "Faq/patch4.png",
-                "imagePath": "Faq/patch3.png",
+                "gridImagePath": "Faq/patch4.jpg",
+                "imagePath": "Faq/patch3.jpg",
                 "centered": false,
                 "text": [
                     "- Исправлена проблема, когда техник не возвращал предмет после починки",
@@ -167,8 +167,8 @@
             {
                 "name": "Патч от 09.02.2026",
                 "header": "Патч от 09.02.2026",
-                "gridImagePath": "Faq/patch4.png",
-                "imagePath": "Faq/patch3.png",
+                "gridImagePath": "Faq/patch4.jpg",
+                "imagePath": "Faq/patch3.jpg",
                 "centered": false,
                 "text": [
                     "- Реализована система вывода сообщения на экран при получении заметки в журнале, а также рецептов артефактов",
@@ -218,8 +218,8 @@
             {
                 "name": "Патч от 02.02.2026",
                 "header": "Патч от 02.02.2026",
-                "gridImagePath": "Faq/patch4.png",
-                "imagePath": "Faq/patch3.png",
+                "gridImagePath": "Faq/patch4.jpg",
+                "imagePath": "Faq/patch3.jpg",
                 "centered": false,
                 "text": [
                     "- Реализовано нормальное скрытие оружия при превышении объема с выводом сообщения на экран",
@@ -267,8 +267,8 @@
             {
                 "name": "Патч от 29.01.2026",
                 "header": "Патч от 29.01.2026",
-                "gridImagePath": "Faq/patch4.png",
-                "imagePath": "Faq/patch3.png",
+                "gridImagePath": "Faq/patch4.jpg",
+                "imagePath": "Faq/patch3.jpg",
                 "centered": false,
                 "text": [
                     "- Обновлены иконки ГГ в диалогах с НПС",
@@ -289,8 +289,8 @@
             {
                 "name": "Патч от 27.01.2026",
                 "header": "Патч от 27.01.2026",
-                "gridImagePath": "Faq/patch4.png",
-                "imagePath": "Faq/patch3.png",
+                "gridImagePath": "Faq/patch4.jpg",
+                "imagePath": "Faq/patch3.jpg",
                 "centered": false,
                 "text": [
                     "- В связи с исправлением основной массы критических проблем принято решение исключить из движка AVX2 инструкции",
@@ -341,8 +341,8 @@
             {
                 "name": "Патч от 22.01.2026",
                 "header": "Патч от 22.01.2026",
-                "gridImagePath": "Faq/patch4.png",
-                "imagePath": "Faq/patch3.png",
+                "gridImagePath": "Faq/patch4.jpg",
+                "imagePath": "Faq/patch3.jpg",
                 "centered": false,
                 "text": [
                     "- Правильные сборные иконки в бартере и ПДА",
@@ -360,8 +360,8 @@
             {
                 "name": "Патч от 21.01.2026",
                 "header": "Патч от 21.01.2026",
-                "gridImagePath": "Faq/patch4.png",
-                "imagePath": "Faq/patch3.png",
+                "gridImagePath": "Faq/patch4.jpg",
+                "imagePath": "Faq/patch3.jpg",
                 "centered": false,
                 "text": [
                     "- Исправлен дюп предметов в диалогах",
@@ -393,8 +393,8 @@
             {
                 "name": "Патч от 20.01.2026",
                 "header": "Патч от 20.01.2026",
-                "gridImagePath": "Faq/patch4.png",
-                "imagePath": "Faq/patch3.png",
+                "gridImagePath": "Faq/patch4.jpg",
+                "imagePath": "Faq/patch3.jpg",
                 "centered": false,
                 "text": [
                     "- Доделано окно ремонта/апгрейда: все иконки отображаются корректно, оружие сохраняется полностью в том виде, в котором отдали ремонтнику (наличие обвесов и магазина, точное количество патронов)",
@@ -488,8 +488,8 @@
             {
                 "name": "Патч от 11.01.2026",
                 "header": "Патч от 11.01.2026",
-                "gridImagePath": "Faq/patch4.png",
-                "imagePath": "Faq/patch3.png",
+                "gridImagePath": "Faq/patch4.jpg",
+                "imagePath": "Faq/patch3.jpg",
                 "centered": false,
                 "text": [
                     "- Исправлен вылет связанный с путями НПС",
@@ -528,8 +528,8 @@
             {
                 "name": "Патч от 09.01.2026",
                 "header": "Патч от 09.01.2026",
-                "gridImagePath": "Faq/patch4.png",
-                "imagePath": "Faq/patch3.png",
+                "gridImagePath": "Faq/patch4.jpg",
+                "imagePath": "Faq/patch3.jpg",
                 "centered": false,
                 "text": [
                     "- Доделано круговое меню",
@@ -558,8 +558,8 @@
             {
                 "name": "Патч от 07.01.2026",
                 "header": "Патч от 07.01.2026",
-                "gridImagePath": "Faq/patch4.png",
-                "imagePath": "Faq/patch3.png",
+                "gridImagePath": "Faq/patch4.jpg",
+                "imagePath": "Faq/patch3.jpg",
                 "centered": false,
                 "text": [
                     "- Сделаны апгрейды для: СВУ, ПКМ, ПКП, М249, L85A1 с прицелом и без, L86A2, SG 550, SG 550 \"Штурмовой\", SG 550 \"Снайперский\", ВСС Винторез, Винторез \"Падальщик\", HK417, SR25, ОЦ-14 \"Гроза\", ОЦ-14 \"Гроза Воронина\", FN F2000, FN F2000 \"Палач\", MP5, MP5 SD, MP5 \"Кустарь\", UMP-45, MP9, P90, SR2M, Uzi, Scorpion",
@@ -585,8 +585,8 @@
             {
                 "name": "Патч от 05.01.2026",
                 "header": "Патч от 05.01.2026",
-                "gridImagePath": "Faq/patch4.png",
-                "imagePath": "Faq/patch3.png",
+                "gridImagePath": "Faq/patch4.jpg",
+                "imagePath": "Faq/patch3.jpg",
                 "centered": false,
                 "text": [
                     "- Починка софтлока сюжета",
@@ -601,8 +601,8 @@
             {
                 "name": "Патч от 04.01.2026",
                 "header": "Патч от 04.01.2026",
-                "gridImagePath": "Faq/patch4.png",
-                "imagePath": "Faq/patch3.png",
+                "gridImagePath": "Faq/patch4.jpg",
+                "imagePath": "Faq/patch3.jpg",
                 "centered": false,
                 "text": [
                     "- Фикс вылета boxCurr <= ammo_obj->m_boxSize",
@@ -625,8 +625,8 @@
             {
                 "name": "Патч от 02.01.2026",
                 "header": "Патч от 02.01.2026",
-                "gridImagePath": "Faq/patch4.png",
-                "imagePath": "Faq/patch3.png",
+                "gridImagePath": "Faq/patch4.jpg",
+                "imagePath": "Faq/patch3.jpg",
                 "centered": false,
                 "text": [
                     "- Доисправлено ломание сохранений",
@@ -638,8 +638,8 @@
             {
                 "name": "Патч от 01.01.2026",
                 "header": "Патч от 01.01.2026",
-                "gridImagePath": "Faq/patch4.png",
-                "imagePath": "Faq/patch3.png",
+                "gridImagePath": "Faq/patch4.jpg",
+                "imagePath": "Faq/patch3.jpg",
                 "centered": false,
                 "text": [
                     "- Исправлено ломание сохранений",

@@ -9,8 +9,8 @@
             {
                 "name": "Бармен",
                 "header": "Сейф Бармена",
-                "gridImagePath": "Characters/barmen.png",
-                "imagePath": "Characters/barmen.png",
+                "gridImagePath": "Characters/barmen.jpg",
+                "imagePath": "Characters/barmen.jpg",
                 "centered": false,
                 "text": [
                     "Выдаёт задание \"Подрезать заказ\".",
@@ -23,24 +23,24 @@
             {
                 "name": "Клюв",
                 "header": "Ружьё Клюва",
-                "gridImagePath": "Characters/kluv.png",
-                "imagePath": "Characters/kluv.png",
+                "gridImagePath": "Characters/kluv.jpg",
+                "imagePath": "Characters/kluv.jpg",
                 "centered": false,
                 "text": [
                     "Выдаёт задание \"Фамильное ружьё\" на доставку ружья из Лощины.",
-                    "%img=Quests/kluvgun.png%Ружьё клюва в Лощине%eimg%"
+                    "%img=Quests/kluvgun.jpg%Ружьё клюва в Лощине%eimg%"
                     "Приносим, получаем в награду %s%4000 рублей и способ артпреобразования%es%."
                 ]
             },
             {
                 "name": "Бром",
                 "header": "Задания Брома",
-                "gridImagePath": "Characters/brom.png",
-                "imagePath": "Characters/brom.png",
+                "gridImagePath": "Characters/brom.jpg",
+                "imagePath": "Characters/brom.jpg",
                 "centered": false,
                 "text": [
                     "Выдаёт задание \"Сейф в лощине\" на доставку кейса.",
-                    "%img=Quests/case_brom.png%Кейс%eimg%",
+                    "%img=Quests/case_brom.jpg%Кейс%eimg%",
                     "Приносим, получаем в награду %s%костюм ПС3-9Д \"Охотничий\", шлем \"Сфера 07\" и артефакт.%es%.",
                     "Через какое-то время Бром перебирается в Лощину. Там при встрече просит принести ему дробовик Protecta.",
                     "Приносим, получаем в награду %s%части мутантов, 2 ремнабора, 2 армейские аптечки и артефакт%es%."
@@ -49,8 +49,8 @@
             {
                 "name": "Осведомитель",
                 "header": "Осведомитель",
-                "gridImagePath": "Characters/osved.png",
-                "imagePath": "Characters/osved.png",
+                "gridImagePath": "Characters/osved.jpg",
+                "imagePath": "Characters/osved.jpg",
                 "centered": false,
                 "text": [
                     "Выдаёт задание \"Тестовый рецепт\" на проверку рецепта варки артефакта.",
@@ -60,8 +60,8 @@
             {
                 "name": "Фримен",
                 "header": "Фримен",
-                "gridImagePath": "Characters/freeman.png",
-                "imagePath": "Characters/freeman.png",
+                "gridImagePath": "Characters/freeman.jpg",
+                "imagePath": "Characters/freeman.jpg",
                 "centered": false,
                 "text": [
                     "После выполнения основных заданий выдаёт побочное - \"Багги с Болот\".",
@@ -72,8 +72,8 @@
             {
                 "name": "Доцент",
                 "header": "Детекторы Доцента",
-                "gridImagePath": "Characters/docent.png",
-                "imagePath": "Characters/docent.png",
+                "gridImagePath": "Characters/docent.jpg",
+                "imagePath": "Characters/docent.jpg",
                 "centered": false,
                 "text": [
                     "Улучшает ПДА Меченого, добавляя детекторы кровососов, контролёров и псевдогигантов.",
@@ -86,8 +86,8 @@
             {
                 "name": "Арни",
                 "header": "Пистолеты Арни",
-                "gridImagePath": "Characters/arni.png",
-                "imagePath": "Characters/arni.png",
+                "gridImagePath": "Characters/arni.jpg",
+                "imagePath": "Characters/arni.jpg",
                 "centered": false,
                 "text": [
                     "После победы во всех боях на Арене помимо солидной суммы можно получить у Арни задание \"Тест пистолетов\".",
@@ -99,8 +99,8 @@
             {
                 "name": "Пличко",
                 "header": "Сержант Пличко",
-                "gridImagePath": "Characters/plichko.png",
-                "imagePath": "Characters/plichko.png",
+                "gridImagePath": "Characters/plichko.jpg",
+                "imagePath": "Characters/plichko.jpg",
                 "centered": false,
                 "text": [
                     "Выдаёт задание \"Необычный изумруд\" на поиск артефакта в Пещере.",
@@ -111,8 +111,8 @@
             {
                 "name": "Гарик",
                 "header": "Гарик",
-                "gridImagePath": "Characters/garik.png",
-                "imagePath": "Characters/garik.png",
+                "gridImagePath": "Characters/garik.jpg",
+                "imagePath": "Characters/garik.jpg",
                 "centered": false,
                 "text": [
                     "После посещения Меченым X-16 выдаёт задание \"Сладкая жизнь\" на поиск коробки сладостей.",
@@ -123,8 +123,8 @@
             {
                 "name": "Иванцов",
                 "header": "Капитан Иванцов",
-                "gridImagePath": "Characters/ivancov.png",
-                "imagePath": "Characters/ivancov.png",
+                "gridImagePath": "Characters/ivancov.jpg",
+                "imagePath": "Characters/ivancov.jpg",
                 "centered": false,
                 "text": [
                     "Выдаёт задание \"Глянцевый журнал\" на доставку Плейбоя в обмен на винтовку ДВЛ-10.",
@@ -134,13 +134,13 @@
             {
                 "name": "Петренко",
                 "header": "Полковник Петренко",
-                "gridImagePath": "Characters/petrenko.png",
-                "imagePath": "Characters/petrenko.png",
+                "gridImagePath": "Characters/petrenko.jpg",
+                "imagePath": "Characters/petrenko.jpg",
                 "centered": false,
                 "text": [
                     "Выдаёт задание на доставку артефакта \"Вспышка\" в обмен на %s%способ преобразования этого артефакта в \"Лунный Свет\"%es%.",
                     "Далее выдаёт задание на доставку \"Гаусс-пистолета\" с тёмной долины. Пистолет находится в %s%яме между камнями к северу от одного из болот%es%.",
-                    "%img=Quests/gpistol.png%Нажмите, чтобы посмотреть изображение%eimg%",
+                    "%img=Quests/gpistol.jpg%Нажмите, чтобы посмотреть изображение%eimg%",
                     "Приносим, получаем в награду %s%способ артпреобразования%es%.",
                     "Далее выдаёт задание \"Шило на мыло\" по доставке артефакта Сахарову и доставке двух прототипов экзоскелета обратно.",
                     "Приносим, получаем в награду %s%способ артпреобразования и два артефакта%es%.",
@@ -151,8 +151,8 @@
             {
                 "name": "Воронин",
                 "header": "Генерал Воронин",
-                "gridImagePath": "Characters/voronin.png",
-                "imagePath": "Characters/voronin.png",
+                "gridImagePath": "Characters/voronin.jpg",
+                "imagePath": "Characters/voronin.jpg",
                 "centered": false,
                 "text": [
                     "Выдаёт задание на доставку модифицированной винтовки M4A1 с Армейских Складов.",
@@ -166,8 +166,8 @@
             {
                 "name": "Долговязый",
                 "header": "Фляга Долговязого",
-                "gridImagePath": "Characters/dolgovaz.png",
-                "imagePath": "Characters/dolgovaz.png",
+                "gridImagePath": "Characters/dolgovaz.jpg",
+                "imagePath": "Characters/dolgovaz.jpg",
                 "centered": false,
                 "text": [
                     "В ходе выполнения задания Петренко на поиск %gl=quests/q_bar/0/9%фляги%egl% просит 50000 рублей, 5 вывертов и 10 микросхем с Кордона за информацию о фляжке.",
@@ -177,8 +177,8 @@
             {
                 "name": "Захар",
                 "header": "Захар",
-                "gridImagePath": "Characters/zahar.png",
-                "imagePath": "Characters/zahar.png",
+                "gridImagePath": "Characters/zahar.jpg",
+                "imagePath": "Characters/zahar.jpg",
                 "centered": false,
                 "text": [
                     "После доставки %gl=quests/q_agro/0/1%диска%egl% Адреналину появляется задание \"Беседа с Захаром\".",
@@ -205,13 +205,13 @@
             {
                 "name": "Введение",
                 "header": "Введение",
-                "gridImagePath": "Characters/barmen.png",
-                "imagePath": "Characters/barmen.png",
+                "gridImagePath": "Characters/barmen.jpg",
+                "imagePath": "Characters/barmen.jpg",
                 "centered": false,
                 "text": [
                     "После передачи двух \"Ночных звёзд\" Бармену за информацию о флешке и Музыканте получаем задание \"Музыкальные флешки\".",
                     "Флешку находим в тайнике %s%под единственным открытым вагоном%es% на Агропроме.",
-                    "%img=bar_flesh.png%Тайник с флешкой%eimg%",
+                    "%img=bar_flesh.jpg%Тайник с флешкой%eimg%",
                     "Сталкера Петьку находим в деревне новичков, разговариваем. Получаем наводку на примерное местоположение Музыканта.",
                     "Отправляемся на Болота.",
                     "Стоит запастись патронами/гранатами, так как около вышки на Болотах обычно обитает библиотекарь."
@@ -220,24 +220,24 @@
             {
                 "name": "Музыкант",
                 "header": "Музыкант",
-                "gridImagePath": "Characters/muzik.png",
-                "imagePath": "Characters/muzik.png",
+                "gridImagePath": "Characters/muzik.jpg",
+                "imagePath": "Characters/muzik.jpg",
                 "centered": false,
                 "text": [
                     "В вагончике около вышки находим %s%труп Музыканта, а в нём информацию о флешках и mp3-плеере%es%.",
-                    "%img=muzikant.png%Вагончик у вышки%eimg%",
+                    "%img=muzikant.jpg%Вагончик у вышки%eimg%",
                     "Читаем в журнале про MP3-плеер и отправляемся на поиски.",
                     "Берём стул/ящик и идём к барже. Используем предмет, чтобы залезть на баржу, а затем подняться по лестнице.",
                     "Находим на барже MP3-плеер.",
-                    "%img=mp3.png%MP3-плеер%eimg%",
+                    "%img=mp3.jpg%MP3-плеер%eimg%",
                     "Далее в журнале читаем, где искать флешки с музыкой для плеера."
                 ]
             },
             {
                 "name": "Флешка Дэна",
                 "header": "Дэн",
-                "gridImagePath": "Characters/dan.png",
-                "imagePath": "Characters/dan.png",
+                "gridImagePath": "Characters/dan.jpg",
+                "imagePath": "Characters/dan.jpg",
                 "centered": false,
                 "text": [
                     "За свою флешку просит отнести посылку Бармену.",
@@ -249,8 +249,8 @@
             {
                 "name": "Флешка Архары",
                 "header": "Архара",
-                "gridImagePath": "Characters/arhara.png",
-                "imagePath": "Characters/arhara.png",
+                "gridImagePath": "Characters/arhara.jpg",
+                "imagePath": "Characters/arhara.jpg",
                 "centered": false,
                 "text": [
                     "За свою флешку просит убить наёмника Жреца на Дикой Территории.",
@@ -260,8 +260,8 @@
             {
                 "name": "Флешка Петренко",
                 "header": "Петренко",
-                "gridImagePath": "Characters/petrenko.png",
-                "imagePath": "Characters/petrenko.png",
+                "gridImagePath": "Characters/petrenko.jpg",
+                "imagePath": "Characters/petrenko.jpg",
                 "centered": false,
                 "text": [
                     "За свою флешку просит принести красные щупальца, а также капсулы от аномалий \"Трамплин\", \"Электра\" и \"Снежная\"."
@@ -270,8 +270,8 @@
             {
                 "name": "Флешка Захара",
                 "header": "Захар",
-                "gridImagePath": "Characters/zahar.png",
-                "imagePath": "Characters/zahar.png",
+                "gridImagePath": "Characters/zahar.jpg",
+                "imagePath": "Characters/zahar.jpg",
                 "centered": false,
                 "text": [
                     "За свою флешку просит уничтожить стаю снорков в Тёмной Долине.",
@@ -281,8 +281,8 @@
             {
                 "name": "Флешка Ворона",
                 "header": "Ворон",
-                "gridImagePath": "Characters/voron.png",
-                "imagePath": "Characters/voron.png",
+                "gridImagePath": "Characters/voron.jpg",
+                "imagePath": "Characters/voron.jpg",
                 "centered": false,
                 "text": [
                     "За свою флешку просит ствол FN P90 и 5 бутылок водки."
@@ -291,8 +291,8 @@
             {
                 "name": "Флешка Крота",
                 "header": "Ворон",
-                "gridImagePath": "Characters/krot.png",
-                "imagePath": "Characters/krot.png",
+                "gridImagePath": "Characters/krot.jpg",
+                "imagePath": "Characters/krot.jpg",
                 "centered": false,
                 "text": [
                     "За свою флешку просит уничтожить кровососа на Агропроме после 22:00.",

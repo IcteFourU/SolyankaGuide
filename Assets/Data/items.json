@@ -8,7 +8,7 @@
             "В разделах гида мы постарались разбить предметы на категории и подписать их значимость."
         ],
         "centered": false,
-        "imagePath": "Items/items.png",
+        "imagePath": "Items/items.jpg",
         "descriptions": null
     },
     {
@@ -36,7 +36,7 @@
             "- Плащ Борова"
         ],
         "centered": false,
-        "imagePath": "Items/voron.png",
+        "imagePath": "Items/voron.jpg",
         "descriptions": null
     },
     {
@@ -46,7 +46,7 @@
             "Хлеб, Колбаса, Консервы, Пиво \"Балтика\", Энергетики, Фляга воды - смело продаём."
         ],
         "centered": false,
-        "imagePath": "Items/food.png",
+        "imagePath": "Items/food.jpg",
         "descriptions": null
     }
 ]

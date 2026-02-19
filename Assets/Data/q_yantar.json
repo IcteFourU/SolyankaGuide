@@ -9,8 +9,8 @@
             {
                 "name": "Сахаров",
                 "header": "Сахаров",
-                "gridImagePath": "Characters/saharov.png",
-                "imagePath": "Characters/saharov.png",
+                "gridImagePath": "Characters/saharov.jpg",
+                "imagePath": "Characters/saharov.jpg",
                 "centered": false,
                 "text": [
                     "После посещения Меченым X-18 у Сахарова появляется диалог, начинающий задание \"Рубеж\" по отключению деактиватора артефактов в лаборатории.",
@@ -24,7 +24,7 @@
                     "Также к этому моменту появляется опция в диалоге, связанная с заданием Адреналина на Миниган.",
                     "После выполнения Меченым задания на поиск бус, выдаёт задание на кражу документов военных на агропроме, в которых содержится информация о переходе Янтарь-Агропром.",
                     "Документы находятся на %s%озере в вагончике%es%.",
-                    "%img=Quests/case_saharov.png%Документы%eimg%",
+                    "%img=Quests/case_saharov.jpg%Документы%eimg%",
                     "Далее выдаёт задание \"Научные трактаты\" на поиск трёх книг в лабораториях",
                     "После нахождения артефакта \"Плазменная гусеница\" за \"Безоар\" или 50000 рублей предлагает рецепт варки этого артефакта."
                 ]
@@ -32,26 +32,26 @@
             {
                 "name": "Майор Батя",
                 "header": "Майор Батя",
-                "gridImagePath": "Characters/batya.png",
-                "imagePath": "Characters/batya.png",
+                "gridImagePath": "Characters/batya.jpg",
+                "imagePath": "Characters/batya.jpg",
                 "centered": false,
                 "text": [
                     "После разговора Меченого с Сахаровым на Янтарь прилетает военный - Майор Батя",
                     "Выдаёт задание \"Иголка в траве\" на поиск вещи на Дикой Территории с детектором, который нужно получить у Сахарова",
-                    "%img=Quests/kasseta.png%Предмет на Дикой Территории%eimg%",
+                    "%img=Quests/kasseta.jpg%Предмет на Дикой Территории%eimg%",
                     "Находим, приносим Сахарову, получаем в награду миниган для Адреналина."
                 ]
             },
             {
                 "name": "Круглов",
                 "header": "Круглов",
-                "gridImagePath": "Characters/kruglov.png",
-                "imagePath": "Characters/kruglov.png",
+                "gridImagePath": "Characters/kruglov.jpg",
+                "imagePath": "Characters/kruglov.jpg",
                 "centered": false,
                 "text": [
                     "После посещения Меченым X-16 выдаёт задание на поиск декодера в лаборатории X-16.",
                     "Декодер находится у %s%стены за одним из больших компьютеров на одном из ярусов вокруг мозга в колбе%es%.",
-                    "%img=Quests/dekoder.png%Декодер%eimg%",
+                    "%img=Quests/dekoder.jpg%Декодер%eimg%",
                     "Приносим прибор, получаем в награду %s%способ артпреобразования%es%.",
                     "Далее выдаёт задание \"Зарплата лаборанта\" на доставку Сидоровичу контейнера с артефактом.",
                     "Доставляем контейнер Сидоровичу, получаем кейс с деньгами и несём Круглову.",
@@ -71,8 +71,8 @@
             {
                 "name": "Введение",
                 "header": "Введение",
-                "gridImagePath": "Faq/patch2.png",
-                "imagePath": "Faq/patch2.png",
+                "gridImagePath": "Faq/patch2.jpg",
+                "imagePath": "Faq/patch2.jpg",
                 "centered": false,
                 "text": [
                     "Ветвь начинается с заданий:",
@@ -88,34 +88,34 @@
             {
                 "name": "Сахаров",
                 "header": "Сахаров",
-                "gridImagePath": "Characters/saharov.png",
-                "imagePath": "Characters/saharov.png",
+                "gridImagePath": "Characters/saharov.jpg",
+                "imagePath": "Characters/saharov.jpg",
                 "centered": false,
                 "text": [
                     "Выдаёт задание по поиску ПДА Призрака в X-16.",
                     "Пда находится в %s%том же зале с контроллёром, где и труп Призрака - в первой комнате справа на полке.%es%.",
-                    "%img=Quests/Prizrakklik/pda_prizrak.png%ПДА%eimg%",
+                    "%img=Quests/Prizrakklik/pda_prizrak.jpg%ПДА%eimg%",
                     "Приносим ПДА, получаем в награду %s%артефакт и следующее задание - \"След Клыка\"%es%."
                 ]
             },
             {
                 "name": "Круглов",
                 "header": "Круглов",
-                "gridImagePath": "Characters/kruglov.png",
-                "imagePath": "Characters/kruglov.png",
+                "gridImagePath": "Characters/kruglov.jpg",
+                "imagePath": "Characters/kruglov.jpg",
                 "centered": false,
                 "text": [
                     "После посещения Меченым X-16 выдаёт задание \"Дневник призрака\" на поиск дневника на Янтаре.",
                     "Дневник находится на %s%козырьке здания справа от ворот. Запрыгнуть туда можно с помощью бочки и щитков на стене%es%.",
-                    "%img=Quests/Prizrakklik/dnevnik_prizrak.png%Дневник%eimg%",
+                    "%img=Quests/Prizrakklik/dnevnik_prizrak.jpg%Дневник%eimg%",
                     "Приносим, получаем в награду %s%2 гранаты ВОГ-25П%es% и новое задание \"Ключ или отмычка\"."
                 ]
             },
             {
                 "name": "Бармен",
                 "header": "Бармен",
-                "gridImagePath": "Characters/barmen.png",
-                "imagePath": "Characters/barmen.png",
+                "gridImagePath": "Characters/barmen.jpg",
+                "imagePath": "Characters/barmen.jpg",
                 "centered": false,
                 "text": [
                     "После доставки дневника призрака Круглову, у Бармена появляется диалог по поводу Призрака.",
@@ -126,21 +126,21 @@
             {
                 "name": "Воронин",
                 "header": "Экза для Воронина",
-                "gridImagePath": "Characters/voronin.png",
-                "imagePath": "Characters/voronin.png",
+                "gridImagePath": "Characters/voronin.jpg",
+                "imagePath": "Characters/voronin.jpg",
                 "centered": false,
                 "text": [
                     "За информацию о Клыке Воронин просит принести ему маскировочный экзоскелет с АТП.",
                     "Отправляемся на АТП, забираем экзоскелет с %s%чердака жёлтого здания с огромной лестницей снаружи%es%, приносим.",
-                    "%img=Quests/exoskelet.png%Чердак с экзоскелетом%eimg%",
+                    "%img=Quests/exoskelet.jpg%Чердак с экзоскелетом%eimg%",
                     "В награду получаем %s%два артефакта и наводку на Осведомителя в Баре%es%."
                 ]
             },
             {
                 "name": "Осведомитель",
                 "header": "ПДА Тирана для Осведомителя",
-                "gridImagePath": "Characters/osved.png",
-                "imagePath": "Characters/osved.png",
+                "gridImagePath": "Characters/osved.jpg",
+                "imagePath": "Characters/osved.jpg",
                 "centered": false,
                 "text": [
                     "После выполнения задания Воронина на АТП получаем наводку на Осведомителя.",
@@ -152,8 +152,8 @@
             {
                 "name": "Гавр",
                 "header": "Страшный человек",
-                "gridImagePath": "saharov.png",
-                "imagePath": "saharov.png",
+                "gridImagePath": "saharov.jpg",
+                "imagePath": "saharov.jpg",
                 "centered": false,
                 "text": [
                     "В процессе..."
@@ -162,15 +162,15 @@
             {
                 "name": "Лысый",
                 "header": "Клад для Лысого",
-                "gridImagePath": "Characters/lisiy.png",
-                "imagePath": "Characters/lisiy.png",
+                "gridImagePath": "Characters/lisiy.jpg",
+                "imagePath": "Characters/lisiy.jpg",
                 "centered": false,
                 "text": [
                     "При первом посещении блокпоста Долга на Свалке Меченому приходит сообщение о поиске добровольца для добычи клада.",
                     "Приходим в бар и встречаем Лысого. Он выдаёт задание \"Ценный горшочек\" и открывает переход Свалка-Пещера",
                     "Теперь Меченому открыт путь в Пещеру, а значит и к Шахтёру, который нужен по сюжету.",
                     "Приходим в пещеру, разбиваем горшочек, собираем монетки и относим Лысому.",
-                    "%img=Quests/Prizrakklik/klad.png%Клад%eimg%",
+                    "%img=Quests/Prizrakklik/klad.jpg%Клад%eimg%",
                     "В диалоге лучше выбрать %s%сдать все монеты, потому что они потом нигде не нужны%es%.",
                     "В награду получаем %s%40000 рублей и координаты тайника%es%."
                 ]
@@ -178,13 +178,13 @@
             {
                 "name": "Сейф и Шкаткулка 1",
                 "header": "Сейф и Шкатулка - Пещера",
-                "gridImagePath": "Characters/shahter.png",
-                "imagePath": "Characters/shahter.png",
+                "gridImagePath": "Characters/shahter.jpg",
+                "imagePath": "Characters/shahter.jpg",
                 "centered": false,
                 "text": [
                     "При первой в встрече с Шахтёром в пещере тот выдаёт задание на поиск книги в Забытом Лесу.",
                     "Книга находится на %s%юго-Западном краю локации, в камнях около вертолёта%es%.",
-                    "%img=Quests/Prizrakklik/book_shahter.png%Книга%eimg%",
+                    "%img=Quests/Prizrakklik/book_shahter.jpg%Книга%eimg%",
                     "Добываем, %s%отстреливаемся%es%, приносим, получаем в награду артефакт \"Электрический микроб\"",
                     "Далее выдаёт задание \"Пленник лабиринта\" и открывает переходы Пещера-Лабиринт и Лабиринт-Пещера.",
                     "Спасаем Фиму, возвращаемся к Шахтёру, ждём пока Фима оклимается.",
@@ -195,8 +195,8 @@
             {
                 "name": "Сейф и Шкатулка 2",
                 "header": "Сейф и Шкатулка - Лабиринт",
-                "gridImagePath": "Characters/fima.png",
-                "imagePath": "Quests/Prizrakklik/krystal.png",
+                "gridImagePath": "Characters/fima.jpg",
+                "imagePath": "Quests/Prizrakklik/krystal.jpg",
                 "centered": false,
                 "text": [
                     "Фима рассказывает Меченому о бессмертном монолитовце и шкатулке с сейфом.",
@@ -204,11 +204,11 @@
                     "Когда всех зачистили, ищем глазками телепорт.",
                     "%s%Кидаем болт в электры и прыгаем за ним, телепортируемся в аномальную зону.%es%",
                     "Находим шкатулку, %s%в описании находим коды к дверям%es%.",
-                    "%img=Quests/Prizrakklik/shkatulka.png%Шкатулка%eimg%",
+                    "%img=Quests/Prizrakklik/shkatulka.jpg%Шкатулка%eimg%",
                     "%s%Попутно не забываем ломать все кристаллы%es%.",
                     "Возвращаемся к монолитовцам на уровень с дверью, открываем кодовый замок и штурмуем.",
                     "Находим код от ещё одной двери и сейф, открываем, добиваем всех монолитовцев и уходим",
-                    "%img=Quests/Prizrakklik/safe.png%Сейф%eimg%",
+                    "%img=Quests/Prizrakklik/safe.jpg%Сейф%eimg%",
                     "Разбиваем последний кристалл и уничтожаем \"Тень монолита\".",
                     "Возвращаемся к Шахтёру, отдаём шкатулку и сейф, уходим выполнять другие задания.",
                     "В следующий раз к Шахтёру заглянем в рамках задания \"Хрен его знает\"."
@@ -217,8 +217,8 @@
             {
                 "name": "Архара - Посылка",
                 "header": "Необычная посылка",
-                "gridImagePath": "Characters/dan.png",
-                "imagePath": "Characters/dan.png",
+                "gridImagePath": "Characters/dan.jpg",
+                "imagePath": "Characters/dan.jpg",
                 "centered": false,
                 "text": [
                     "Задание выдаёт Дэн при первой встрече на Болотах.",
@@ -230,8 +230,8 @@
             {
                 "name": "Архара - Системник",
                 "header": "Системный поиск",
-                "gridImagePath": "Characters/kruglov.png",
-                "imagePath": "Characters/kruglov.png",
+                "gridImagePath": "Characters/kruglov.jpg",
+                "imagePath": "Characters/kruglov.jpg",
                 "centered": false,
                 "text": [
                     "После доставки ПДА Призрака учёным, Круглов просит связаться с Архарой и узнать у него про работоспособный ПК.",
@@ -244,8 +244,8 @@
             {
                 "name": "Архара",
                 "header": "Задания Архары",
-                "gridImagePath": "Characters/arhara.png",
-                "imagePath": "Characters/arhara.png",
+                "gridImagePath": "Characters/arhara.jpg",
+                "imagePath": "Characters/arhara.jpg",
                 "centered": false,
                 "text": [
                     "По наводке Дэна после выполнения задания \"Необычная посылка\" отправляемся к Архаре.",
@@ -254,19 +254,19 @@
                     "Приносим книжку, получаем в награду %s%винтовку L86A2%es%.",
                     "Следующее задание - Ноутбук Архары.",
                     "Отправляемся на Радар, забираем ноутбук.",
-                    "%img=nout.png%Тайник с ноутбуком%eimg%",
+                    "%img=nout.jpg%Тайник с ноутбуком%eimg%",
                     "Приносим Ноутбук на Армейские Склады Якуту, получаем в награду %s%X%es%."
                 ]
             },
             {
                 "name": "Фримен",
                 "header": "Фримен",
-                "gridImagePath": "Characters/freeman.png",
-                "imagePath": "Characters/freeman.png",
+                "gridImagePath": "Characters/freeman.jpg",
+                "imagePath": "Characters/freeman.jpg",
                 "centered": false,
                 "text": [
                     "Выдаёт задание \"Пустынный Орёл\" на доставку одноимённого пистолета с Дикой Территории",
-                    "%img=Quests/Prizrakklik/deagle.png%Пистолет Фримена%eimg%"
+                    "%img=Quests/Prizrakklik/deagle.jpg%Пистолет Фримена%eimg%"
                     "Приносим пистолет и получаем в награду %s%монтировку(пригодится по заданию \"Служили два товарища\" на кордоне) и артефакт%es%.",
                     "Далее выдаёт задание \"Деловой Кейс\" на доставку кейса от наёмника Джеймса",
                     "Приносим, получаем в награду %s%Kriss Super V и артефакт%es%."

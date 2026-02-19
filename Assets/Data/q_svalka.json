@@ -9,13 +9,13 @@
             {
                 "name": "Юрик",
                 "header": "ПП для Юрика",
-                "gridImagePath": "Characters/urik.png",
-                "imagePath": "Characters/urik.png",
+                "gridImagePath": "Characters/urik.jpg",
+                "imagePath": "Characters/urik.jpg",
                 "centered": false,
                 "text": [
                     "После спасения от грабителей Юрик выдаёт задание \"Подарок для Юрика\" на поиск уникального MP5.",
                     "Добываем MP5, приносим Юрику, получаем в награду %s%способ артпреобразования%es%.",
-                    "%img=mp5.png%MP5 для Юрика%eimg%",
+                    "%img=mp5.jpg%MP5 для Юрика%eimg%",
                     "Есть вероятность, что к моменту взятия МП5 Юрик перебирается в %s%Лощину, которая Меченому пока не открыта%es%.",
                     "Далее выдаёт задание \"Лапа на счастье\" на доставку лапы бюрера.",
                     "Приносим, получаем в награду %s%артефакт%es%."
@@ -24,26 +24,26 @@
             {
                 "name": "Бес",
                 "header": "Задания Беса",
-                "gridImagePath": "Characters/bes.png",
-                "imagePath": "Characters/bes.png",
+                "gridImagePath": "Characters/bes.jpg",
+                "imagePath": "Characters/bes.jpg",
                 "centered": false,
                 "text": [
                     "После помощи с бандитским рейдом выдаёт задание \"Пивная калорийность\" на доставку 5 банок пива.",
                     "Добыть пиво можно в %s%X-18 в комнатке около зала с псевдогигантом%es%.",
-                    "%img=Quests/pivo.png%Пиво%eimg%"
+                    "%img=Quests/pivo.jpg%Пиво%eimg%"
                     "На момент сдачи перебирается в %s%лагерь сталкеров в Лощине%es%.",
                     "Приносим, получаем в награду %s%%способ артпреобразованияes%.",
                     "Далее выдаёт задание \"Большой боезапас\" на поиск ящика с патронами на Свалке.",
                     "Ящик находится на %s%хвосте одного из вертолётов на кладбище брошенной техники%es%.",
-                    "%img=Quests/patroni_bes.png%Патроны%eimg%"
+                    "%img=Quests/patroni_bes.jpg%Патроны%eimg%"
                     "Приносим, получаем в награду %s%способ артпреобразования%es%."
                 ]
             },
             {
                 "name": "Серый",
                 "header": "Колючка Серого",
-                "gridImagePath": "Characters/seriy.png",
-                "imagePath": "Characters/seriy.png",
+                "gridImagePath": "Characters/seriy.jpg",
+                "imagePath": "Characters/seriy.jpg",
                 "centered": false,
                 "text": [
                     "После обороны Депо выдаёт задание на доставку артефакта \"Колючка\".",
@@ -53,8 +53,8 @@
             {
                 "name": "Прапор",
                 "header": "Задания Прапора",
-                "gridImagePath": "Characters/prapor.png",
-                "imagePath": "Characters/prapor.png",
+                "gridImagePath": "Characters/prapor.jpg",
+                "imagePath": "Characters/prapor.jpg",
                 "centered": false,
                 "text": [
                     "В ходе выполнения задания %gl=quests/q_kordon/2/6%\"Челночная деятельность\"%egl% за посылку просит выполнить для него задание \"Убираем все хвосты\".",
@@ -68,15 +68,15 @@
                     "Помимо этого, у Прапора появляется диалог, связанный с ветвью %gl=quests/q_kordon/6%\"Поиски пропавшей научной группы\"%egl%.",
                     "В ходе выполнения задания Петренко на поиск %gl=quests/q_bar/0/9%фляги%egl%(после добычи информации и Долговязого), даёт наводку на поиск в районе куч мусора на Свалке.",
                     "Идём к %s%центральной куче(той, что за цистернами), поднимаемся на вершину, находим спуск с лестницей%es%.",
-                    "%img=Quests/flyaga.png%Местоположение фляги%eimg%",
+                    "%img=Quests/flyaga.jpg%Местоположение фляги%eimg%",
                     "Находим %s%труп Дяди Васи, а в нём заветную флягу%es%."
                 ]
             },
             {
                 "name": "Бродяга",
                 "header": "Бродяга",
-                "gridImagePath": "Characters/brodyaga.png",
-                "imagePath": "Characters/brodyaga.png",
+                "gridImagePath": "Characters/brodyaga.jpg",
+                "imagePath": "Characters/brodyaga.jpg",
                 "text": [
                     "Впервые появляется около Депо на Свалке во время обороны от бандитов.",
                     "Выдаёт задание \"Неупокоенные души\" на поиск артефакта Душа в лесу на юго-востоке Свалки.",

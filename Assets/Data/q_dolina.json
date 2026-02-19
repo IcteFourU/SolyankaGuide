@@ -9,8 +9,8 @@
             {
                 "name": "Пуля",
                 "header": "Пуля",
-                "gridImagePath": "Characters/pulya.png",
-                "imagePath": "Characters/pulya.png",
+                "gridImagePath": "Characters/pulya.jpg",
+                "imagePath": "Characters/pulya.jpg",
                 "centered": false,
                 "text": [
                     "Выдаёт задание \"Пленники под прицелом\" на спасение товарищей в тюрьме Тёмной Долины.",
@@ -23,13 +23,13 @@
             {
                 "name": "Макс Любер",
                 "header": "Задания Макса Любера",
-                "gridImagePath": "Characters/luber.png",
-                "imagePath": "Characters/luber.png",
+                "gridImagePath": "Characters/luber.jpg",
+                "imagePath": "Characters/luber.jpg",
                 "centered": false,
                 "text": [
                     "После спасения просит принести ему ПДА из подземки Агропрома.",
                     "Пда находится в %s%одной из турбин в зале с кровососом%es%."
-                    "%img=Quests/pda_luber.png%ПДА%eimg%",
+                    "%img=Quests/pda_luber.jpg%ПДА%eimg%",
                     "Приносим, получаем в награду %s%способ артпреобразования%es%",
                     "Далее выдаёт задание \"Водка и копыта\""
                 ]
@@ -37,8 +37,8 @@
             {
                 "name": "Генератор в X-18",
                 "header": "Погружение во тьму (X-18)",
-                "gridImagePath": "Locations/lab18.png",
-                "imagePath": "Locations/lab18.png",
+                "gridImagePath": "Locations/lab18.jpg",
+                "imagePath": "Locations/lab18.jpg",
                 "centered": false,
                 "text": [
                     "В комнате рядом с трупом учёного находим генератор, включающий в лаборатории свет.",
@@ -52,8 +52,8 @@
             {
                 "name": "Крысюк",
                 "header": "Крысюк",
-                "gridImagePath": "Characters/krisuk.png",
-                "imagePath": "Characters/krisuk.png",
+                "gridImagePath": "Characters/krisuk.jpg",
+                "imagePath": "Characters/krisuk.jpg",
                 "centered": false,
                 "text": [
                     "В трупе борова находим записку о бандите Крысюке, взявшем ПДА у Борова.",
@@ -62,8 +62,8 @@
                     "Тот даёт наводку на свой тайник на Агропроме, в котором находится ПДА.",
                     "Обыскиваем тайник и отправляемся в Тёмную Долину.",
                     "По информации из ПДА находим 2 тайника:",
-                    "%img=a76.png%- A-76%eimg%",
-                    "%img=borovlab.png%- Лаборатория Борова%eimg%"
+                    "%img=a76.jpg%- A-76%eimg%",
+                    "%img=borovlab.jpg%- Лаборатория Борова%eimg%"
                 ]
             }
         ]

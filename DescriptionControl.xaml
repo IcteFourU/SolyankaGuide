@@ -24,7 +24,7 @@
                     <ControlTemplate TargetType="Button">
                         <Rectangle x:Name="Arrow" Fill="White">
                             <Rectangle.OpacityMask>
-                                <ImageBrush ImageSource="/Internals/Images/arrow.png"
+                                <ImageBrush ImageSource="/Internals/Images/arrow.jpg"
                                 Stretch="Fill"/>
                             </Rectangle.OpacityMask>
                         </Rectangle>
