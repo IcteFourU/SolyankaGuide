@@ -9,8 +9,8 @@
             {
                 "name": "Калинин",
                 "header": "Калинин",
-                "gridImagePath": "saharov.png",
-                "imagePath": "saharov.png",
+                "gridImagePath": "Characters/kalinin.png",
+                "imagePath": "Characters/kalinin.png",
                 "centered": false,
                 "text": [
                     "По наводке Адреналина находим на АТП лагерь сталкеров, а в нём лидера - Калинина.",

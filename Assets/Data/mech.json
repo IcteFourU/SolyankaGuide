@@ -33,20 +33,20 @@
             {
                 "name": "Экскурс",
                 "header": "Экскурс",
-                "gridImagePath": "car.png",
-                "imagePath": "car.png",
+                "gridImagePath": "Mech/car.png",
+                "imagePath": "Mech/car.png",
                 "centered": false,
                 "text": [
                     "В разных частях Зоны теперь разбросаны автомобили.",
-                    "Некоторые доступны сразу, некоторые за квесты, а некоторые нужно покупать.",
+                    "Некоторые доступны сразу, некоторые за задания, а некоторые нужно покупать.",
                     "!!Машины имеют запас прочности и бензина!!"
                 ]
             },
             {
                 "name": "Управление",
                 "header": "Управление",
-                "gridImagePath": "kon.png",
-                "imagePath": "kon.png",
+                "gridImagePath": "Quests/kon.png",
+                "imagePath": "Quests/kon.png",
                 "centered": false,
                 "text": [
                     "Для того, чтобы пользоваться автомобилем, нужно открыть водительскую дверь и нажать F на сиденье.",
@@ -81,7 +81,7 @@
             "Часть награды можно получить деньгами, а часть - предметами."
         ],
         "centered": false,
-        "imagePath": "cycle.png",
+        "imagePath": "Mech/cycle.png",
         "descriptions": null
     },
     {
@@ -147,7 +147,7 @@
             "Анимации действий теперь тоже неотключаемые, но в будущем, возможно, вернётся переключатель."
         ],
         "centered": false,
-        "imagePath": "troll.png",
+        "imagePath": "UI/troll.png",
         "descriptions": null
     }
 ]

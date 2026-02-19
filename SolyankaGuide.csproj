@@ -17,21 +17,57 @@
 		<None Remove="Assets\Data\faq_community.json" />
 		<None Remove="Assets\Data\faq_game.json" />
 		<None Remove="Assets\Data\faq_launcher.json" />
+		<None Remove="Assets\Images\a76.png" />
 		<None Remove="Assets\Images\actual.png" />
 		<None Remove="Assets\Images\background.jpg" />
 		<None Remove="Assets\Images\beginning.png" />
+		<None Remove="Assets\Images\borovlab.png" />
 		<None Remove="Assets\Images\car.png" />
 		<None Remove="Assets\Images\changelog.png" />
+		<None Remove="Assets\Images\Characters\adrenalin.png" />
 		<None Remove="Assets\Images\Characters\andrey_mech.png" />
+		<None Remove="Assets\Images\Characters\arhara.png" />
+		<None Remove="Assets\Images\Characters\batya.png" />
+		<None Remove="Assets\Images\Characters\brom.png" />
+		<None Remove="Assets\Images\Characters\dan.png" />
 		<None Remove="Assets\Images\Characters\diak.png" />
+		<None Remove="Assets\Images\Characters\docent.png" />
+		<None Remove="Assets\Images\Characters\dolgovaz.png" />
 		<None Remove="Assets\Images\Characters\fanat.png" />
+		<None Remove="Assets\Images\Characters\fima.png" />
+		<None Remove="Assets\Images\Characters\freeman.png" />
+		<None Remove="Assets\Images\Characters\garik.png" />
+		<None Remove="Assets\Images\Characters\ivancov.png" />
+		<None Remove="Assets\Images\Characters\kalinin.png" />
+		<None Remove="Assets\Images\Characters\kluv.png" />
 		<None Remove="Assets\Images\Characters\kostya.png" />
+		<None Remove="Assets\Images\Characters\kot.png" />
+		<None Remove="Assets\Images\Characters\krest.png" />
+		<None Remove="Assets\Images\Characters\krisuk.png" />
+		<None Remove="Assets\Images\Characters\krot.png" />
+		<None Remove="Assets\Images\Characters\kruglov.png" />
+		<None Remove="Assets\Images\Characters\lisiy.png" />
+		<None Remove="Assets\Images\Characters\luber.png" />
+		<None Remove="Assets\Images\Characters\muzik.png" />
 		<None Remove="Assets\Images\Characters\neumeha.png" />
+		<None Remove="Assets\Images\Characters\osved.png" />
+		<None Remove="Assets\Images\Characters\petrenko.png" />
+		<None Remove="Assets\Images\Characters\plichko.png" />
 		<None Remove="Assets\Images\Characters\provodnik.png" />
+		<None Remove="Assets\Images\Characters\pulya.png" />
 		<None Remove="Assets\Images\Characters\razboy.png" />
+		<None Remove="Assets\Images\Characters\sedoy.png" />
+		<None Remove="Assets\Images\Characters\shahter.png" />
+		<None Remove="Assets\Images\Characters\sherst.png" />
+		<None Remove="Assets\Images\Characters\sviblov.png" />
 		<None Remove="Assets\Images\Characters\swift.png" />
 		<None Remove="Assets\Images\Characters\tolik.png" />
+		<None Remove="Assets\Images\Characters\urik.png" />
+		<None Remove="Assets\Images\Characters\vist.png" />
 		<None Remove="Assets\Images\Characters\volk.png" />
+		<None Remove="Assets\Images\Characters\voron.png" />
+		<None Remove="Assets\Images\Characters\voronin.png" />
+		<None Remove="Assets\Images\Characters\zahar.png" />
 		<None Remove="Assets\Images\controls.png" />
 		<None Remove="Assets\Images\current.png" />
 		<None Remove="Assets\Images\cycle.png" />
@@ -48,32 +84,69 @@
 		<None Remove="Assets\Images\house.png" />
 		<None Remove="Assets\Images\ideas.png" />
 		<None Remove="Assets\Images\install.png" />
-		<None Remove="Assets\Images\items.png" />
 		<None Remove="Assets\Images\Items\food.png" />
+		<None Remove="Assets\Images\Items\items.png" />
 		<None Remove="Assets\Images\Items\voron.png" />
 		<None Remove="Assets\Images\kon.png" />
 		<None Remove="Assets\Images\krystal.png" />
+		<None Remove="Assets\Images\kurtka.png" />
 		<None Remove="Assets\Images\k_agro_yellow.png" />
+		<None Remove="Assets\Images\Locations\agro.png" />
+		<None Remove="Assets\Images\Locations\agro_under.png" />
+		<None Remove="Assets\Images\Locations\bar.png" />
+		<None Remove="Assets\Images\Locations\dolina.png" />
+		<None Remove="Assets\Images\Locations\kordon.png" />
+		<None Remove="Assets\Images\Locations\lab16.png" />
+		<None Remove="Assets\Images\Locations\lab18.png" />
+		<None Remove="Assets\Images\Locations\marsh.png" />
+		<None Remove="Assets\Images\Locations\radar.png" />
+		<None Remove="Assets\Images\Locations\sklad.png" />
+		<None Remove="Assets\Images\Locations\svalka.png" />
+		<None Remove="Assets\Images\Locations\territory.png" />
+		<None Remove="Assets\Images\Locations\yantar.png" />
 		<None Remove="Assets\Images\mags.png" />
 		<None Remove="Assets\Images\needs.png" />
 		<None Remove="Assets\Images\ogsr.png" />
 		<None Remove="Assets\Images\ogsr2026.jpg" />
 		<None Remove="Assets\Images\pravki.png" />
 		<None Remove="Assets\Images\prolog.png" />
+		<None Remove="Assets\Images\Quests\andrey_spec.png" />
+		<None Remove="Assets\Images\Quests\band_pda.png" />
+		<None Remove="Assets\Images\Quests\case_brom.png" />
+		<None Remove="Assets\Images\Quests\Expedition\andrey_spec.png" />
+		<None Remove="Assets\Images\Quests\Expedition\band_pda.png" />
+		<None Remove="Assets\Images\Quests\Expedition\fraer.png" />
+		<None Remove="Assets\Images\Quests\kasseta.png" />
+		<None Remove="Assets\Images\Quests\kluvgun.png" />
+		<None Remove="Assets\Images\Quests\krot_pda.png" />
+		<None Remove="Assets\Images\Quests\mp5.png" />
+		<None Remove="Assets\Images\Quests\patroni_bes.png" />
+		<None Remove="Assets\Images\Quests\pda_luber.png" />
+		<None Remove="Assets\Images\Quests\pivo.png" />
+		<None Remove="Assets\Images\Quests\Prizrakklik\book_shahter.png" />
+		<None Remove="Assets\Images\Quests\Prizrakklik\deagle.png" />
+		<None Remove="Assets\Images\Quests\Prizrakklik\klad.png" />
+		<None Remove="Assets\Images\Quests\Prizrakklik\krystal.png" />
+		<None Remove="Assets\Images\Quests\Prizrakklik\pda_prizrak.png" />
+		<None Remove="Assets\Images\Quests\Skat\skatx16.png" />
+		<None Remove="Assets\Images\Quests\stash_fanat.png" />
 		<None Remove="Assets\Images\reqs.jpg" />
 		<None Remove="Assets\Images\settings.png" />
 		<None Remove="Assets\Images\sidor.png" />
 		<None Remove="Assets\Images\sidorDoktor.png" />
 		<None Remove="Assets\Images\skatdoc1.png" />
+		<None Remove="Assets\Images\skatdoc2.png" />
 		<None Remove="Assets\Images\starting.png" />
 		<None Remove="Assets\Images\storage.png" />
 		<None Remove="Assets\Images\story.png" />
+		<None Remove="Assets\Images\str_stash.png" />
 		<None Remove="Assets\Images\support.png" />
 		<None Remove="Assets\Images\travel.png" />
 		<None Remove="Assets\Images\troll.png" />
 		<None Remove="Assets\Images\upgrades.png" />
 		<None Remove="Assets\Images\virustotal.png" />
 		<None Remove="Assets\Images\vk.png" />
+		<None Remove="Assets\Images\volkdok.png" />
 		<None Remove="Assets\Images\volume.png" />
 		<None Remove="Assets\Images\when.png" />
 		<None Remove="Assets\Images\yt.png" />
@@ -111,10 +184,85 @@
 		<Content Include="Assets\Data\q_krest.json">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
+		<Content Include="Assets\Images\Items\items.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\andrey_spec.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\band_pda.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\case_brom.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\Expedition\andrey_spec.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\Expedition\band_pda.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\Expedition\fraer.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\kasseta.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\kluvgun.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\krot_pda.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\mp5.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\patroni_bes.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\pda_luber.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\pivo.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\Prizrakklik\book_shahter.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\Prizrakklik\deagle.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\Prizrakklik\klad.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\Prizrakklik\krystal.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\Prizrakklik\pda_prizrak.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\Skat\skatx16.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\stash_fanat.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Stashes\a76.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Stashes\borovlab.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\adrenalin.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
 		<Content Include="Assets\Images\Characters\akim.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\Characters\andrey_mech.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\arhara.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\Characters\arni.png">
@@ -123,10 +271,19 @@
 		<Content Include="Assets\Images\Characters\barmen.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
+		<Content Include="Assets\Images\Characters\batya.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
 		<Content Include="Assets\Images\Characters\bes.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\Characters\brodyaga.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\brom.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\dan.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\Characters\desantnik.png">
@@ -135,22 +292,94 @@
 		<Content Include="Assets\Images\Characters\diak.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
+		<Content Include="Assets\Images\Characters\docent.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\dolgovaz.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
 		<Content Include="Assets\Images\Characters\fanat.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\fima.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\freeman.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\garik.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\ivancov.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\kalinin.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\kluv.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\Characters\kostya.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
+		<Content Include="Assets\Images\Characters\kot.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\krest.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\krisuk.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\krot.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\kruglov.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
 		<Content Include="Assets\Images\Characters\kuznecov.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\lisiy.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\luber.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\muzik.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\Characters\neumeha.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
+		<Content Include="Assets\Images\Characters\osved.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\petrenko.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\plichko.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
 		<Content Include="Assets\Images\Characters\provodnik.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
+		<Content Include="Assets\Images\Characters\pulya.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
 		<Content Include="Assets\Images\Characters\razboy.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\sedoy.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\shahter.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\sherst.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\sviblov.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\Characters\swift.png">
@@ -159,7 +388,22 @@
 		<Content Include="Assets\Images\Characters\tolik.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
+		<Content Include="Assets\Images\Characters\urik.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\vist.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
 		<Content Include="Assets\Images\Characters\volk.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\voron.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\voronin.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Characters\zahar.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\FaQ\patch.png">
@@ -174,10 +418,10 @@
 		<Content Include="Assets\Images\FaQ\patch4.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\flyaga.png">
+		<Content Include="Assets\Images\Quests\flyaga.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\gpistol.png">
+		<Content Include="Assets\Images\Quests\gpistol.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\Items\food.png">
@@ -186,7 +430,10 @@
 		<Content Include="Assets\Images\Items\voron.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\k_agro_yellow.png">
+		<Content Include="Assets\Images\Stashes\kurtka.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Stashes\k_agro_yellow.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\Characters\lis.png">
@@ -207,10 +454,58 @@
 		<Content Include="Assets\Images\Characters\dok.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\skatdoc1.png">
+		<Content Include="Assets\Images\Locations\agro.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Locations\agro_under.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Locations\bar.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Locations\dolina.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Locations\kordon.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Locations\lab16.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Locations\lab18.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Locations\marsh.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Locations\radar.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Locations\sklad.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Locations\svalka.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Locations\territory.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Locations\yantar.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\Skat\skatdoc1.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\Characters\zvezd.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\Skat\skatdoc2.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Stashes\str_stash.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Assets\Images\Quests\volkdok.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\locale.json">
@@ -246,7 +541,7 @@
 		<Content Include="Assets\Images\FaQ\controls.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\kon.png">
+		<Content Include="Assets\Images\Quests\kon.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\FaQ\ogsr.png">
@@ -261,7 +556,7 @@
 		<Content Include="Assets\Images\Characters\sidor.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\krystal.png">
+		<Content Include="Assets\Images\Quests\krystal.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\Mech\carback.png">
@@ -269,9 +564,7 @@
 		</Content>
 		<Resource Include="Internals\Images\arrow.png" />
 		<Resource Include="Internals\Images\btn.png" />
-		<Resource Include="Internals\Images\placeholder.png">
-		  <CopyToOutputDirectory></CopyToOutputDirectory>
-		</Resource>
+		<Resource Include="Internals\Images\placeholder.png" />
 		<Resource Include="Assets\hashes.json">
 		  <CopyToOutputDirectory></CopyToOutputDirectory>
 		</Resource>
@@ -295,19 +588,16 @@
 		<Content Include="Assets\Images\FaQ\changelog.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\beginning.png">
+		<Content Include="Assets\Images\Quests\beginning.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\car.png">
+		<Content Include="Assets\Images\Mech\car.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\cycle.png">
+		<Content Include="Assets\Images\Mech\cycle.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\house.png">
-		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</Content>
-		<Content Include="Assets\Images\items.png">
+		<Content Include="Assets\Images\Quests\house.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\Mech\mags.png">
@@ -319,21 +609,19 @@
 		<Content Include="Assets\Images\FaQ\pravki.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\sidorDoktor.png">
+		<Content Include="Assets\Images\Quests\sidorDoktor.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\FaQ\starting.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\background.jpg">
+		<Content Include="Assets\Images\UI\background.jpg">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\FaQ\current.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Resource Include="Internals\Images\discord.png">
-		  <CopyToOutputDirectory></CopyToOutputDirectory>
-		</Resource>
+		<Resource Include="Internals\Images\discord.png" />
 		<Content Include="Assets\Images\FaQ\help.jpg">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
@@ -344,9 +632,6 @@
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\FaQ\install.png">
-		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</Content>
-		<Content Include="Assets\Images\prolog.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\FaQ\reqs.jpg">
@@ -367,7 +652,7 @@
 		<Content Include="Assets\Images\Mech\travel.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\troll.png">
+		<Content Include="Assets\Images\UI\troll.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Assets\Images\Mech\upgrades.png">
@@ -379,12 +664,10 @@
 		<Content Include="Assets\Images\FaQ\volume.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Content Include="Assets\Images\when.png">
+		<Content Include="Assets\Images\UI\when.png">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
-		<Resource Include="Internals\Images\yt.png">
-		  <CopyToOutputDirectory></CopyToOutputDirectory>
-		</Resource>
+		<Resource Include="Internals\Images\yt.png" />
 		<Resource Include="Internals\Images\vk.png" />
 	</ItemGroup>
 </Project>

@@ -14,7 +14,7 @@ namespace SolyankaGuide
         public MainWindow()
         {
             InitializeComponent();
-            BGImage.Source = ImageLoader.LoadImage("background.jpg");
+            BGImage.Source = ImageLoader.LoadImage("UI/background.jpg");
             OverrideImage.Source = BGImage.Source;
             Title = Locale.Get("title");
             UpdateYes.Text = Locale.Get("yes");
